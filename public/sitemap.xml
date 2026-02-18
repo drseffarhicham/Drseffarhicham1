@@ -1,0 +1,18 @@
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>https://drhichamseffar.com/</loc>
+    <lastmod>2026-02-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://drhichamseffar.com/profile.jpg</image:loc>
+      <image:title>Dr Seffar Hicham - Gynécologue Obstétricien à Inezgane</image:title>
+      <image:caption>Cabinet médical du Dr Seffar Hicham à Inezgane</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://drhichamseffar.com/logo.png</image:loc>
+      <image:title>Logo Dr Seffar Hicham</image:title>
+    </image:image>
+  </url>
+</urlset>
