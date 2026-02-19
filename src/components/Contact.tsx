@@ -1,4 +1,4 @@
-import { Phone, Clock, MessageCircle, Zap, Facebook, Instagram } from 'lucide-react';
+import { Phone, Clock, MessageCircle, Zap, Facebook, Instagram, Linkedin } from 'lucide-react';
 
 export default function Contact() {
   return (
@@ -19,7 +19,7 @@ export default function Contact() {
         </div>
 
         {/* Cartes de contact principales */}
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 mb-16">
+        <div className="grid md:grid-cols-2 lg:grid-cols-5 gap-6 mb-16">
           {/* Carte Téléphone Principal */}
           <div className="bg-white rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 group border border-clinic-green-100">
             <div className="w-12 h-12 bg-clinic-green-500 rounded-2xl flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
@@ -33,26 +33,26 @@ export default function Contact() {
           </div>
 
           {/* Carte Mobile */}
-      <div className="bg-white rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 group border border-clinic-pink-100">
-  
-  <div className="w-12 h-12 bg-clinic-pink-500 rounded-2xl flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
-    <MessageCircle className="h-6 w-6 text-white" />
-  </div>
+          <div className="bg-white rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 group border border-clinic-pink-100">
 
-  <h3 className="font-bold text-gray-900 mb-2">Mobile & WhatsApp</h3>
+            <div className="w-12 h-12 bg-clinic-pink-500 rounded-2xl flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
+              <MessageCircle className="h-6 w-6 text-white" />
+            </div>
 
-  <a 
-    href="https://wa.me/212668628626" 
-    target="_blank" 
-    rel="noopener noreferrer"
-    className="text-xl sm:text-2xl font-bold text-clinic-pink-500 hover:text-clinic-pink-600 transition"
-  >
-    0668 62 86 26
-  </a>
+            <h3 className="font-bold text-gray-900 mb-2">Mobile & WhatsApp</h3>
 
-  <p className="text-sm text-gray-500 mt-2">Appels et messages WhatsApp</p>
+            <a
+              href="https://wa.me/212668628626"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-xl sm:text-2xl font-bold text-clinic-pink-500 hover:text-clinic-pink-600 transition"
+            >
+              0668 62 86 26
+            </a>
 
-</div>
+            <p className="text-sm text-gray-500 mt-2">Appels et messages WhatsApp</p>
+
+          </div>
 
 
           {/* Carte Email */}
@@ -76,8 +76,8 @@ export default function Contact() {
               <Facebook className="h-6 w-6 text-white" />
             </div>
             <h3 className="font-bold text-gray-900 mb-2">Facebook</h3>
-            <a 
-              href="https://web.facebook.com/Drseffarhicham/?_rdc=1&_rdr" 
+            <a
+              href="https://web.facebook.com/Drseffarhicham/?_rdc=1&_rdr"
               target="_blank"
               rel="noopener noreferrer"
               className="text-lg font-bold text-blue-600 hover:text-blue-700 transition break-all"
@@ -93,8 +93,8 @@ export default function Contact() {
               <Instagram className="h-6 w-6 text-white" />
             </div>
             <h3 className="font-bold text-gray-900 mb-2">Instagram</h3>
-            <a 
-              href="https://www.instagram.com/dr_seffar_hicham/?hl=fr" 
+            <a
+              href="https://www.instagram.com/dr_seffar_hicham/?hl=fr"
               target="_blank"
               rel="noopener noreferrer"
               className="text-lg font-bold text-clinic-pink-500 hover:text-clinic-pink-700 transition break-all"
@@ -104,11 +104,28 @@ export default function Contact() {
             <p className="text-sm text-gray-500 mt-2">Photos & Stories</p>
           </div>
 
-    
+          {/* Carte LinkedIn */}
+          <div className="bg-white rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 group border border-blue-100">
+            <div className="w-12 h-12 bg-[#0077b5] rounded-2xl flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
+              <Linkedin className="h-6 w-6 text-white" />
+            </div>
+            <h3 className="font-bold text-gray-900 mb-2">LinkedIn</h3>
+            <a
+              href="https://www.linkedin.com/in/hicham-seffar-2510ab29/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-lg font-bold text-[#0077b5] hover:text-[#005582] transition break-all"
+            >
+              Hicham Seffar
+            </a>
+            <p className="text-sm text-gray-500 mt-2">Profil Professionnel</p>
+          </div>
 
-    
+
+
+
           {/* Carte Urgences */}
-    
+
         </div>
 
         <div className="grid lg:grid-cols-3 gap-8">
@@ -146,8 +163,8 @@ export default function Contact() {
             <div className="bg-white rounded-2xl p-6 shadow-lg border-l-4 border-blue-500">
               <h3 className="text-xl font-bold text-gray-900 mb-4">Suivez-nous</h3>
               <div className="space-y-3">
-                <a 
-                  href="https://web.facebook.com/Drseffarhicham/?_rdc=1&_rdr" 
+                <a
+                  href="https://web.facebook.com/Drseffarhicham/?_rdc=1&_rdr"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center space-x-3 p-3 bg-blue-50 rounded-xl hover:bg-blue-100 transition group"
@@ -160,8 +177,8 @@ export default function Contact() {
                     <p className="text-sm text-gray-600">Dr Seffar Hicham</p>
                   </div>
                 </a>
-                <a 
-                  href="https://www.instagram.com/dr_seffar_hicham/?hl=fr" 
+                <a
+                  href="https://www.instagram.com/dr_seffar_hicham/?hl=fr"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center space-x-3 p-3 bg-clinic-pink-50 rounded-xl hover:bg-clinic-pink-100 transition group"
@@ -174,11 +191,25 @@ export default function Contact() {
                     <p className="text-sm text-gray-600">@dr_seffar_hicham</p>
                   </div>
                 </a>
+                <a
+                  href="https://www.linkedin.com/in/hicham-seffar-2510ab29/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center space-x-3 p-3 bg-blue-50 rounded-xl hover:bg-blue-100 transition group"
+                >
+                  <div className="w-10 h-10 bg-[#0077b5] rounded-lg flex items-center justify-center">
+                    <Linkedin className="h-5 w-5 text-white" />
+                  </div>
+                  <div>
+                    <p className="font-semibold text-gray-900">LinkedIn</p>
+                    <p className="text-sm text-gray-600">Hicham Seffar</p>
+                  </div>
+                </a>
               </div>
             </div>
           </div>
 
-            {/* Section Droite - Carte et Actions */}
+          {/* Section Droite - Carte et Actions */}
           <div className="lg:col-span-2 space-y-6">
             {/* Carte Google Maps */}
             <div className="bg-white rounded-2xl shadow-xl overflow-hidden">
@@ -212,7 +243,7 @@ export default function Contact() {
               <div className="bg-gradient-to-br from-clinic-green-500 to-clinic-green-700 rounded-2xl p-6 text-white">
                 <h4 className="font-bold text-lg mb-3">📞 Appeler maintenant</h4>
                 <p className="text-sm opacity-90 mb-4">Pour un rendez-vous rapide</p>
-                <a 
+                <a
                   href="tel:0528335566"
                   className="inline-flex items-center justify-center w-full bg-white text-clinic-green-700 py-3 rounded-xl font-bold hover:bg-gray-100 transition"
                 >
@@ -224,7 +255,7 @@ export default function Contact() {
               <div className="bg-gradient-to-br from-clinic-pink-500 to-clinic-pink-500 rounded-2xl p-6 text-white">
                 <h4 className="font-bold text-lg mb-3">💬 Envoyer message</h4>
                 <p className="text-sm opacity-90 mb-4">WhatsApp ou SMS</p>
-                <a 
+                <a
                   href="tel:0668628626"
                   className="inline-flex items-center justify-center w-full bg-white text-clinic-pink-500 py-3 rounded-xl font-bold hover:bg-gray-100 transition"
                 >

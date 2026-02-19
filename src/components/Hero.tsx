@@ -16,7 +16,7 @@ export default function Hero({ scrollToSection }: HeroProps) {
                 Gynécologue Obstétricien
               </div>
               <div className="inline-flex items-center px-4 py-2 bg-clinic-pink-100 text-clinic-pink-700 rounded-full text-sm font-medium">
-                🌸 Spécialiste Femme
+                🌸 Spécialiste à Inezgane
               </div>
               <div className="inline-flex items-center px-4 py-2 bg-amber-100 text-amber-700 rounded-full text-sm font-medium">
                 <Star className="h-4 w-4 mr-1 fill-current" />
@@ -127,9 +127,9 @@ export default function Hero({ scrollToSection }: HeroProps) {
                     className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
                   />
                   {/* Glass Card Overlay for Name */}
-                  <div className="absolute bottom-3 left-3 right-3 sm:bottom-4 sm:left-4 sm:right-4 bg-white/60 backdrop-blur-xl border border-white/30 rounded-2xl sm:rounded-3xl p-3 sm:p-4 shadow-lg">
+                  <div className="absolute bottom-3 left-3 right-3 sm:bottom-4 sm:left-4 sm:right-4 bg-white/60 backdrop-blur-xl border border-white/30 rounded-2xl sm:rounded-3xl p-3 sm:p-4 shadow-lg text-center">
                     <h3 className="text-lg sm:text-xl font-bold text-gray-900 leading-tight">Dr Seffar Hicham</h3>
-                    <p className="text-clinic-green-700 text-[10px] sm:text-xs font-bold uppercase tracking-wider mt-0.5 sm:mt-1">Gynécologue Obstétricien</p>
+                    <p className="text-clinic-green-700 text-[10px] sm:text-xs font-bold uppercase tracking-wider mt-0.5 sm:mt-1">Gynécologue Obstétricien à Inezgane</p>
                   </div>
                 </div>
               </div>

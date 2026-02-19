@@ -30,10 +30,64 @@ export default function Articles() {
     document.body.style.overflow = 'unset';
     setTimeout(() => setSelectedArticle(null), 300);
   };
-  
-  const categories = ['Tous', 'Grossesse', 'Santé féminine', 'Ménopause', 'Contraception', 'Fertilité', 'Prévention'];
+
+  const categories = ['Tous', 'Grossesse', 'Santé féminine', 'Chirurgie', 'Ménopause', 'Contraception', 'Fertilité', 'Prévention'];
 
   const articles = [
+    {
+      title: "L'Hystéroscopie : Une exploration précise de la cavité utérine",
+      category: "Chirurgie",
+      date: "19 Février 2026",
+      readTime: "3 min",
+      excerpt: "Découvrez comment l'hystéroscopie permet de diagnostiquer et traiter les pathologies utérines comme les polypes ou fibromes avec une précision maximale et peu de suites opératoires.",
+      detailedContent: [
+        "Diagnostic précis des anomalies intra-utérines (polypes, fibromes, cloisons) pour traiter les saignements anormaux ou l'infertilité. L'examen permet une vision directe et nette de toute la cavité utérine.",
+        "Traitement chirurgical mini-invasif permettant le retrait de lésions sans aucune incision cutanée. L'instrument passe par les voies naturelles, évitant ainsi les cicatrices visibles.",
+        "Hystéroscopie ambulatoire : la majorité des interventions se déroulent sur une demi-journée, permettant un retour à domicile rapide. Le confort de la patiente est privilégié avec des techniques modernes d'anesthésie.",
+        "Récupération post-opératoire extrêmement rapide, avec une reprise des activités habituelles dès le lendemain. Les douleurs sont généralement minimes et bien contrôlées par des antalgiques simples.",
+        "Suivi personnalisé : chaque intervention fait l'objet d'un compte rendu détaillé et d'une analyse histopathologique systématique des prélèvements si nécessaire pour une sécurité médicale totale."
+      ],
+      image: "https://images.pexels.com/photos/3844586/pexels-photo-3844586.jpeg?auto=compress&cs=tinysrgb&w=800",
+      author: "Dr Seffar Hicham",
+      tags: ["hystéroscopie", "chirurgie", "utérus", "fibromes", "polypes"],
+      featured: true
+    },
+    {
+      title: "Chirurgie du sein : Entre prévention et traitement des pathologies mammaires",
+      category: "Chirurgie",
+      date: "18 Février 2026",
+      readTime: "4 min",
+      excerpt: "La prise en charge chirurgicale des pathologies du sein a beaucoup évolué. Découvrez l'importance du diagnostic précis et les avancées dans la chirurgie mammaire conservatrice.",
+      detailedContent: [
+        "Prise en charge des pathologies bénignes telles que les adénofibromes, les kystes complexes ou les lésions atypiques. L'objectif est de traiter la lésion tout en préservant au maximum l'architecture naturelle du sein.",
+        "Chirurgie de diagnostic et de traitement du cancer du sein : biopsies chirurgicales et exérèses ciblées. La chirurgie reste un pilier central dans le parcours de soin oncologique moderne.",
+        "Techniques de chirurgie conservatrice (oncoplastie) visant à retirer la tumeur tout en garantissant un résultat esthétique optimal. Le respect de l'image corporelle est une priorité absolue dans notre approche thérapeutique.",
+        "Prélèvement et analyse du ganglion sentinelle pour limiter les séquelles fonctionnelles au niveau du bras. Cette technique précise évite souvent le curage axillaire complet et ses complications potentielles.",
+        "Accompagnement multidisciplinaire et suivi post-opératoire rigoureux pour une guérison sereine. La collaboration avec les radiologues, oncologues et kinésithérapeutes assure une prise en charge globale de la patiente."
+      ],
+      image: "https://images.pexels.com/photos/4225881/pexels-photo-4225881.jpeg?auto=compress&cs=tinysrgb&w=800",
+      author: "Dr Seffar Hicham",
+      tags: ["chirurgie mammaire", "sein", "prévention", "cancer", "esthétique"],
+      featured: false
+    },
+    {
+      title: "La Laparoscopie : La chirurgie gynécologique moderne et mini-invasive",
+      category: "Chirurgie",
+      date: "17 Février 2026",
+      readTime: "3 min",
+      excerpt: "Moins de cicatrices, moins de douleur et une récupération plus rapide. La cœlioscopie (laparoscopie) révolutionne le traitement des kystes ovariens et de l'endométriose.",
+      detailedContent: [
+        "Technique par vidéo-chirurgie permettant d'explorer et d'opérer l'abdomen via de très petites incisions (5 à 10 mm). La caméra offre une vision agrandie et précise des organes pelviens.",
+        "Traitement de première intention pour les kystes ovariens, les grossesses extra-utérines et certaines formes d'infertilité. La précision du geste chirurgical permet de préserver la fertilité future.",
+        "Référence pour le traitement chirurgical de l'endométriose : retrait précis des lésions tout en respectant les tissus sains environnants. La laparoscopie améliore significativement la qualité de vie des patientes.",
+        "Avantages majeurs : diminution drastique des douleurs post-opératoires et risque d'infection réduit. Le préjudice esthétique est quasi nul grâce à la petite taille des cicatrices.",
+        "Retour rapide à la vie sociale et professionnelle : la durée d'hospitalisation est raccourcie et la convalescence est beaucoup plus simple qu'en chirurgie classique 'ouverte'."
+      ],
+      image: "https://images.pexels.com/photos/3844581/pexels-photo-3844581.jpeg?auto=compress&cs=tinysrgb&w=800",
+      author: "Dr Seffar Hicham",
+      tags: ["laparoscopie", "cœlioscopie", "chirurgie mini-invasive", "kystes", "endométriose"],
+      featured: true
+    },
     {
       title: "L'importance du suivi prénatal : Guide complet pour une grossesse sereine",
       category: "Grossesse",
@@ -51,7 +105,7 @@ export default function Articles() {
         "Préparation à l'allaitement et conseils nutritionnels basés sur les besoins énergétiques et micronutritionnels. Une alimentation équilibrée riche en fer, calcium, acide folique et oméga-3 est essentielle pour le développement optimal du fœtus."
       ],
       image: "IMG7.jpeg",
- 
+
       author: "Dr Seffar Hicham",
       tags: ["suivi grossesse", "consultation", "santé bébé", "préparation accouchement"],
       featured: true
@@ -177,7 +231,7 @@ export default function Articles() {
         "Échographie mammaire complémentaire si densité mammaire élevée chez les femmes jeunes ou anomalies détectées à la mammographie. L'IRM mammaire peut être proposée en cas de très haut risque génétique.",
         "Facteurs de risque : antécédents familiaux au premier degré, âge (risque augmente après 50 ans), mutations génétiques BRCA1/BRCA2, première grossesse tardive, absence d'allaitement, traitement hormonal prolongé. Un conseil génétique est proposé si antécédents familiaux multiples."
       ],
-      image: "https://images.pexels.com/photos/7578776/pexels-photo-7578776.jpeg?auto=compress&cs=tinysrgb&w=800",
+      image: "https://images.pexels.com/photos/4173239/pexels-photo-4173239.jpeg?auto=compress&cs=tinysrgb&w=800",
       author: "Dr Seffar Hicham",
       tags: ["dépistage", "cancer sein", "mammographie", "prévention"],
       featured: false
@@ -226,8 +280,8 @@ export default function Articles() {
     }
   ];
 
-  const filteredArticles = selectedCategory === 'Tous' 
-    ? articles 
+  const filteredArticles = selectedCategory === 'Tous'
+    ? articles
     : articles.filter(article => article.category === selectedCategory);
 
   const featuredArticles = articles.filter(article => article.featured);
@@ -246,7 +300,7 @@ export default function Articles() {
           </h2>
           <div className="w-24 h-1 bg-gradient-to-r from-clinic-green-500 to-clinic-pink-500 mx-auto mb-6"></div>
           <p className="text-lg md:text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-            Informations médicales vérifiées, conseils pratiques et actualités santé pour vous accompagner 
+            Informations médicales vérifiées, conseils pratiques et actualités santé pour vous accompagner
             à chaque étape de votre vie de femme. Des articles rédigés par le Dr Seffar Hicham.
           </p>
         </div>
@@ -260,11 +314,10 @@ export default function Articles() {
                 <button
                   key={category}
                   onClick={() => setSelectedCategory(category)}
-                  className={`px-4 py-2 rounded-full text-sm font-medium transition-all ${
-                    selectedCategory === category
-                      ? 'bg-clinic-green-500 text-white shadow-lg'
-                      : 'bg-white text-gray-600 hover:bg-clinic-green-50 hover:text-clinic-green-700 border border-gray-200'
-                  }`}
+                  className={`px-4 py-2 rounded-full text-sm font-medium transition-all ${selectedCategory === category
+                    ? 'bg-clinic-green-500 text-white shadow-lg'
+                    : 'bg-white text-gray-600 hover:bg-clinic-green-50 hover:text-clinic-green-700 border border-gray-200'
+                    }`}
                 >
                   {category}
                 </button>
@@ -341,7 +394,7 @@ export default function Articles() {
                       </div> */}
                     </div>
                     <p className="text-gray-700 line-clamp-3 mb-4">{article.excerpt}</p>
-                    <button 
+                    <button
                       onClick={() => openArticle(article)}
                       className="inline-flex items-center gap-2 text-clinic-green-700 font-semibold hover:gap-3 transition-all"
                     >
@@ -375,9 +428,9 @@ export default function Articles() {
                     <User className="h-4 w-4" />
                     <span className="text-xs">{article.author}</span>
                   </div>
-            
+
                 </div>
-                <button 
+                <button
                   onClick={() => openArticle(article)}
                   className="inline-flex items-center gap-2 text-clinic-green-700 font-semibold hover:gap-3 transition-all"
                 >
@@ -391,23 +444,23 @@ export default function Articles() {
 
         {/* Modal Article Détaillé */}
         {isModalOpen && selectedArticle && (
-          <div 
+          <div
             className="fixed inset-0 bg-black/60 backdrop-blur-sm z-50 flex items-center justify-center p-4 overflow-y-auto"
             onClick={closeArticle}
           >
-            <div 
+            <div
               className="bg-white rounded-2xl shadow-2xl max-w-4xl w-full my-8 max-h-[90vh] overflow-y-auto"
               onClick={(e) => e.stopPropagation()}
             >
               {/* Header avec image */}
               <div className="relative h-96 overflow-hidden rounded-t-2xl">
-                <img 
-                  src={selectedArticle.image} 
+                <img
+                  src={selectedArticle.image}
                   alt={selectedArticle.title}
                   className="w-full h-full object-cover"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent"></div>
-                
+
                 {/* Bouton fermer */}
                 <button
                   onClick={closeArticle}
@@ -443,7 +496,7 @@ export default function Articles() {
 
               {/* Contenu de l'article */}
               <div className="p-8 md:p-12">
-        
+
 
                 {/* Introduction */}
                 <div className="mb-10">
@@ -458,7 +511,7 @@ export default function Articles() {
                     <CheckCircle className="h-6 w-6 text-clinic-green-500 mr-3" />
                     Points Clés de l'Article
                   </h3>
-                  
+
                   <div className="space-y-6">
                     {selectedArticle.detailedContent.map((point: string, idx: number) => (
                       <div key={idx} className="bg-gradient-to-r from-clinic-green-50 to-clinic-pink-50 rounded-xl p-6 border-l-4 border-clinic-green-500">
@@ -473,8 +526,8 @@ export default function Articles() {
                   <div className="mt-10 bg-gradient-to-br from-clinic-green-500 to-clinic-pink-500 rounded-2xl p-8 text-white">
                     <h4 className="text-2xl font-bold mb-4">💡 En Résumé</h4>
                     <p className="text-lg leading-relaxed opacity-95">
-                      Ce guide vous apporte des informations médicales fiables et des conseils pratiques pour prendre soin de votre santé. 
-                      Pour toute question spécifique ou préoccupation concernant votre situation personnelle, n'hésitez pas à consulter 
+                      Ce guide vous apporte des informations médicales fiables et des conseils pratiques pour prendre soin de votre santé.
+                      Pour toute question spécifique ou préoccupation concernant votre situation personnelle, n'hésitez pas à consulter
                       le Dr Seffar Hicham pour un accompagnement personnalisé.
                     </p>
                   </div>
@@ -485,7 +538,7 @@ export default function Articles() {
                   <div className="flex items-center gap-3 flex-wrap">
                     <Tag className="h-5 w-5 text-gray-400" />
                     {selectedArticle.tags.map((tag: string, idx: number) => (
-                      <span 
+                      <span
                         key={idx}
                         className="px-4 py-2 bg-gray-100 text-gray-700 rounded-full text-sm hover:bg-clinic-green-100 hover:text-clinic-green-700 transition-all cursor-pointer"
                       >
@@ -496,7 +549,7 @@ export default function Articles() {
                 </div>
 
                 {/* CTA */}
-      
+
               </div>
             </div>
           </div>

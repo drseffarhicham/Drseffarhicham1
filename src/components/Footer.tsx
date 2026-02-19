@@ -1,4 +1,4 @@
-import { Phone, MapPin, Mail, Facebook, Instagram } from 'lucide-react';
+import { Phone, MapPin, Mail, Facebook, Instagram, Linkedin } from 'lucide-react';
 
 export default function Footer() {
   return (
@@ -6,7 +6,7 @@ export default function Footer() {
       {/* Decorative background flare */}
       {/* Decorative background flare */}
       <div className="absolute top-0 right-0 w-96 h-96 bg-clinic-green-500/10 rounded-full blur-[120px] -mr-48 -mt-24 pointer-events-none"></div>
-      
+
       <div className="max-w-7xl mx-auto px-6 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 lg:gap-8 mb-16">
           {/* Colonne 1 - Logo et description */}
@@ -23,23 +23,31 @@ export default function Footer() {
             <p className="text-gray-400 leading-relaxed text-base">
               Votre santé féminine mérite une expertise de haut niveau. Le Dr Seffar Hicham vous accompagne avec bienveillance à Inezgane.
             </p>
-            
+
             <div className="flex space-x-4 pt-2">
-              <a 
-                href="https://web.facebook.com/Drseffarhicham/?_rdc=1&_rdr" 
+              <a
+                href="https://web.facebook.com/Drseffarhicham/?_rdc=1&_rdr"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-11 h-11 bg-white/5 hover:bg-blue-600 rounded-xl flex items-center justify-center transition-all duration-300 group border border-white/10"
               >
                 <Facebook className="h-5 w-5 text-gray-400 group-hover:text-white transition-colors" />
               </a>
-              <a 
-                href="https://www.instagram.com/dr_seffar_hicham/?hl=fr" 
+              <a
+                href="https://www.instagram.com/dr_seffar_hicham/?hl=fr"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-11 h-11 bg-white/5 hover:bg-gradient-to-br hover:from-purple-600 hover:to-clinic-pink-500 rounded-xl flex items-center justify-center transition-all duration-300 group border border-white/10"
               >
                 <Instagram className="h-5 w-5 text-gray-400 group-hover:text-white transition-colors" />
+              </a>
+              <a
+                href="https://www.linkedin.com/in/hicham-seffar-2510ab29/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-11 h-11 bg-white/5 hover:bg-blue-700 rounded-xl flex items-center justify-center transition-all duration-300 group border border-white/10"
+              >
+                <Linkedin className="h-5 w-5 text-gray-400 group-hover:text-white transition-colors" />
               </a>
             </div>
           </div>
@@ -85,7 +93,7 @@ export default function Footer() {
                   <a href="https://wa.me/212668628626" className="block text-gray-400 hover:text-clinic-pink-400 text-sm mt-1 transition-colors">0668 62 86 26 (WhatsApp)</a>
                 </div>
               </div>
-              
+
               <div className="flex gap-4 group">
                 <div className="w-10 h-10 bg-clinic-pink-500/10 rounded-xl flex items-center justify-center flex-shrink-0 group-hover:bg-clinic-pink-500 transition-colors duration-300">
                   <Mail className="h-5 w-5 text-clinic-pink-500 group-hover:text-white" />
@@ -94,7 +102,7 @@ export default function Footer() {
                   drseffarhicham@gmail.com
                 </a>
               </div>
-              
+
               <div className="flex gap-4 group">
                 <div className="w-10 h-10 bg-clinic-green-500/10 rounded-xl flex items-center justify-center flex-shrink-0 group-hover:bg-clinic-green-500 transition-colors duration-300">
                   <MapPin className="h-5 w-5 text-clinic-green-500 group-hover:text-white" />
@@ -137,7 +145,7 @@ export default function Footer() {
             &copy; {new Date().getFullYear()} Cabinet Médical Dr Seffar Hicham. <br className="md:hidden" />
             Tous droits réservés.
           </p>
-          
+
           {/* <div className="flex flex-wrap justify-center gap-6 text-xs font-medium text-gray-500 order-1 md:order-2">
             <a href="#" className="hover:text-white transition-colors">Mentions Légales</a>
             <span className="hidden md:inline text-white/10">|</span>

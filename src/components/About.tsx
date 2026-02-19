@@ -1,10 +1,10 @@
-import { Award, Heart, Bed, Users, Stethoscope, GraduationCap, Building2, Sparkles, CheckCircle ,Globe} from 'lucide-react';
+import { Award, Heart, Bed, Users, Stethoscope, GraduationCap, Building2, Sparkles, CheckCircle, Globe } from 'lucide-react';
 import { useState } from 'react';
 
 export default function About() {
   const [activeCard, setActiveCard] = useState<number | null>(null);
 
-  
+
   const galleryData = [
     {
       id: 1,
@@ -26,16 +26,16 @@ export default function About() {
       gradient: "from-clinic-pink-900/90",
       textColor: "text-clinic-pink-50"
     },
-{
-  id: 3,
-  image: "IMG5.jpg",
-  alt: "Salle de soin",
-  title: "Salle de soin",
-  icon: Bed,
-  desc: "Un espace moderne et équipé pour assurer vos soins dans un cadre confortable et sécurisé.",
-  gradient: "from-gray-900/90",
-  textColor: "text-gray-200"
-},
+    {
+      id: 3,
+      image: "IMG5.jpg",
+      alt: "Salle de soin",
+      title: "Salle de soin",
+      icon: Bed,
+      desc: "Un espace moderne et équipé pour assurer vos soins dans un cadre confortable et sécurisé.",
+      gradient: "from-gray-900/90",
+      textColor: "text-gray-200"
+    },
 
     {
       id: 4,
@@ -92,20 +92,20 @@ export default function About() {
                 </div>
                 <h3 className="text-xl sm:text-2xl md:text-3xl font-bold text-gray-900">Parcours professionnel</h3>
               </div>
-              
+
               <div className="space-y-6">
                 <p className="text-gray-700 leading-relaxed text-lg">
-Le Dr Hicham Seffar place au cœur de sa pratique la sécurité, la précision diagnostique, les
-techniques modernes moins invasives et l’accompagnement humain personnalisé. Il s’engage à
-offrir aux patientes d’Inezgane et de la région des soins de haute qualité, inspirés des standards
-internationaux.                </p>
+                  Le Dr Hicham Seffar place au cœur de sa pratique la sécurité, la précision diagnostique, les
+                  techniques modernes moins invasives et l’accompagnement humain personnalisé. Il s’engage à
+                  offrir aux patientes d’Inezgane et de la région des soins de haute qualité, inspirés des standards
+                  internationaux.                </p>
               </div>
             </div>
 
-             <div className="bg-white rounded-2xl p-5 sm:p-8 shadow-xl border-l-8 border-clinic-pink-500 hover:shadow-2xl transition-all duration-300">
+            <div className="bg-white rounded-2xl p-5 sm:p-8 shadow-xl border-l-8 border-clinic-pink-500 hover:shadow-2xl transition-all duration-300">
               <div className="flex flex-col xs:flex-row items-center xs:items-start gap-4 sm:gap-5 text-center xs:text-left">
                 <div className="bg-gradient-to-br from-clinic-pink-100 to-clinic-pink-200 p-3 sm:p-4 rounded-2xl shrink-0 shadow-inner">
-            <Globe className="h-8 w-8 sm:h-10 sm:w-10 text-clinic-pink-500" />
+                  <Globe className="h-8 w-8 sm:h-10 sm:w-10 text-clinic-pink-500" />
                 </div>
                 <div>
                   <h4 className="text-xl sm:text-2xl font-bold text-gray-900 mb-2 sm:mb-3">Expérience Internationale  Hôpital Universitaire ERASME (Bruxelles) </h4>
@@ -123,7 +123,7 @@ internationaux.                </p>
 
           {/* Colonne droite - Valeurs */}
           <div className="space-y-6">
-                    {/* Formation et Expertise */}
+            {/* Formation et Expertise */}
             <div className="grid gap-4 sm:gap-6">
               <div className="bg-gradient-to-br from-clinic-green-200 to-white rounded-3xl p-5 sm:p-6 border-2 border-clinic-green-200 hover:border-clinic-green-400 transition-all duration-300">
                 <div className="flex flex-col xs:flex-row items-center xs:items-start gap-3 sm:gap-4 text-center xs:text-left">
@@ -159,19 +159,38 @@ internationaux.                </p>
               </div>
             </div>
 
-                     <div className="bg-gradient-to-br from-clinic-pink-200 to-white rounded-3xl p-5 sm:p-6 border-2 border-clinic-pink-200 hover:border-clinic-pink-400 transition-all duration-300">
-                <div className="flex flex-col xs:flex-row items-center xs:items-start gap-3 sm:gap-4 text-center xs:text-left">
-                  <div className="bg-white p-2 sm:p-3 rounded-xl shadow-md">
-                    <Stethoscope className="h-6 w-6 sm:h-7 sm:w-7 text-clinic-pink-500" />
-                  </div>
-                  <div>
-                    <h4 className="font-bold text-lg sm:text-xl text-gray-900 mb-2">Expertises</h4>
-                    <p className="text-gray-700 text-sm sm:text-base">
-                      Suivi de grossesse • Échographie obstétricale • Gynécologie préventive • Pathologies
-                    </p>
-                  </div>
+            <div className="bg-gradient-to-br from-clinic-pink-200 to-white rounded-3xl p-5 sm:p-6 border-2 border-clinic-pink-200 hover:border-clinic-pink-400 transition-all duration-300">
+              <div className="flex flex-col xs:flex-row items-center xs:items-start gap-3 sm:gap-4 text-center xs:text-left">
+                <div className="bg-white p-2 sm:p-3 rounded-xl shadow-md">
+                  <Stethoscope className="h-6 w-6 sm:h-7 sm:w-7 text-clinic-pink-500" />
+                </div>
+                <div>
+                  <h4 className="font-bold text-lg sm:text-xl text-gray-900 mb-2">Expertises</h4>
+                  <ul className="text-gray-700 text-sm sm:text-base space-y-2 mt-3 inline-block text-left">
+                    <li className="flex items-start gap-3">
+                      <div className="w-1.5 h-1.5 bg-clinic-pink-500 rounded-full mt-2 shrink-0"></div>
+                      <span>Suivi de grossesse</span>
+                    </li>
+                    <li className="flex items-start gap-3">
+                      <div className="w-1.5 h-1.5 bg-clinic-pink-500 rounded-full mt-2 shrink-0"></div>
+                      <span>Échographie obstétricale et gynécologique</span>
+                    </li>
+                    <li className="flex items-start gap-3">
+                      <div className="w-1.5 h-1.5 bg-clinic-pink-500 rounded-full mt-2 shrink-0"></div>
+                      <span>Chirurgie gynécologique</span>
+                    </li>
+                    <li className="flex items-start gap-3">
+                      <div className="w-1.5 h-1.5 bg-clinic-pink-500 rounded-full mt-2 shrink-0"></div>
+                      <span>Hystéroscopie</span>
+                    </li>
+                    <li className="flex items-start gap-3">
+                      <div className="w-1.5 h-1.5 bg-clinic-pink-500 rounded-full mt-2 shrink-0"></div>
+                      <span>Chirurgie mammaire</span>
+                    </li>
+                  </ul>
                 </div>
               </div>
+            </div>
           </div>
         </div>
 
@@ -198,9 +217,9 @@ internationaux.                </p>
 
           {/* Galerie Accordéon - Horizontal sur Desktop, Vertical sur Mobile */}
           <div className="flex flex-col md:flex-row h-[600px] md:h-[380px] gap-3 px-2 md:px-0">
-            
+
             {galleryData.map((item, index) => (
-              <div 
+              <div
                 key={item.id}
                 onClick={() => handleCardClick(index)}
                 className={`group relative transition-all duration-700 ease-[cubic-bezier(0.25,1,0.5,1)] rounded-[2rem] overflow-hidden shadow-lg hover:shadow-2xl cursor-pointer
@@ -208,23 +227,23 @@ internationaux.                </p>
                   md:flex-1 md:hover:flex-[2.5] md:hover:grow-[2.5]
                 `}
               >
-                <img 
-                  src={item.image} 
-                  alt={item.alt} 
+                <img
+                  src={item.image}
+                  alt={item.alt}
                   className="absolute inset-0 w-full h-full object-cover"
                 />
                 <div className={`absolute inset-0 bg-gradient-to-t ${item.gradient} via-transparent to-transparent transition-opacity
                   ${activeCard === index ? 'opacity-80' : 'opacity-60'}
                   md:opacity-60 md:group-hover:opacity-80
                 `}></div>
-                
+
                 <div className="absolute bottom-0 left-0 w-full p-6 md:p-8 flex flex-col justify-end">
                   <div className={`transform transition-transform duration-500
                     ${activeCard === index ? 'translate-y-0' : 'translate-y-8'}
                     md:translate-y-8 md:group-hover:translate-y-0
                   `}>
                     <div className="flex items-center gap-3 mb-2">
-                       <div className="w-8 h-8 rounded-full bg-white/20 backdrop-blur-md flex items-center justify-center">
+                      <div className="w-8 h-8 rounded-full bg-white/20 backdrop-blur-md flex items-center justify-center">
                         <item.icon className="w-4 h-4 text-white" />
                       </div>
                       <h4 className="text-white text-xl md:text-2xl font-bold">{item.title}</h4>
@@ -239,7 +258,7 @@ internationaux.                </p>
                 </div>
               </div>
             ))}
-            
+
           </div>
 
           <div className="mt-6 text-center">

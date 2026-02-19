@@ -1,16 +1,16 @@
-import { Stethoscope, Baby, Heart, Users, Shield, Award, Activity, Sparkles, Phone,Clock, CheckCircle, Microscope, Calendar, Star } from 'lucide-react';
+import { Stethoscope, Baby, Heart, Users, Shield, Award, Activity, Sparkles, Phone, Clock, CheckCircle, Microscope, Calendar, Star, Scissors, Eye } from 'lucide-react';
 
 export default function Services() {
   const services = [
     {
       icon: Stethoscope,
       title: "Consultations gynécologiques",
-      description: "Examens de routine, dépistage et prévention des pathologies gynécologiques avec une approche personnalisée.",
+      description: "Examens de routine, dépistage IST, traitement des infections et prévention des pathologies féminines.",
       details: [
         "Examen clinique complet",
-        "Frottis de dépistage",
+        "Frottis & Dépistage IST",
         "Prévention cancer sein/col",
-        "Suivi annuel personnalisé"
+        "Traitement des infections"
       ],
     },
     {
@@ -47,25 +47,36 @@ export default function Services() {
       ],
     },
     {
-      icon: Shield,
-      title: "Dépistage & traitement",
-      description: "Dépistage précoce et traitement des pathologies gynécologiques (infections, fibromes, kystes, etc.).",
+      icon: Scissors,
+      title: "Chirurgie Laparoscopique",
+      description: "Chirurgie mini-invasive par cœlioscopie pour le traitement des kystes, de l'endométriose et de l'infertilité.",
       details: [
-        "Dépistage IST",
-        "Traitement infections",
-        "Prise en charge fibromes",
-        "Suivi kystes ovariens"
+        "Cicatrices minimes",
+        "Récupération rapide",
+        "Traitement endométriose",
+        "Chirurgie ovarienne"
       ],
     },
     {
-      icon: Activity,
-      title: "Contraception",
-      description: "Conseils personnalisés et suivi pour choisir la méthode contraceptive la plus adaptée à votre situation.",
+      icon: Eye,
+      title: "Hystéroscopie",
+      description: "Exploration et traitement des pathologies intra-utérines (polypes, fibromes) par les voies naturelles.",
       details: [
-        "Pilule contraceptive",
-        "DIU hormonal/cuivre",
-        "Implant contraceptif",
-        "Contraception d'urgence"
+        "Sans incision cutanée",
+        "Diagnostic fertilité",
+        "Retrait de polypes/fibromes",
+        "Prise en charge ambulatoire"
+      ],
+    },
+    {
+      icon: Shield,
+      title: "Chirurgie du sein",
+      description: "Prise en charge chirurgicale des pathologies mammaires bénignes et malignes avec une approche conservatrice.",
+      details: [
+        "Exérèse adénofibromes",
+        "Biopsies mammaires",
+        "Chirurgie oncoplastique",
+        "Suivi post-opératoire"
       ],
     },
     {
@@ -89,17 +100,33 @@ export default function Services() {
         "Dérèglements cycles",
         "Traitements hormonaux"
       ],
+    },
+    {
+      icon: Activity,
+      title: "Contraception",
+      description: "Conseils personnalisés et suivi pour choisir la méthode contraceptive la plus adaptée à votre situation.",
+      details: [
+        "Pilule & Implant",
+        "DIU hormonal/cuivre",
+        "Contraception d'urgence",
+        "Ajustement annuel"
+      ],
     }
   ];
 
   const equipment = [
+
     {
-      name: "Échographe haute résolution",
-      features: ["Technologie 3D", "Évaluation du flux sanguin", "Sonde endovaginale"]
+      name: "Monitorage fœtal et maternel",
+      features: ["Rythme cardiaque fœtal", "Surveillance contractions", "Sécurité accrue"]
     },
     {
       name: "Salle d'examen",
       features: ["Matériel stérile", "Confort optimal", "Intimité respectée"]
+    },
+    {
+      name: "Échographe haute résolution",
+      features: ["Technologie 3D", "Évaluation du flux sanguin", "Sonde endovaginale"]
     },
 
   ];
@@ -118,34 +145,31 @@ export default function Services() {
           </h2>
           <div className="w-24 h-1 bg-gradient-to-r from-clinic-green-500 to-clinic-pink-500 mx-auto mb-6"></div>
           <p className="text-lg md:text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-            Une prise en charge complète et personnalisée pour chaque étape de votre vie de femme, 
+            Une prise en charge complète et personnalisée pour chaque étape de votre vie de femme,
             de l'adolescence à la ménopause, avec des technologies de pointe et une écoute attentive.
           </p>
         </div>
 
         {/* Grille des services enrichie */}
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-8">
           {services.map((service, index) => {
             const Icon = service.icon;
             return (
               <div
                 key={index}
-                className={`bg-white rounded-2xl p-6 shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 border-t-4 group ${
-                  index % 2 === 0 ? 'border-clinic-green-500' : 'border-clinic-pink-500'
-                }`}
+                className={`bg-white rounded-2xl p-6 shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 border-t-4 group ${index % 2 === 0 ? 'border-clinic-green-500' : 'border-clinic-pink-500'
+                  }`}
               >
-                <div className={`w-16 h-16 bg-white border rounded-2xl flex items-center justify-center mb-5 group-hover:scale-110 transition-transform ${
-                  index % 2 === 0 ? 'border-clinic-green-100' : 'border-clinic-pink-100'
-                }`}>
-                  <Icon className={`h-8 w-8 ${
-                    index % 2 === 0 ? 'text-clinic-green-700' : 'text-clinic-pink-500'
-                  }`} />
+                <div className={`w-16 h-16 bg-white border rounded-2xl flex items-center justify-center mb-5 group-hover:scale-110 transition-transform ${index % 2 === 0 ? 'border-clinic-green-100' : 'border-clinic-pink-100'
+                  }`}>
+                  <Icon className={`h-8 w-8 ${index % 2 === 0 ? 'text-clinic-green-700' : 'text-clinic-pink-500'
+                    }`} />
                 </div>
-                
+
                 <h3 className="text-xl font-bold text-gray-900 mb-4 leading-tight">
                   {service.title}
                 </h3>
-                
+
                 <p className="text-gray-600 mb-5 leading-relaxed">
                   {service.description}
                 </p>
@@ -154,16 +178,15 @@ export default function Services() {
                 <div className="space-y-3 mb-5">
                   {service.details.map((detail, idx) => (
                     <div key={idx} className="flex items-start">
-                      <CheckCircle className={`h-4 w-4 mt-0.5 mr-3 flex-shrink-0 ${
-                        index % 2 === 0 ? 'text-clinic-green-500' : 'text-clinic-pink-400'
-                      }`} />
+                      <CheckCircle className={`h-4 w-4 mt-0.5 mr-3 flex-shrink-0 ${index % 2 === 0 ? 'text-clinic-green-500' : 'text-clinic-pink-400'
+                        }`} />
                       <span className="text-sm text-gray-700">{detail}</span>
                     </div>
                   ))}
                 </div>
 
                 {/* Informations pratiques */}
-          
+
               </div>
             );
           })}
@@ -180,23 +203,20 @@ export default function Services() {
             </p>
           </div>
 
-          <div className="grid md:grid-cols-2 gap-8 mb-10">
+          <div className="grid md:grid-cols-3 gap-8 mb-10">
             {equipment.map((item, index) => (
               <div key={index} className="text-center group">
-                <div className={`w-20 h-20 bg-white rounded-2xl shadow-md flex items-center justify-center mx-auto mb-4 border transition-colors ${
-                  index % 2 === 0 ? 'border-clinic-green-100 hover:border-clinic-green-300' : 'border-clinic-pink-100 hover:border-clinic-pink-300'
-                }`}>
-                  <Microscope className={`h-10 w-10 ${
-                    index % 2 === 0 ? 'text-clinic-green-700' : 'text-clinic-pink-500'
-                  }`} />
+                <div className={`w-20 h-20 bg-white rounded-2xl shadow-md flex items-center justify-center mx-auto mb-4 border transition-colors ${index % 2 === 0 ? 'border-clinic-green-100 hover:border-clinic-green-300' : 'border-clinic-pink-100 hover:border-clinic-pink-300'
+                  }`}>
+                  <Microscope className={`h-10 w-10 ${index % 2 === 0 ? 'text-clinic-green-700' : 'text-clinic-pink-500'
+                    }`} />
                 </div>
                 <h4 className="font-bold text-gray-900 mb-3 text-lg">{item.name}</h4>
                 <div className="space-y-2">
                   {item.features.map((feature, idx) => (
                     <div key={idx} className="flex items-center justify-center text-sm text-gray-600">
-                      <div className={`w-2 h-2 rounded-full mr-2 ${
-                        index % 2 === 0 ? 'bg-clinic-green-500' : 'bg-clinic-pink-400'
-                      }`}></div>
+                      <div className={`w-2 h-2 rounded-full mr-2 ${index % 2 === 0 ? 'bg-clinic-green-500' : 'bg-clinic-pink-400'
+                        }`}></div>
                       {feature}
                     </div>
                   ))}
@@ -210,15 +230,15 @@ export default function Services() {
               <div>
                 <h4 className="text-2xl md:text-3xl font-bold text-gray-900 mb-4">Prise de rendez-vous simplifiée</h4>
                 <p className="text-gray-600 mb-8 mt-4 leading-relaxed text-base md:text-lg">
-                  Réservez votre consultation en ligne facilement, choisissez le créneau qui vous convient 
+                  Réservez votre consultation en ligne facilement, choisissez le créneau qui vous convient
                   et recevez un rappel par SMS. Urgences gynécologiques prises en charge rapidement.
                 </p>
                 <div className="flex flex-wrap gap-3 mb-8">
-                  <div className="flex items-center px-4 py-2 bg-white border border-clinic-green-300 text-clinic-green-700 rounded-full text-sm font-semibold">
+                  <div className="flex items-center justify-center w-full sm:w-auto px-4 py-2 bg-white border border-clinic-green-300 text-clinic-green-700 rounded-full text-sm font-semibold">
                     <Calendar className="h-4 w-4 mr-2" />
                     RDV sous 24h
                   </div>
-                  <div className="flex items-center px-4 py-2 bg-white border border-clinic-pink-300 text-clinic-pink-700 rounded-full text-sm font-semibold">
+                  <div className="flex items-center justify-center w-full sm:w-auto px-4 py-2 bg-white border border-clinic-pink-300 text-clinic-pink-700 rounded-full text-sm font-semibold">
                     <Clock className="h-4 w-4 mr-2" />
                     Urgences prioritaires
                   </div>
@@ -234,7 +254,7 @@ export default function Services() {
                 >
                   <div className="flex items-center gap-3">
                     <Phone className="h-6 w-6 animate-pulse" />
-                    <span className="text-lg">Prendre RDV</span>
+                    <span className="text-lg"> RDV</span>
                   </div>
                   <span className="hidden sm:inline opacity-50">|</span>
                   <span className="text-xl md:text-2xl tracking-tight">0528 33 55 66</span>
