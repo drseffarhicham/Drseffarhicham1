@@ -19,113 +19,41 @@ export default function Contact() {
         </div>
 
         {/* Cartes de contact principales */}
-        <div className="grid md:grid-cols-2 lg:grid-cols-5 gap-6 mb-16">
-          {/* Carte Téléphone Principal */}
-          <div className="bg-white rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 group border border-clinic-green-100">
-            <div className="w-12 h-12 bg-clinic-green-500 rounded-2xl flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
-              <Phone className="h-6 w-6 text-white" />
+        <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto mb-8 px-4">
+          {/* Carte Téléphone Fixe */}
+          <div className="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-all duration-300 group border border-clinic-green-100 flex flex-col items-center text-center">
+            <div className="w-16 h-16 bg-clinic-green-500 rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
+              <Phone className="h-8 w-8 text-white" />
             </div>
-            <h3 className="font-bold text-gray-900 mb-2">Téléphone Fixe</h3>
-            <a href="tel:0528335566" className="text-xl sm:text-2xl font-bold text-clinic-green-700 hover:text-clinic-green-700 transition">
-              0528 33 55 66
-            </a>
-            <p className="text-sm text-gray-500 mt-2">Lun-Ven: 8h30-16h</p>
-          </div>
-
-          {/* Carte Mobile */}
-          <div className="bg-white rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 group border border-clinic-pink-100">
-
-            <div className="w-12 h-12 bg-clinic-pink-500 rounded-2xl flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
-              <MessageCircle className="h-6 w-6 text-white" />
+            <h3 className="text-xl font-bold text-gray-900 mb-2">Téléphone Fixe</h3>
+            <div className="space-y-1">
+              <a href="tel:0528335566" className="text-2xl sm:text-3xl font-bold text-clinic-green-700 hover:text-clinic-green-800 transition block">
+                0528 33 55 66
+              </a>
+              <p className="text-sm text-gray-500 font-medium italic">Lun-Ven: 8h30-16h</p>
+              <p className="text-sm text-gray-500 font-medium italic">Samedi: 08h30 - 12h30</p>
             </div>
-
-            <h3 className="font-bold text-gray-900 mb-2">Mobile & WhatsApp</h3>
-
-            <a
-              href="https://wa.me/212668628626"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-xl sm:text-2xl font-bold text-clinic-pink-500 hover:text-clinic-pink-600 transition"
-            >
-              0668 62 86 26
-            </a>
-
-            <p className="text-sm text-gray-500 mt-2">Appels et messages WhatsApp</p>
 
           </div>
 
-
-          {/* Carte Email */}
-          {/* <div className="bg-white rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 group border border-clinic-green-100">
-            <div className="w-12 h-12 bg-clinic-green-500 rounded-2xl flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
-              <Mail className="h-6 w-6 text-white" />
+          {/* Carte Mobile & WhatsApp */}
+          <div className="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-all duration-300 group border border-clinic-pink-100 flex flex-col items-center text-center">
+            <div className="w-16 h-16 bg-clinic-pink-500 rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
+              <MessageCircle className="h-8 w-8 text-white" />
             </div>
-            <h3 className="font-bold text-gray-900 mb-2">Email</h3>
-            <a 
-              href="mailto:drseffarhicham@gmail.com" 
-              className="text-s font-bold text-clinic-green-700 hover:text-clinic-green-700 transition break-all"
-            >
-              drseffarhicham@gmail.com
-            </a>
-            <p className="text-sm text-gray-500 mt-2">Réponse sous 24h</p>
-          </div> */}
-
-          {/* Carte Facebook */}
-          <div className="bg-white rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 group border border-blue-100">
-            <div className="w-12 h-12 bg-blue-500 rounded-2xl flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
-              <Facebook className="h-6 w-6 text-white" />
+            <h3 className="text-xl font-bold text-gray-900 mb-2">Mobile & WhatsApp</h3>
+            <div className="space-y-1">
+              <a
+                href="https://wa.me/212668628626"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-2xl sm:text-3xl font-bold text-clinic-pink-500 hover:text-clinic-pink-600 transition block"
+              >
+                0668 62 86 26
+              </a>
+              <p className="text-sm text-gray-500 font-medium italic font-bold">Appels et messages WhatsApp</p>
             </div>
-            <h3 className="font-bold text-gray-900 mb-2">Facebook</h3>
-            <a
-              href="https://web.facebook.com/Drseffarhicham/?_rdc=1&_rdr"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-lg font-bold text-blue-600 hover:text-blue-700 transition break-all"
-            >
-              Dr Seffar Hicham
-            </a>
-            <p className="text-sm text-gray-500 mt-2">Actualités & Conseils</p>
           </div>
-
-          {/* Carte Instagram */}
-          <div className="bg-white rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 group border border-clinic-pink-100">
-            <div className="w-12 h-12 bg-gradient-to-br from-purple-500 to-clinic-pink-500 rounded-2xl flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
-              <Instagram className="h-6 w-6 text-white" />
-            </div>
-            <h3 className="font-bold text-gray-900 mb-2">Instagram</h3>
-            <a
-              href="https://www.instagram.com/dr_seffar_hicham/?hl=fr"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-lg font-bold text-clinic-pink-500 hover:text-clinic-pink-700 transition break-all"
-            >
-              @dr_seffar_hicham
-            </a>
-            <p className="text-sm text-gray-500 mt-2">Photos & Stories</p>
-          </div>
-
-          {/* Carte LinkedIn */}
-          <div className="bg-white rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 group border border-blue-100">
-            <div className="w-12 h-12 bg-[#0077b5] rounded-2xl flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
-              <Linkedin className="h-6 w-6 text-white" />
-            </div>
-            <h3 className="font-bold text-gray-900 mb-2">LinkedIn</h3>
-            <a
-              href="https://www.linkedin.com/in/hicham-seffar-2510ab29/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-lg font-bold text-[#0077b5] hover:text-[#005582] transition break-all"
-            >
-              Hicham Seffar
-            </a>
-            <p className="text-sm text-gray-500 mt-2">Profil Professionnel</p>
-          </div>
-
-
-
-
-          {/* Carte Urgences */}
-
         </div>
 
         <div className="grid lg:grid-cols-3 gap-8">
