@@ -5,6 +5,7 @@ export default function About() {
   const [activeCard, setActiveCard] = useState<number | null>(null);
 
 
+  
   const galleryData = [
     {
       id: 1,
