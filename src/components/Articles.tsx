@@ -452,6 +452,15 @@ export default function Articles() {
               className="bg-white rounded-2xl shadow-2xl max-w-4xl w-full my-8 max-h-[90vh] overflow-y-auto"
               onClick={(e) => e.stopPropagation()}
             >
+              {/* Bouton fermer - Déplacé pour être plus accessible */}
+              <button
+                onClick={closeArticle}
+                className="absolute top-6 right-6 bg-white/20 hover:bg-white/40 backdrop-blur-md text-white p-3 rounded-full transition-all z-50 shadow-lg border border-white/20 group"
+                aria-label="Fermer l'article"
+              >
+                <X className="h-6 w-6 group-hover:scale-110 transition-transform" />
+              </button>
+
               {/* Header avec image */}
               <div className="relative h-96 overflow-hidden rounded-t-2xl">
                 <img
@@ -460,14 +469,6 @@ export default function Articles() {
                   className="w-full h-full object-cover"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent"></div>
-
-                {/* Bouton fermer */}
-                <button
-                  onClick={closeArticle}
-                  className="absolute top-4 right-4 bg-white/20 hover:bg-white/30 backdrop-blur-sm text-white p-2 rounded-full transition-all"
-                >
-                  <X className="h-6 w-6" />
-                </button>
 
                 {/* Titre et métadonnées sur l'image */}
                 <div className="absolute bottom-0 left-0 right-0 p-8">

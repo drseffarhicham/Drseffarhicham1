@@ -18,7 +18,7 @@ export default function Services() {
       title: "Suivi de grossesse",
       description: "Accompagnement complet pendant toute la grossesse avec des consultations régulières et une préparation à l'accouchement.",
       details: [
-        "7 consultations obligatoires",
+        "7 consultations indispensables",
         "Surveillance échographique",
         "Préparation à la naissance",
         "Suivi post-natal inclus"
