@@ -48,7 +48,7 @@ export default function Hero({ scrollToSection }: HeroProps) {
                 </div>
                 <div className="flex items-center">
                   <div className="w-1.5 h-1.5 bg-clinic-green-500 rounded-full mr-2 md:mr-3 flex-shrink-0"></div>
-                  <span className="text-gray-700">Pathologies du sein</span>
+                  <span className="text-gray-700">Chirurgie mammaire et oncoplastie mammaire</span>
                 </div>
                 <div className="flex items-center">
                   <div className="w-1.5 h-1.5 bg-clinic-pink-500 rounded-full mr-2 md:mr-3 flex-shrink-0"></div>

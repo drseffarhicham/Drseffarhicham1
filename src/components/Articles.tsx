@@ -65,7 +65,7 @@ export default function Articles() {
         "Prélèvement et analyse du ganglion sentinelle pour limiter les séquelles fonctionnelles au niveau du bras. Cette technique précise évite souvent le curage axillaire complet et ses complications potentielles.",
         "Accompagnement multidisciplinaire et suivi post-opératoire rigoureux pour une guérison sereine. La collaboration avec les radiologues, oncologues et kinésithérapeutes assure une prise en charge globale de la patiente."
       ],
-      image: "https://images.pexels.com/photos/4225881/pexels-photo-4225881.jpeg?auto=compress&cs=tinysrgb&w=800",
+      image: "chirregie.png",
       author: "Dr Seffar Hicham",
       tags: ["chirurgie mammaire", "sein", "prévention", "cancer", "esthétique"],
       featured: false
@@ -98,7 +98,7 @@ export default function Articles() {
       // comments: 23,
       excerpt: "Le suivi prénatal régulier est essentiel pour assurer la santé de la mère et du bébé. Découvrez pourquoi chaque consultation compte et comment optimiser votre suivi médical.",
       detailedContent: [
-        "7 consultations prénatales obligatoires pour surveiller le développement fœtal et prévenir les complications. Ces consultations permettent de détecter précocement toute anomalie et d'assurer un suivi personnalisé adapté à chaque grossesse.",
+        "7 consultations prénatales indispensables pour surveiller le développement fœtal et prévenir les complications. Ces consultations permettent de détecter précocement toute anomalie et d'assurer un suivi personnalisé adapté à chaque grossesse.",
         "Échographies de dépistage aux 1er, 2ème et 3ème trimestres pour détecter anomalies morphologiques ou retard de croissance. L'échographie du premier trimestre permet de dater précisément la grossesse et de dépister la trisomie 21.",
         "Surveillance systématique de la tension artérielle et de la prise de poids pour prévenir la prééclampsie. Une hypertension artérielle gravidique peut avoir des conséquences graves et nécessite une prise en charge immédiate.",
         "Dépistage du diabète gestationnel entre 24 et 28 semaines via test de tolérance au glucose. Ce dépistage est crucial car le diabète gestationnel augmente les risques de complications pour la mère et l'enfant.",
@@ -231,7 +231,7 @@ export default function Articles() {
         "Échographie mammaire complémentaire si densité mammaire élevée chez les femmes jeunes ou anomalies détectées à la mammographie. L'IRM mammaire peut être proposée en cas de très haut risque génétique.",
         "Facteurs de risque : antécédents familiaux au premier degré, âge (risque augmente après 50 ans), mutations génétiques BRCA1/BRCA2, première grossesse tardive, absence d'allaitement, traitement hormonal prolongé. Un conseil génétique est proposé si antécédents familiaux multiples."
       ],
-      image: "https://images.pexels.com/photos/4173239/pexels-photo-4173239.jpeg?auto=compress&cs=tinysrgb&w=800",
+      image: "depistage.png",
       author: "Dr Seffar Hicham",
       tags: ["dépistage", "cancer sein", "mammographie", "prévention"],
       featured: false
