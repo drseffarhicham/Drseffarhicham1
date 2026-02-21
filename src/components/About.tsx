@@ -1,11 +1,11 @@
-import { Award, Heart, Bed, Users, Stethoscope, GraduationCap, Building2, Sparkles, CheckCircle, Globe } from 'lucide-react';
+import { Award, Bed, Users, Stethoscope, GraduationCap, Building2, Sparkles, CheckCircle, Globe } from 'lucide-react';
 import { useState } from 'react';
 
 export default function About() {
   const [activeCard, setActiveCard] = useState<number | null>(null);
 
 
-  
+
   const galleryData = [
     {
       id: 1,
@@ -187,6 +187,10 @@ export default function About() {
                     <li className="flex items-start gap-3">
                       <div className="w-1.5 h-1.5 bg-clinic-pink-500 rounded-full mt-2 shrink-0"></div>
                       <span>Chirurgie mammaire</span>
+                    </li>
+                    <li className="flex items-start gap-3">
+                      <div className="w-1.5 h-1.5 bg-clinic-pink-500 rounded-full mt-2 shrink-0"></div>
+                      <span>Chirurgie vaginale</span>
                     </li>
                   </ul>
                 </div>

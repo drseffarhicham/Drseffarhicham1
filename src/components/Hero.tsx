@@ -70,6 +70,10 @@ export default function Hero({ scrollToSection }: HeroProps) {
                   <div className="w-1.5 h-1.5 bg-clinic-pink-500 rounded-full mr-2 md:mr-3 flex-shrink-0"></div>
                   <span className="text-gray-700">Orientation vers centres spécialisés en assistance médicale à la procréation si nécessaire</span>
                 </div>
+                <div className="flex items-center">
+                  <div className="w-1.5 h-1.5 bg-clinic-green-500 rounded-full mr-2 md:mr-3 flex-shrink-0"></div>
+                  <span className="text-gray-700">Chirurgie vaginale (Hystérectomie, Prolapsus, Esthétique)</span>
+                </div>
               </div>
             </div>
 

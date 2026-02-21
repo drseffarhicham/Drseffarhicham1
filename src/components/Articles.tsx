@@ -35,7 +35,24 @@ export default function Articles() {
 
   const articles = [
     {
-      title: "L'Hystéroscopie : Une exploration précise de la cavité utérine",
+      title: "Chirurgie Vaginale : Hystérectomie, Prolapsus et Esthétique",
+      category: "Chirurgie",
+      date: "21 Février 2026",
+      readTime: "5 min de lecture",
+      excerpt: "La chirurgie vaginale permet de traiter diverses pathologies utérines et de corriger les prolapsus sans cicatrice visible, tout en proposant des solutions esthétiques périnéales.",
+      detailedContent: [
+        "Hystérectomie par voie basse : Une technique chirurgicale permettant l'ablation de l'utérus par les voies naturelles, évitant ainsi toute cicatrice abdominale et favorisant une récupération plus rapide.",
+        "Cure de Prolapsus : Prise en charge chirurgicale de la descente d'organes (vessie, utérus, rectum) pour restaurer l'anatomie et améliorer la qualité de vie des patientes.",
+        "Chirurgie Esthétique Périnéale : Interventions visant à corriger les séquelles des accouchements ou à améliorer l'esthétique de la zone intime (périnéoplastie).",
+        "Avantages de la voie vaginale : Moins de douleurs post-opératoires, durée d'hospitalisation réduite et absence de cicatrices externes visibles."
+      ],
+      image: "ChirurgieVaginale.png",
+      author: "Dr Seffar Hicham",
+      tags: ["chirurgie vaginale", "hystérectomie", "prolapsus", "esthétique"],
+      featured: true
+    },
+    {
+      title: "L'Hystéroscopie : Une exploration précise de l'espace utérin",
       category: "Chirurgie",
       date: "19 Février 2026",
       readTime: "3 min",

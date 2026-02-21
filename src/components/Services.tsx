@@ -49,11 +49,11 @@ export default function Services() {
     {
       icon: Scissors,
       title: "Chirurgie Laparoscopique",
-      description: "Chirurgie mini-invasive par cœlioscopie pour le traitement des kystes, de l'endométriose et de l'infertilité.",
+      description: "Chirurgie mini-invasive par cœlioscopie pour le traitement des kystes, de uterine et de l'infertilité.",
       details: [
         "Cicatrices minimes",
         "Récupération rapide",
-        "Traitement endométriose",
+        "Traitement uterine",
         "Chirurgie ovarienne"
       ],
     },
@@ -77,6 +77,17 @@ export default function Services() {
         "Biopsies mammaires",
         "Chirurgie oncoplastique",
         "Suivi post-opératoire"
+      ],
+    },
+    {
+      icon: Scissors,
+      title: "Chirurgie Vaginale",
+      description: "Hystérectomie par voie basse, chirurgie des Prolapsus et chirurgie esthétique périnéale.",
+      details: [
+        "Hystérectomie voie basse",
+        "Chirurgie des Prolapsus",
+        "Chirurgie esthétique",
+        "Approche mini-invasive"
       ],
     },
     {
@@ -151,13 +162,13 @@ export default function Services() {
         </div>
 
         {/* Grille des services enrichie */}
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-8">
+        <div className="flex flex-wrap justify-center gap-8">
           {services.map((service, index) => {
             const Icon = service.icon;
             return (
               <div
                 key={index}
-                className={`bg-white rounded-2xl p-6 shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 border-t-4 group ${index % 2 === 0 ? 'border-clinic-green-500' : 'border-clinic-pink-500'
+                className={`bg-white rounded-2xl p-6 shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 border-t-4 group w-full md:w-[calc(50%-1rem)] lg:w-[calc(25%-1.5rem)] min-h-[350px] flex flex-col ${index % 2 === 0 ? 'border-clinic-green-500' : 'border-clinic-pink-500'
                   }`}
               >
                 <div className={`w-16 h-16 bg-white border rounded-2xl flex items-center justify-center mb-5 group-hover:scale-110 transition-transform ${index % 2 === 0 ? 'border-clinic-green-100' : 'border-clinic-pink-100'
