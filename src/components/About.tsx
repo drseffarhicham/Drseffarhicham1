@@ -1,8 +1,21 @@
-import { Award, Bed, Users, Stethoscope, GraduationCap, Building2, Sparkles, CheckCircle, Globe } from 'lucide-react';
-import { useState } from 'react';
+import { Award, Bed, Users, Stethoscope, GraduationCap, Building2, Sparkles, CheckCircle, Globe, Play } from 'lucide-react';
+import { useState, useRef } from 'react';
 
 export default function About() {
   const [activeCard, setActiveCard] = useState<number | null>(null);
+  const [isPlaying, setIsPlaying] = useState(false);
+  const videoRef = useRef<HTMLVideoElement>(null);
+
+  const toggleVideo = () => {
+    if (videoRef.current) {
+      if (isPlaying) {
+        videoRef.current.pause();
+      } else {
+        videoRef.current.play();
+      }
+      setIsPlaying(!isPlaying);
+    }
+  };
 
 
 
@@ -195,6 +208,55 @@ export default function About() {
                   </ul>
                 </div>
               </div>
+            </div>
+          </div>
+        </div>
+
+        {/* Section Vidéo - Nouveau */}
+        <div id="visite-video" className="mb-24">
+          <div className="text-center mb-12">
+            <span className="bg-clinic-green-100 text-clinic-green-700 text-xs font-bold px-3 py-1 rounded-full mb-4 inline-block tracking-widest uppercase">
+              Expérience Immersive
+            </span>
+            <h3 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-4">
+              Visite <span className="text-clinic-green-700">Virtuelle</span> du Cabinet
+            </h3>
+            <div className="w-24 h-1.5 bg-gradient-to-r from-clinic-green-500 to-clinic-pink-500 mx-auto rounded-full"></div>
+          </div>
+
+          <div className="max-w-4xl mx-auto px-4">
+            <div
+              className="relative aspect-video rounded-[2.5rem] overflow-hidden shadow-2xl border-4 border-white bg-gray-900 group cursor-pointer"
+              onClick={toggleVideo}
+            >
+              <video
+                ref={videoRef}
+                className={`w-full h-full object-cover transition-opacity duration-700 ${isPlaying ? 'opacity-100' : 'opacity-60 group-hover:opacity-80'}`}
+                poster="IMG5.jpg"
+                onPlay={() => setIsPlaying(true)}
+                onPause={() => setIsPlaying(false)}
+                controls={isPlaying}
+              >
+                <source src="cabinet.mp4" type="video/mp4" />
+                Votre navigateur ne supporte pas la lecture de vidéos.
+              </video>
+
+              {/* Overlay Play Button - Hidden when playing */}
+              {!isPlaying && (
+                <div className="absolute inset-0 flex items-center justify-center group-hover:scale-110 transition-transform duration-500">
+                  <div className="w-20 h-20 bg-clinic-green-500/90 rounded-full flex items-center justify-center shadow-2xl backdrop-blur-sm border-2 border-white/30">
+                    <Play className="h-8 w-8 text-white fill-white ml-1" />
+                  </div>
+                </div>
+              )}
+
+              {/* Glass Info Card - Hidden when playing */}
+              {!isPlaying && (
+                <div className="absolute bottom-6 left-6 right-6 bg-white/20 backdrop-blur-md border border-white/30 rounded-2xl p-4 text-white hidden md:block">
+                  <p className="font-medium text-lg">Découvrez nos installations modernes</p>
+                  <p className="text-sm opacity-80">Un environnement conçu pour votre confort et votre sécurité.</p>
+                </div>
+              )}
             </div>
           </div>
         </div>
