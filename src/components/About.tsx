@@ -3,7 +3,6 @@ import { useState, useRef } from 'react';
 
 export default function About() {
   const [activeCard, setActiveCard] = useState<number | null>(null);
-  const [activeExpertise, setActiveExpertise] = useState<number | null>(null);
   const [isPlaying, setIsPlaying] = useState(false);
   const videoRef = useRef<HTMLVideoElement>(null);
 
@@ -19,45 +18,6 @@ export default function About() {
   };
 
 
-
-  const expertiseData = [
-    {
-      id: 1,
-      title: "Obstétrique & Suivi de Grossesse",
-      details: ["Grossesses à haut risque", "Accouchement physiologique", "Suivi prénatal complet", "Monitoring fœtal"],
-      icon: Stethoscope
-    },
-    {
-      id: 2,
-      title: "Échographie Spécialisée",
-      details: ["Diagnostic 3D/4D", "Doppler Fœto-maternel", "Échographie morphologique", "Dépistage prénatal"],
-      icon: Sparkles
-    },
-    {
-      id: 3,
-      title: "Chirurgie Gynécologique",
-      details: ["Chirurgie mini-invasive (Cælioscopie)", "Hystéroscopie opératoire", "Chirurgie des fibromes", "Kystes ovariens"],
-      icon: Bed
-    },
-    {
-      id: 4,
-      title: "Sénologie (Sein)",
-      details: ["Dépistage du cancer du sein", "Chirurgie Oncologique", "Chirurgie plastique du sein", "Biopsies guidées"],
-      icon: Award
-    },
-    {
-      id: 5,
-      title: "Chirurgie Vaginale",
-      details: ["Traitement du prolapsus", "Incontinence urinaire", "Chirurgie esthétique intime", "Réparation périnéale"],
-      icon: Building2
-    },
-    {
-      id: 6,
-      title: "Infertilité & PMA",
-      details: ["Bilan d'infertilité du couple", "Induction d'ovulation", "Suivi folliculaire", "Conseil en fertilité"],
-      icon: GraduationCap
-    }
-  ];
 
   const galleryData = [
     {
@@ -213,43 +173,40 @@ export default function About() {
               </div>
             </div>
 
-            <div className="bg-white rounded-3xl p-6 sm:p-8 shadow-xl border border-clinic-pink-100 hover:shadow-2xl transition-all duration-300">
-              <div className="flex items-center gap-4 mb-8">
-                <div className="bg-gradient-to-br from-clinic-pink-500 to-clinic-pink-700 p-4 rounded-2xl shadow-lg">
-                  <Stethoscope className="h-8 w-8 text-white" />
+            <div className="bg-gradient-to-br from-clinic-pink-200 to-white rounded-3xl p-5 sm:p-6 border-2 border-clinic-pink-200 hover:border-clinic-pink-400 transition-all duration-300">
+              <div className="flex flex-col xs:flex-row items-center xs:items-start gap-3 sm:gap-4 text-center xs:text-left">
+                <div className="bg-white p-2 sm:p-3 rounded-xl shadow-md">
+                  <Stethoscope className="h-6 w-6 sm:h-7 sm:w-7 text-clinic-pink-500" />
                 </div>
-                <h3 className="text-xl sm:text-2xl md:text-3xl font-bold text-gray-900">Domaines d'expertise</h3>
-              </div>
-
-              <div className="grid sm:grid-cols-2 gap-4">
-                {expertiseData.map((exp, idx) => (
-                  <div
-                    key={exp.id}
-                    onClick={() => setActiveExpertise(activeExpertise === idx ? null : idx)}
-                    className={`p-4 rounded-2xl border transition-all duration-300 cursor-pointer group
-                      ${activeExpertise === idx
-                        ? 'bg-clinic-pink-100 border-clinic-pink-300 shadow-md'
-                        : 'bg-gray-50 border-gray-100 hover:border-clinic-pink-200 hover:bg-white'}`}
-                  >
-                    <div className="flex items-center gap-3 mb-2">
-                      <div className={`p-2 rounded-xl transition-colors
-                        ${activeExpertise === idx ? 'bg-white text-clinic-pink-600' : 'bg-clinic-pink-50 text-clinic-pink-500'}`}>
-                        <exp.icon className="h-5 w-5" />
-                      </div>
-                      <h4 className="font-bold text-gray-900 group-hover:text-clinic-pink-700 transition-colors">{exp.title}</h4>
-                    </div>
-                    <div className={`overflow-hidden transition-all duration-500 ${activeExpertise === idx ? 'max-h-40 opacity-100 mt-3' : 'max-h-0 opacity-0'}`}>
-                      <ul className="space-y-2">
-                        {exp.details.map((detail, dIdx) => (
-                          <li key={dIdx} className="flex items-center gap-2 text-sm text-gray-600">
-                            <CheckCircle className="h-4 w-4 text-clinic-pink-500 flex-shrink-0" />
-                            <span>{detail}</span>
-                          </li>
-                        ))}
-                      </ul>
-                    </div>
-                  </div>
-                ))}
+                <div>
+                  <h4 className="font-bold text-lg sm:text-xl text-gray-900 mb-2">Expertises</h4>
+                  <ul className="text-gray-700 text-sm sm:text-base space-y-2 mt-3 inline-block text-left">
+                    <li className="flex items-start gap-3">
+                      <div className="w-1.5 h-1.5 bg-clinic-pink-500 rounded-full mt-2 shrink-0"></div>
+                      <span>Suivi de grossesse</span>
+                    </li>
+                    <li className="flex items-start gap-3">
+                      <div className="w-1.5 h-1.5 bg-clinic-pink-500 rounded-full mt-2 shrink-0"></div>
+                      <span>Échographie obstétricale et gynécologique</span>
+                    </li>
+                    <li className="flex items-start gap-3">
+                      <div className="w-1.5 h-1.5 bg-clinic-pink-500 rounded-full mt-2 shrink-0"></div>
+                      <span>Chirurgie gynécologique</span>
+                    </li>
+                    <li className="flex items-start gap-3">
+                      <div className="w-1.5 h-1.5 bg-clinic-pink-500 rounded-full mt-2 shrink-0"></div>
+                      <span>Hystéroscopie</span>
+                    </li>
+                    <li className="flex items-start gap-3">
+                      <div className="w-1.5 h-1.5 bg-clinic-pink-500 rounded-full mt-2 shrink-0"></div>
+                      <span>Chirurgie mammaire</span>
+                    </li>
+                    <li className="flex items-start gap-3">
+                      <div className="w-1.5 h-1.5 bg-clinic-pink-500 rounded-full mt-2 shrink-0"></div>
+                      <span>Chirurgie vaginale</span>
+                    </li>
+                  </ul>
+                </div>
               </div>
             </div>
           </div>
@@ -279,8 +236,6 @@ export default function About() {
                 onPlay={() => setIsPlaying(true)}
                 onPause={() => setIsPlaying(false)}
                 controls={isPlaying}
-                controlsList="nodownload"
-                onContextMenu={(e) => e.preventDefault()}
               >
                 <source src="cabinet.mp4" type="video/mp4" />
                 Votre navigateur ne supporte pas la lecture de vidéos.
