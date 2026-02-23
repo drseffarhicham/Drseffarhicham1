@@ -23,7 +23,7 @@ export default {
         'clinic-pink': {
           DEFAULT: '#f17e7eff',
           50: '#fdf5f5',
-          100: '#fbeaea',
+          100: '#ece8ffff',
           200: '#f6d5d5',
           300: '#f2bfbf',
           400: '#eda9aa',
