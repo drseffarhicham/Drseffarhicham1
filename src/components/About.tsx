@@ -232,7 +232,7 @@ export default function About() {
               <video
                 ref={videoRef}
                 className={`w-full h-full object-cover transition-opacity duration-700 ${isPlaying ? 'opacity-100' : 'opacity-60 group-hover:opacity-80'}`}
-                poster="IMG5.jpg"
+                poster="img2.jpg"
                 onPlay={() => setIsPlaying(true)}
                 onPause={() => setIsPlaying(false)}
                 controls={isPlaying}

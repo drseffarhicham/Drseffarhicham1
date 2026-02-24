@@ -20,8 +20,8 @@ export default function Contact() {
         </div>
 
         {/* Cartes de contact principales */}
-        <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto mb-8 px-4">
-          {/* Carte Téléphone Fixe */}
+        {/* <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto mb-8 px-4">
+
           <div className="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-all duration-300 group border border-clinic-green-100 flex flex-col items-center text-center">
             <div className="w-16 h-16 bg-clinic-green-500 rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
               <Phone className="h-8 w-8 text-white" />
@@ -37,7 +37,6 @@ export default function Contact() {
 
           </div>
 
-          {/* Carte Mobile & WhatsApp */}
           <div className="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-all duration-300 group border border-clinic-pink-100 flex flex-col items-center text-center">
             <div className="w-16 h-16 bg-clinic-pink-500 rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
               <MessageCircle className="h-8 w-8 text-white" />
@@ -55,7 +54,7 @@ export default function Contact() {
               <p className="text-sm text-gray-500 font-medium italic font-bold">Appels et messages WhatsApp</p>
             </div>
           </div>
-        </div>
+        </div> */}
 
         <div className="grid lg:grid-cols-3 gap-8">
           {/* Section Gauche - Horaires et Infos */}
@@ -185,7 +184,7 @@ export default function Contact() {
                 <h4 className="font-bold text-lg mb-3">💬 Envoyer message</h4>
                 <p className="text-sm opacity-90 mb-4">WhatsApp ou SMS</p>
                 <a
-                  href="tel:0668628626"
+                  href="https://wa.me/212668628626"
                   className="inline-flex items-center justify-center w-full bg-white text-clinic-pink-500 py-3 rounded-xl font-bold hover:bg-gray-100 transition"
                 >
                   <MessageCircle className="h-5 w-5 mr-2" />
