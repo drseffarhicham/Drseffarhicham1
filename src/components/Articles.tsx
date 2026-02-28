@@ -46,7 +46,7 @@ export default function Articles() {
         "Chirurgie Esthétique Périnéale : Interventions visant à corriger les séquelles des accouchements ou à améliorer l'esthétique de la zone intime (périnéoplastie).",
         "Avantages de la voie vaginale : Moins de douleurs post-opératoires, durée d'hospitalisation réduite et absence de cicatrices externes visibles."
       ],
-      image: "ChirurgieVaginale.png",
+      image: "ChirurgieVaginale.jpeg",
       author: "Dr Seffar Hicham",
       tags: ["chirurgie vaginale", "hystérectomie", "prolapsus", "esthétique"],
       featured: true
@@ -64,7 +64,7 @@ export default function Articles() {
         "Récupération post-opératoire extrêmement rapide, avec une reprise des activités habituelles dès le lendemain. Les douleurs sont généralement minimes et bien contrôlées par des antalgiques simples.",
         "Suivi personnalisé : chaque intervention fait l'objet d'un compte rendu détaillé et d'une analyse histopathologique systématique des prélèvements si nécessaire pour une sécurité médicale totale."
       ],
-      image: "L'Hystéroscopie.png",
+      image: "L'Hystéroscopie.jpeg",
       author: "Dr Seffar Hicham",
       tags: ["hystéroscopie", "chirurgie", "utérus", "fibromes", "polypes"],
       featured: true
@@ -100,7 +100,7 @@ export default function Articles() {
         "Avantages majeurs : diminution drastique des douleurs post-opératoires et risque d'infection réduit. Le préjudice esthétique est quasi nul grâce à la petite taille des cicatrices.",
         "Retour rapide à la vie sociale et professionnelle : la durée d'hospitalisation est raccourcie et la convalescence est beaucoup plus simple qu'en chirurgie classique 'ouverte'."
       ],
-      image: "Laparoscopie.png",
+      image: "Laparoscopie.jpeg",
       author: "Dr Seffar Hicham",
       tags: ["laparoscopie", "cœlioscopie", "chirurgie mini-invasive", "kystes", "endométriose"],
       featured: true
@@ -121,7 +121,7 @@ export default function Articles() {
         "Dépistage du diabète gestationnel entre 24 et 28 semaines via test de tolérance au glucose. Ce dépistage est crucial car le diabète gestationnel augmente les risques de complications pour la mère et l'enfant.",
         "Préparation à l'allaitement et conseils nutritionnels basés sur les besoins énergétiques et micronutritionnels. Une alimentation équilibrée riche en fer, calcium, acide folique et oméga-3 est essentielle pour le développement optimal du fœtus."
       ],
-      image: "L'importance.png",
+      image: "L'importance.jpeg",
 
       author: "Dr Seffar Hicham",
       tags: ["suivi grossesse", "consultation", "santé bébé", "préparation accouchement"],
@@ -143,7 +143,7 @@ export default function Articles() {
         "Signes d'alerte : cycles irréguliers, douleurs intenses pouvant signaler des troubles hormonaux comme le syndrome des ovaires polykystiques (SOPK) ou l'endométriose. Des saignements entre les règles peuvent indiquer un déséquilibre hormonal.",
         "Quand consulter : aménorrhée de plus de 3 mois, saignements anormaux abondants ou prolongés, suspicion de désordre endocrinien. Une dysménorrhée sévère nécessite une investigation pour écarter l'endométriose."
       ],
-      image: "Comprendre.png",
+      image: "cycle.jpeg",
       author: "Dr Seffar Hicham",
       tags: ["cycle menstruel", "symptômes", "santé femme", "prévention"],
       featured: false
@@ -164,7 +164,7 @@ export default function Articles() {
         "Exercices physiques adaptés : musculation et exercices de port de charge pour prévenir la perte osseuse. La marche rapide, le jogging léger et la danse sont excellents. L'activité physique régulière réduit aussi le risque cardiovasculaire.",
         "Suivi gynécologique annuel indispensable : dépistage des pathologies hormonales et oncologiques. Le cancer de l'endomètre et de l'ovaire sont plus fréquents après la ménopause. Un frottis cervical reste nécessaire jusqu'à 65 ans."
       ],
-      image: "ménopause.png",
+      image: "ménopause.jpeg",
       author: "Dr Seffar Hicham",
       tags: ["ménopause", "traitement hormonal", "bien-être", "symptômes"],
       featured: true
@@ -185,7 +185,7 @@ export default function Articles() {
         "Implant contraceptif : libération continue de progestatif sous-cutané, discret et efficace 3 ans. Insertion rapide sous anesthésie locale au niveau du bras. Peut entraîner des saignements irréguliers les premiers mois nécessitant parfois un traitement complémentaire.",
         "Consultation annuelle pour contrôle et ajustement selon tolérance et effets secondaires. L'examen clinique, la mesure de la tension artérielle et le frottis cervical font partie du suivi. Possibilité de changer de méthode à tout moment selon l'évolution de vos besoins."
       ],
-      image: "Contraception.png",
+      image: "Contraception.jpeg",
       author: "Dr Seffar Hicham",
       tags: ["contraception", "pilule", "DIU", "méthodes"],
       featured: false
@@ -206,7 +206,7 @@ export default function Articles() {
         "Reconnaître le début du travail : contractions régulières toutes les 5 minutes pendant 2 heures, rupture de membranes avec perte de liquide amniotique clair. Parfois précédé de la perte du bouchon muqueux quelques jours avant.",
         "Valise de maternité : checklist incluant vêtements confortables pour la mère, body et pyjamas pour le nouveau-né, produits d'hygiène, documents médicaux (carte de groupe sanguin, dossier médical), et accessoires pour l'allaitement si désiré."
       ],
-      image: "Préparation.png",
+      image: "Préparation.jpeg",
       author: "Dr Seffar Hicham",
       tags: ["accouchement", "préparation", "exercices", "respiration"],
       featured: false
@@ -227,7 +227,7 @@ export default function Articles() {
         "Facteurs favorisant : alimentation équilibrée riche en antioxydants, acide folique et zinc, maintien d'un IMC entre 19 et 25, activité physique modérée régulière. Un poids insuffisant ou excessif peut perturber l'ovulation.",
         "Éviter tabac (diminue la réserve ovarienne et qualité ovocytaire), alcool (toxique pour les gamètes), et stress excessif (perturbe l'axe hypothalamo-hypophysaire). Limiter la caféine à 2 tasses par jour. Certains perturbateurs endocriniens peuvent aussi affecter la fertilité."
       ],
-      image: "Fertilité.png",
+      image: "Fertilité.jpeg",
       author: "Dr Seffar Hicham",
       tags: ["fertilité", "conception", "bilan", "traitements"],
       featured: true
@@ -269,7 +269,7 @@ export default function Articles() {
         "Traitement chirurgical par cœlioscopie si lésions étendues, endométriomes ovariens volumineux, ou symptômes sévères résistants au traitement médical. L'exérèse complète des lésions améliore significativement la fertilité et la qualité de vie.",
         "Prise en charge pluridisciplinaire recommandée : gynécologue spécialisé, algologue pour la gestion de la douleur chronique, nutritionniste (alimentation anti-inflammatoire), kinésithérapeute spécialisé en pelvi-périnéologie, psychologue pour le soutien émotionnel. L'endométriose impacte significativement la qualité de vie."
       ],
-      image: "Endométriose.png",
+      image: "Endométriose.jpeg",
       author: "Dr Seffar Hicham",
       tags: ["endométriose", "diagnostic", "traitement", "douleur"],
       featured: true
@@ -290,7 +290,7 @@ export default function Articles() {
         "Fibres alimentaires (légumes verts, légumineuses, céréales complètes) : favorisent l'élimination des œstrogènes en excès via les selles, soutiennent le métabolisme des hormones sexuelles, stabilisent la glycémie. Objectif : 25-30g de fibres par jour.",
         "Hydratation adéquate : indispensable pour toutes les fonctions métaboliques et hormonales optimales, élimination des toxines, maintien de la lubrification vaginale. Boire 1,5 à 2 litres d'eau par jour. Limiter alcool et caféine qui peuvent perturber l'équilibre hormonal."
       ],
-      image: "Alimentation.png",
+      image: "Alimentation.jpg",
       author: "Dr Seffar Hicham",
       tags: ["alimentation", "hormones", "nutrition", "bien-être"],
       featured: false
@@ -301,7 +301,7 @@ export default function Articles() {
     ? articles
     : articles.filter(article => article.category === selectedCategory);
 
-  const featuredArticles = articles.filter(article => article.featured);
+
 
   return (
     <section id="articles" className="py-20 bg-gradient-to-br from-gray-50 to-clinic-pink-50">
@@ -353,77 +353,7 @@ export default function Articles() {
           </div>
         </div>
 
-        {/* Articles en vedette */}
-        {selectedCategory === 'Tous' && (
-          <div className="mb-16">
-            <h3 className="text-2xl font-bold text-gray-900 mb-8 flex items-center">
-              <span className="w-3 h-3 bg-clinic-green-500 rounded-full mr-3"></span>
-              Articles en Vedette
-            </h3>
-            <div className="grid lg:grid-cols-2 gap-8">
-              {featuredArticles.slice(0, 2).map((article, index) => (
-                <div
-                  key={index}
-                  className="bg-white rounded-2xl overflow-hidden shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 group cursor-pointer"
-                >
-                  <div className="relative h-64 overflow-hidden">
-                    <img
-                      src={article.image}
-                      alt={article.title}
-                      className="w-full h-full object-cover group-hover:scale-110 transition duration-700"
-                    />
-                    <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
-                    <div className="absolute top-4 left-4">
-                      <span className="px-3 py-1 bg-clinic-green-500 text-white text-xs font-semibold rounded-full">
-                        {article.category}
-                      </span>
-                    </div>
-                    <div className="absolute bottom-4 left-4 right-4">
-                      <h3 className="text-xl font-bold text-white mb-2 line-clamp-2">
-                        {article.title}
-                      </h3>
-                      <div className="flex items-center text-white/80 text-sm">
-                        <Clock className="h-3 w-3 mr-1" />
-                        {article.readTime} de lecture
-                      </div>
-                    </div>
-                  </div>
 
-                  <div className="p-6">
-                    <div className="flex items-center justify-between text-gray-500 text-sm mb-4">
-                      <div className="flex items-center gap-2">
-                        <User className="h-4 w-4" />
-                        {article.author}
-                      </div>
-                      {/* <div className="flex items-center gap-4">
-                        <div className="flex items-center gap-1">
-                          <Eye className="h-4 w-4" />
-                          {article.views}
-                        </div>
-                        <div className="flex items-center gap-1">
-                          <Heart className="h-4 w-4" />
-                          {article.likes}
-                        </div>
-                        <div className="flex items-center gap-1">
-                          <MessageCircle className="h-4 w-4" />
-                          {article.comments}
-                        </div>
-                      </div> */}
-                    </div>
-                    <p className="text-gray-700 line-clamp-3 mb-4">{article.excerpt}</p>
-                    <button
-                      onClick={() => openArticle(article)}
-                      className="inline-flex items-center gap-2 text-clinic-green-700 font-semibold hover:gap-3 transition-all"
-                    >
-                      Lire la suite
-                      <ArrowRight className="h-4 w-4" />
-                    </button>
-                  </div>
-                </div>
-              ))}
-            </div>
-          </div>
-        )}
 
         {/* Grille d'articles */}
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -478,36 +408,35 @@ export default function Articles() {
                 <X className="h-6 w-6 group-hover:scale-110 transition-transform" />
               </button>
 
-              {/* Header avec image */}
-              <div className="relative h-96 overflow-hidden rounded-t-2xl">
+              {/* Image complète */}
+              <div className="relative bg-gray-900 flex items-center justify-center rounded-t-2xl overflow-hidden min-h-[300px]">
                 <img
                   src={selectedArticle.image}
                   alt={selectedArticle.title}
-                  className="w-full h-full object-cover"
+                  className="w-full h-auto max-h-[70vh] object-contain"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent"></div>
+              </div>
 
-                {/* Titre et métadonnées sur l'image */}
-                <div className="absolute bottom-0 left-0 right-0 p-8">
-                  <span className="inline-block px-4 py-2 bg-clinic-green-500 text-white text-sm font-semibold rounded-full mb-4">
-                    {selectedArticle.category}
-                  </span>
-                  <h2 className="text-xl md:text-4xl font-bold text-white mb-4">
-                    {selectedArticle.title}
-                  </h2>
-                  <div className="flex flex-wrap items-center gap-6 text-white/90">
-                    <div className="flex items-center gap-2">
-                      <User className="h-5 w-5" />
-                      <span className="font-medium">{selectedArticle.author}</span>
-                    </div>
-                    <div className="flex items-center gap-2">
-                      <Calendar className="h-5 w-5" />
-                      <span>{selectedArticle.date}</span>
-                    </div>
-                    <div className="flex items-center gap-2">
-                      <Clock className="h-5 w-5" />
-                      <span>{selectedArticle.readTime} de lecture</span>
-                    </div>
+              {/* Titre et métadonnées en dessous de l'image */}
+              <div className="p-8 pb-4 border-b border-gray-100 bg-white">
+                <span className="inline-block px-4 py-2 bg-clinic-green-500 text-white text-sm font-semibold rounded-full mb-4">
+                  {selectedArticle.category}
+                </span>
+                <h2 className="text-2xl md:text-4xl font-bold text-gray-900 mb-6">
+                  {selectedArticle.title}
+                </h2>
+                <div className="flex flex-wrap items-center gap-6 text-gray-600">
+                  <div className="flex items-center gap-2">
+                    <User className="h-5 w-5 text-clinic-green-600" />
+                    <span className="font-medium">{selectedArticle.author}</span>
+                  </div>
+                  <div className="flex items-center gap-2">
+                    <Calendar className="h-5 w-5 text-clinic-green-600" />
+                    <span>{selectedArticle.date}</span>
+                  </div>
+                  <div className="flex items-center gap-2">
+                    <Clock className="h-5 w-5 text-clinic-green-600" />
+                    <span>{selectedArticle.readTime} de lecture</span>
                   </div>
                 </div>
               </div>
