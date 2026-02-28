@@ -4,6 +4,7 @@ import { Globe, ChevronDown } from 'lucide-react';
 const languages = [
   { code: 'fr', label: 'FR', name: 'Français', flag: 'https://flagcdn.com/w20/fr.png' },
   { code: 'en', label: 'EN', name: 'English', flag: 'https://flagcdn.com/w20/gb.png' },
+  { code: 'es', label: 'ES', name: 'Español', flag: 'https://flagcdn.com/w20/es.png' },
   { code: 'ar', label: 'AR', name: 'العربية', flag: 'https://flagcdn.com/w20/ma.png' }
 ];
 
@@ -25,7 +26,7 @@ export default function LanguageSelector() {
         new window.google.translate.TranslateElement(
           {
             pageLanguage: 'fr',
-            includedLanguages: 'ar,fr,en',
+            includedLanguages: 'ar,fr,en,es',
             autoDisplay: false,
           },
           'google_translate_element'
@@ -77,8 +78,8 @@ export default function LanguageSelector() {
 
       {isOpen && (
         <>
-          <div 
-            className="fixed inset-0 z-40" 
+          <div
+            className="fixed inset-0 z-40"
             onClick={() => setIsOpen(false)}
           ></div>
           <div className="absolute right-0 mt-2 w-48 bg-white/95 backdrop-blur-md border border-gray-100 rounded-2xl shadow-xl z-50 overflow-hidden animate-in fade-in slide-in-from-top-2 duration-300">
@@ -90,11 +91,10 @@ export default function LanguageSelector() {
                 <button
                   key={lang.code}
                   onClick={() => changeLanguage(lang.code)}
-                  className={`flex items-center justify-between w-full px-4 py-3 text-sm transition-colors duration-200 ${
-                    currentLang === lang.code 
-                    ? 'bg-clinic-green-50 text-clinic-green-700' 
-                    : 'text-gray-700 hover:bg-gray-50'
-                  }`}
+                  className={`flex items-center justify-between w-full px-4 py-3 text-sm transition-colors duration-200 ${currentLang === lang.code
+                      ? 'bg-clinic-green-50 text-clinic-green-700'
+                      : 'text-gray-700 hover:bg-gray-50'
+                    }`}
                 >
                   <div className="flex items-center space-x-3">
                     <img src={lang.flag} alt={lang.name} className="w-5 h-3.5 object-cover rounded shadow-sm" />

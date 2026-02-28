@@ -64,7 +64,7 @@ export default function Articles() {
         "Récupération post-opératoire extrêmement rapide, avec une reprise des activités habituelles dès le lendemain. Les douleurs sont généralement minimes et bien contrôlées par des antalgiques simples.",
         "Suivi personnalisé : chaque intervention fait l'objet d'un compte rendu détaillé et d'une analyse histopathologique systématique des prélèvements si nécessaire pour une sécurité médicale totale."
       ],
-      image: "https://images.pexels.com/photos/3844586/pexels-photo-3844586.jpeg?auto=compress&cs=tinysrgb&w=800",
+      image: "L'Hystéroscopie.png",
       author: "Dr Seffar Hicham",
       tags: ["hystéroscopie", "chirurgie", "utérus", "fibromes", "polypes"],
       featured: true
@@ -100,7 +100,7 @@ export default function Articles() {
         "Avantages majeurs : diminution drastique des douleurs post-opératoires et risque d'infection réduit. Le préjudice esthétique est quasi nul grâce à la petite taille des cicatrices.",
         "Retour rapide à la vie sociale et professionnelle : la durée d'hospitalisation est raccourcie et la convalescence est beaucoup plus simple qu'en chirurgie classique 'ouverte'."
       ],
-      image: "https://images.pexels.com/photos/3844581/pexels-photo-3844581.jpeg?auto=compress&cs=tinysrgb&w=800",
+      image: "Laparoscopie.png",
       author: "Dr Seffar Hicham",
       tags: ["laparoscopie", "cœlioscopie", "chirurgie mini-invasive", "kystes", "endométriose"],
       featured: true
@@ -121,7 +121,7 @@ export default function Articles() {
         "Dépistage du diabète gestationnel entre 24 et 28 semaines via test de tolérance au glucose. Ce dépistage est crucial car le diabète gestationnel augmente les risques de complications pour la mère et l'enfant.",
         "Préparation à l'allaitement et conseils nutritionnels basés sur les besoins énergétiques et micronutritionnels. Une alimentation équilibrée riche en fer, calcium, acide folique et oméga-3 est essentielle pour le développement optimal du fœtus."
       ],
-      image: "IMG7.jpeg",
+      image: "L'importance.png",
 
       author: "Dr Seffar Hicham",
       tags: ["suivi grossesse", "consultation", "santé bébé", "préparation accouchement"],
@@ -143,7 +143,7 @@ export default function Articles() {
         "Signes d'alerte : cycles irréguliers, douleurs intenses pouvant signaler des troubles hormonaux comme le syndrome des ovaires polykystiques (SOPK) ou l'endométriose. Des saignements entre les règles peuvent indiquer un déséquilibre hormonal.",
         "Quand consulter : aménorrhée de plus de 3 mois, saignements anormaux abondants ou prolongés, suspicion de désordre endocrinien. Une dysménorrhée sévère nécessite une investigation pour écarter l'endométriose."
       ],
-      image: "https://images.pexels.com/photos/7659564/pexels-photo-7659564.jpeg?auto=compress&cs=tinysrgb&w=800",
+      image: "Comprendre.png",
       author: "Dr Seffar Hicham",
       tags: ["cycle menstruel", "symptômes", "santé femme", "prévention"],
       featured: false
@@ -164,7 +164,7 @@ export default function Articles() {
         "Exercices physiques adaptés : musculation et exercices de port de charge pour prévenir la perte osseuse. La marche rapide, le jogging léger et la danse sont excellents. L'activité physique régulière réduit aussi le risque cardiovasculaire.",
         "Suivi gynécologique annuel indispensable : dépistage des pathologies hormonales et oncologiques. Le cancer de l'endomètre et de l'ovaire sont plus fréquents après la ménopause. Un frottis cervical reste nécessaire jusqu'à 65 ans."
       ],
-      image: "https://images.pexels.com/photos/5473180/pexels-photo-5473180.jpeg?auto=compress&cs=tinysrgb&w=800",
+      image: "ménopause.png",
       author: "Dr Seffar Hicham",
       tags: ["ménopause", "traitement hormonal", "bien-être", "symptômes"],
       featured: true
@@ -185,7 +185,7 @@ export default function Articles() {
         "Implant contraceptif : libération continue de progestatif sous-cutané, discret et efficace 3 ans. Insertion rapide sous anesthésie locale au niveau du bras. Peut entraîner des saignements irréguliers les premiers mois nécessitant parfois un traitement complémentaire.",
         "Consultation annuelle pour contrôle et ajustement selon tolérance et effets secondaires. L'examen clinique, la mesure de la tension artérielle et le frottis cervical font partie du suivi. Possibilité de changer de méthode à tout moment selon l'évolution de vos besoins."
       ],
-      image: "https://images.pexels.com/photos/3992933/pexels-photo-3992933.jpeg?auto=compress&cs=tinysrgb&w=800",
+      image: "Contraception.png",
       author: "Dr Seffar Hicham",
       tags: ["contraception", "pilule", "DIU", "méthodes"],
       featured: false
@@ -206,7 +206,7 @@ export default function Articles() {
         "Reconnaître le début du travail : contractions régulières toutes les 5 minutes pendant 2 heures, rupture de membranes avec perte de liquide amniotique clair. Parfois précédé de la perte du bouchon muqueux quelques jours avant.",
         "Valise de maternité : checklist incluant vêtements confortables pour la mère, body et pyjamas pour le nouveau-né, produits d'hygiène, documents médicaux (carte de groupe sanguin, dossier médical), et accessoires pour l'allaitement si désiré."
       ],
-      image: "https://images.pexels.com/photos/1556691/pexels-photo-1556691.jpeg?auto=compress&cs=tinysrgb&w=800",
+      image: "Préparation.png",
       author: "Dr Seffar Hicham",
       tags: ["accouchement", "préparation", "exercices", "respiration"],
       featured: false
@@ -227,7 +227,7 @@ export default function Articles() {
         "Facteurs favorisant : alimentation équilibrée riche en antioxydants, acide folique et zinc, maintien d'un IMC entre 19 et 25, activité physique modérée régulière. Un poids insuffisant ou excessif peut perturber l'ovulation.",
         "Éviter tabac (diminue la réserve ovarienne et qualité ovocytaire), alcool (toxique pour les gamètes), et stress excessif (perturbe l'axe hypothalamo-hypophysaire). Limiter la caféine à 2 tasses par jour. Certains perturbateurs endocriniens peuvent aussi affecter la fertilité."
       ],
-      image: "https://images.pexels.com/photos/7155974/pexels-photo-7155974.jpeg?auto=compress&cs=tinysrgb&w=800",
+      image: "Fertilité.png",
       author: "Dr Seffar Hicham",
       tags: ["fertilité", "conception", "bilan", "traitements"],
       featured: true
@@ -269,7 +269,7 @@ export default function Articles() {
         "Traitement chirurgical par cœlioscopie si lésions étendues, endométriomes ovariens volumineux, ou symptômes sévères résistants au traitement médical. L'exérèse complète des lésions améliore significativement la fertilité et la qualité de vie.",
         "Prise en charge pluridisciplinaire recommandée : gynécologue spécialisé, algologue pour la gestion de la douleur chronique, nutritionniste (alimentation anti-inflammatoire), kinésithérapeute spécialisé en pelvi-périnéologie, psychologue pour le soutien émotionnel. L'endométriose impacte significativement la qualité de vie."
       ],
-      image: "https://images.pexels.com/photos/5721881/pexels-photo-5721881.jpeg?auto=compress&cs=tinysrgb&w=800",
+      image: "Endométriose.png",
       author: "Dr Seffar Hicham",
       tags: ["endométriose", "diagnostic", "traitement", "douleur"],
       featured: true
@@ -290,7 +290,7 @@ export default function Articles() {
         "Fibres alimentaires (légumes verts, légumineuses, céréales complètes) : favorisent l'élimination des œstrogènes en excès via les selles, soutiennent le métabolisme des hormones sexuelles, stabilisent la glycémie. Objectif : 25-30g de fibres par jour.",
         "Hydratation adéquate : indispensable pour toutes les fonctions métaboliques et hormonales optimales, élimination des toxines, maintien de la lubrification vaginale. Boire 1,5 à 2 litres d'eau par jour. Limiter alcool et caféine qui peuvent perturber l'équilibre hormonal."
       ],
-      image: "https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&w=800",
+      image: "Alimentation.png",
       author: "Dr Seffar Hicham",
       tags: ["alimentation", "hormones", "nutrition", "bien-être"],
       featured: false
