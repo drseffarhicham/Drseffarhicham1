@@ -5,6 +5,7 @@ interface HeroProps {
 }
 
 
+
 export default function Hero({ scrollToSection }: HeroProps) {
   return (
     <section id="accueil" className="pt-20 min-h-[calc(100vh-4rem)] md:min-h-screen flex items-center bg-gradient-to-br from-clinic-green-200 via-white to-clinic-pink-200 overflow-hidden">
