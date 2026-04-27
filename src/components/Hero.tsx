@@ -158,13 +158,20 @@ export default function Hero({ scrollToSection }: HeroProps) {
       {/* RIGHT SIDE FLOATING UI - Optimized Desktop Only */}
       <div className="absolute right-6 top-1/2 -translate-y-1/2 hidden lg:flex flex-col gap-4 z-50">
         {[
-          { icon: MessageSquare, color: "hover:bg-clinic-green-600", label: "Avis",href:"https://g.page/r/6877469326759728/review" },
-          { icon: Instagram, color: "hover:bg-pink-600", label: "Insta",href:"https://www.instagram.com/dr_seffar_hicham/" },
-          { icon: Facebook, color: "hover:bg-blue-600", label: "FB",href:"https://web.facebook.com/Drseffarhicham/?_rdc=1&_rdr" }
+          { icon: MessageSquare, color: "hover:bg-clinic-green-600", label: "Avis", href: "https://www.google.com/maps/place/Dr+Hicham+Seffar+%E2%80%93+Gyn%C3%A9cologue+Obst%C3%A9tricien+%D8%A7%D9%84%D8%AF%D9%83%D8%AA%D9%88%D8%B1+%D8%A7%D9%84%D8%B5%D9%81%D8%A7%D8%B1+%D9%87%D8%B4%D8%A7%D9%85+%E2%80%93+%D8%B7%D8%A8%D9%8A%D8%A8+%D9%86%D8%B3%D8%A7%D8%A1+%D9%88+%D9%88%D9%84%D8%A7%D8%AF%D8%A9%E2%80%AD/@30.3615185,-9.5308819,938m/data=!3m1!1e3!4m18!1m9!3m8!1s0xdb3c7a9daadde7d:0xc8d9db784ad3be51!2zRHIgSGljaGFtIFNlZmZhciDigJMgR3luw6ljb2xvZ3VlIE9ic3TDqXRyaWNpZW4g2KfZhNiv2YPYqtmI2LEg2KfZhNi12YHYp9ixINmH2LTYp9mFIOKAkyDYt9io2YrYqCDZhtiz2KfYoSDZiCDZiNmE2KfYr9ip!8m2!3d30.3615873!4d-9.5308842!9m1!1b1!16s%2Fg%2F11ssl8n0bs!3m7!1s0xdb3c7a9daadde7d:0xc8d9db784ad3be51!8m2!3d30.3615873!4d-9.5308842!9m1!1b1!16s%2Fg%2F11ssl8n0bs?hl=fr&entry=ttu&g_ep=EgoyMDI2MDQyMi4wIKXMDSoASAFQAw%3D%3D" },
+          { icon: Instagram, color: "hover:bg-pink-600", label: "Insta", href: "https://www.instagram.com/dr_seffar_hicham/" },
+          { icon: Facebook, color: "hover:bg-blue-600", label: "FB", href: "https://web.facebook.com/Drseffarhicham/?_rdc=1&_rdr" }
         ].map((social, i) => (
-          <div key={i} className={`w-11 h-11 bg-white rounded-full shadow-lg flex items-center justify-center cursor-pointer border border-gray-100 text-gray-400 hover:text-white transition-all transform hover:scale-110 ${social.color}`}>
+          <a
+            key={i}
+            href={social.href}
+            target="_blank"
+            rel="noopener noreferrer"
+            className={`w-11 h-11 bg-white rounded-full shadow-lg flex items-center justify-center cursor-pointer border border-gray-100 text-gray-400 hover:text-white transition-all transform hover:scale-110 ${social.color}`}
+            title={social.label}
+          >
             <social.icon className="w-5 h-5" />
-          </div>
+          </a>
         ))}
       </div>
 

@@ -1,4 +1,4 @@
-import { Stethoscope, Baby, Heart, Users, Shield, Award, Activity, Sparkles, Phone, Clock, CheckCircle, Microscope, Calendar, Star, Scissors, Eye, Scan, Droplet, Target, Zap, Activity as ActivityIcon } from 'lucide-react';
+import { Stethoscope, Baby, Heart, Users, Shield, Award, Activity, Sparkles, Phone, Clock, CheckCircle,  Calendar, Star, Scissors, Eye, Scan, Droplet, Target, Zap, Activity as ActivityIcon } from 'lucide-react';
 
 export default function Services() {
   const services = [
