@@ -30,13 +30,18 @@ export default function Hero({ scrollToSection }: HeroProps) {
         <div className="absolute bottom-0 end-0 w-full lg:w-[48%] h-[90%]">
           <div className="absolute inset-0 hidden lg:block"></div>
           <img
-            src="profile.png"
+            src="profile.jpeg"
             alt={t('hero.doctor_name')}
             className="w-full h-full object-contain object-[center_bottom] ..."
+            // style={{
+            //   maskImage: 'linear-gradient(to bottom, black 80%, transparent 100%)',
+            //   WebkitMaskImage: 'linear-gradient(to bottom, black 80%, transparent 100%)'
+            // }}
             style={{
-              maskImage: 'linear-gradient(to bottom, black 80%, transparent 100%)',
-              WebkitMaskImage: 'linear-gradient(to bottom, black 80%, transparent 100%)'
+              maskImage: 'radial-gradient(ellipse 80% 85% at center, black 35%, transparent 60%)',
+              WebkitMaskImage: 'radial-gradient(ellipse 90% 85% at center, black 35%, transparent 60%)'
             }}
+
           />
 
         </div>
@@ -74,11 +79,16 @@ export default function Hero({ scrollToSection }: HeroProps) {
 
             {/* Mobile Image - Order 3 (Sans cadre) */}
             <div className="lg:hidden w-full max-w-[320px] mx-auto order-3 -mt-4 mb-2">
-              <img 
-                src="profile.png" 
-                alt={t('hero.doctor_name')}
-                className="w-full h-auto object-contain scale-110 drop-shadow-[0_20px_30px_rgba(0,0,0,0.1)]" 
-              />
+        <img 
+  src="profile.jpeg" 
+  alt={t('hero.doctor_name')}
+  className="w-full h-auto object-contain scale-110 ..." 
+  style={{
+    maskImage: 'radial-gradient(ellipse 95% 90% at center, black 35%, transparent 60%)',
+    WebkitMaskImage: 'radial-gradient(ellipse 90% 90% at center, black 35%, transparent 70%)'
+  }}
+/>
+
             </div>
 
             {/* Mobile Doctor Name - Order 4 */}
