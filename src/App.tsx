@@ -6,7 +6,7 @@ import Testimonials from './components/Testimonials';
 import Articles from './components/Articles';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
-
+ 
 function App() {
   const scrollToSection = (id: string) => {
     const element = document.getElementById(id);
