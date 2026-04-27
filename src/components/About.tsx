@@ -18,7 +18,7 @@ export default function About() {
   };
 
 
-
+ 
   const galleryData = [
     {
       id: 1,
