@@ -17,15 +17,17 @@ function App() {
 
   
   return (
-    <div className="min-h-screen bg-white overflow-x-hidden">
-      <Navigation scrollToSection={scrollToSection} />
-      <Hero scrollToSection={scrollToSection} />
-      <About />
-      <Services />
-      <Testimonials />
-      <Articles />
-      <Contact />
-      <Footer />
+    <div className="min-h-screen bg-gradient-to-br from-clinic-green-200 via-white to-clinic-pink-300 overflow-x-hidden relative">
+      <div className="relative z-10">
+        <Navigation scrollToSection={scrollToSection} />
+        <Hero scrollToSection={scrollToSection} />
+        <About />
+        <Services />
+        <Testimonials />
+        <Articles />
+        <Contact />
+        <Footer />
+      </div>
     </div>
   );
 }

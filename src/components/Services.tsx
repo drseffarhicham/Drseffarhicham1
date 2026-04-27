@@ -1,185 +1,103 @@
 import { Stethoscope, Baby, Heart, Users, Shield, Award, Activity, Sparkles, Phone, Clock, CheckCircle,  Calendar, Star, Scissors, Eye, Scan, Droplet, Target, Zap, Activity as ActivityIcon } from 'lucide-react';
+import { useTranslation } from 'react-i18next';
 
 export default function Services() {
+  const { t } = useTranslation();
+
   const services = [
     {
       icon: Stethoscope,
-      title: "Consultations gynécologiques",
-      description: "Examens de routine, dépistage IST, traitement des infections et prévention des pathologies féminines.",
-      details: [
-        "Examen clinique complet",
-        "Frottis & Dépistage IST",
-        "Prévention cancer sein/col",
-        "Traitement des infections"
-      ],
+      title: t('services.items.0.title'),
+      description: t('services.items.0.description'),
+      details: t('services.items.0.details', { returnObjects: true }) as string[],
     },
     {
       icon: Baby,
-      title: "Suivi de grossesse",
-      description: "Accompagnement complet pendant toute la grossesse avec des consultations régulières et une préparation à l'accouchement.",
-      details: [
-        "7 consultations indispensables",
-        "Surveillance échographique",
-        "Préparation à la naissance",
-        "Suivi post-natal inclus"
-      ],
+      title: t('services.items.1.title'),
+      description: t('services.items.1.description'),
+      details: t('services.items.1.details', { returnObjects: true }) as string[],
     },
     {
       icon: Scan,
-      title: "Échographies 3D & Doppler couleur",
-      description: "Échographies obstétricales et gynécologiques avec technologie 3D/4D et Doppler couleur pour une précision inégalée.",
-      details: [
-        "Échographie 3D/4D haute définition",
-        "Doppler couleur avancé",
-        "Échographie de datation",
-        "Morphologique détaillée"
-      ],
+      title: t('services.items.2.title'),
+      description: t('services.items.2.description'),
+      details: t('services.items.2.details', { returnObjects: true }) as string[],
     },
     {
       icon: Users,
-      title: "Bilan de fertilité",
-      description: "Évaluation complète de la fertilité et accompagnement personnalisé pour les couples désireux d'avoir un enfant.",
-      details: [
-        "Bilan hormonal complet",
-        "Suivi de l'ovulation",
-        "Spermogramme orienté",
-        "Conseils personnalisés"
-      ],
+      title: t('services.items.3.title'),
+      description: t('services.items.3.description'),
+      details: t('services.items.3.details', { returnObjects: true }) as string[],
     },
     {
       icon: Scissors,
-      title: "Chirurgie Laparoscopique",
-      description: "Chirurgie mini-invasive par cœlioscopie pour le traitement des kystes, de l'utérus et de l'infertilité.",
-      details: [
-        "Cicatrices minimes",
-        "Récupération rapide",
-        "Traitement utérin",
-        "Chirurgie ovarienne"
-      ],
+      title: t('services.items.4.title'),
+      description: t('services.items.4.description'),
+      details: t('services.items.4.details', { returnObjects: true }) as string[],
     },
     {
       icon: Eye,
-      title: "Hystéroscopie",
-      description: "Exploration et traitement des pathologies intra-utérines (polypes, fibromes) par les voies naturelles.",
-      details: [
-        "Sans incision cutanée",
-        "Diagnostic fertilité",
-        "Retrait de polypes/fibromes",
-        "Prise en charge ambulatoire"
-      ],
+      title: t('services.items.5.title'),
+      description: t('services.items.5.description'),
+      details: t('services.items.5.details', { returnObjects: true }) as string[],
     },
     {
       icon: Shield,
-      title: "Chirurgie du sein",
-      description: "Prise en charge chirurgicale des pathologies mammaires bénignes et malignes avec une approche conservatrice.",
-      details: [
-        "Exérèse adénofibromes",
-        "Biopsies mammaires",
-        "Chirurgie oncoplastique",
-        "Suivi post-opératoire"
-      ],
+      title: t('services.items.6.title'),
+      description: t('services.items.6.description'),
+      details: t('services.items.6.details', { returnObjects: true }) as string[],
     },
     {
       icon: Scissors,
-      title: "Chirurgie Vaginale",
-      description: "Hystérectomie par voie basse, chirurgie des prolapsus et chirurgie esthétique périnéale.",
-      details: [
-        "Hystérectomie voie basse",
-        "Chirurgie des prolapsus",
-        "Chirurgie esthétique",
-        "Approche mini-invasive"
-      ],
+      title: t('services.items.7.title'),
+      description: t('services.items.7.description'),
+      details: t('services.items.7.details', { returnObjects: true }) as string[],
     },
     {
       icon: Sparkles,
-      title: "Suivi ménopause",
-      description: "Accompagnement et traitements pour gérer les symptômes de la ménopause et maintenir votre qualité de vie.",
-      details: [
-        "Bilan ménopause",
-        "Traitement symptômes",
-        "Prévention ostéoporose",
-        "Conseils bien-être"
-      ],
+      title: t('services.items.8.title'),
+      description: t('services.items.8.description'),
+      details: t('services.items.8.details', { returnObjects: true }) as string[],
     },
     {
       icon: Award,
-      title: "Santé hormonale",
-      description: "Diagnostic et traitement des troubles hormonaux avec une approche globale de votre santé.",
-      details: [
-        "Syndrome ovaires polykystiques",
-        "Troubles thyroïdiens",
-        "Dérèglements cycles",
-        "Traitements hormonaux"
-      ],
+      title: t('services.items.9.title'),
+      description: t('services.items.9.description'),
+      details: t('services.items.9.details', { returnObjects: true }) as string[],
     },
     {
       icon: Activity,
-      title: "Contraception",
-      description: "Conseils personnalisés et suivi pour choisir la méthode contraceptive la plus adaptée à votre situation.",
-      details: [
-        "Pilule & Implant",
-        "DIU hormonal/cuivre",
-        "Contraception d'urgence",
-        "Ajustement annuel"
-      ],
+      title: t('services.items.10.title'),
+      description: t('services.items.10.description'),
+      details: t('services.items.10.details', { returnObjects: true }) as string[],
     }
   ];
 
-  const equipment = [
-    {
-      name: "Échographe 3D/4D Haute Résolution",
-      icon: Scan,
-      features: ["Imagerie 3D/4D temps réel", "Visualisation des traits du visage", "Modélisation volumique", "Détection précoce des anomalies"],
-      highlight: true,
-      badge: "Technologie de pointe"
-    },
-    {
-      name: "Doppler Couleur Avancé",
-      icon: Droplet,
-      features: ["Analyse flux sanguin utérin", "Détection flux ombilical", "Évaluation circulation fœtale", "Prévention risques vasculaires"],
-      highlight: true,
-      badge: "Précision vasculaire"
-    },
-    {
-      name: "Sondes Endovaginales Haute Fréquence",
-      icon: Target,
-      features: ["Images ultra-précises", "Diagnostic précoce grossesse", "Exploration ovarienne détaillée", "Confort optimisé"],
-      highlight: false,
-    },
-    {
-      name: "Monitorage Fœtal Connecté",
-      icon: Heart,
-      features: ["Rythme cardiaque en continu", "Enregistrement longue durée", "Alertes automatiques", "Télésurveillance"],
-      highlight: false,
-    }
-  ];
-
-  // Images descriptives pour l'échographie 3D et Doppler
   const ultrasoundImages = [
     {
-      title: "Échographie 3D - Visage Bébé",
-      description: "Visualisation détaillée des traits du visage",
+      title: t('services.ultrasound_images.0.title'),
+      description: t('services.ultrasound_images.0.description'),
       icon: Scan,
       color: "from-clinic-green-500 to-clinic-green-600",
       img: "ECHO1.png"
     },
     {
-      title: "Doppler Couleur - Flux sanguin",
-      description: "Analyse précise de la circulation utérine",
+      title: t('services.ultrasound_images.1.title'),
+      description: t('services.ultrasound_images.1.description'),
       icon: Droplet,
       color: "from-clinic-pink-500 to-clinic-pink-600",
       img: "ECHO2.png"
     },
     {
-      title: "Modélisation 4D - Mouvements",
-      description: "Observation des mouvements en temps réel",
+      title: t('services.ultrasound_images.2.title'),
+      description: t('services.ultrasound_images.2.description'),
       icon: ActivityIcon,
       color: "from-clinic-green-500 to-clinic-pink-500",
       img: "ECHO3.png"
     },
     {
-      title: "Échographie Morphologique",
-      description: "Détection précoce des anomalies",
+      title: t('services.ultrasound_images.3.title'),
+      description: t('services.ultrasound_images.3.description'),
       icon: Heart,
       color: "from-clinic-green-600 to-clinic-green-700",
       img: "ECHO4.png"
@@ -187,21 +105,20 @@ export default function Services() {
   ];
 
   return (
-    <section id="services" className="py-20 bg-white">
+    <section id="services" className="py-20 bg-transparent">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* En-tête */}
         <div className="text-center mb-8">
           <div className="inline-flex items-center px-4 py-2 bg-white border border-clinic-pink-200 text-clinic-pink-600 rounded-full text-sm font-medium mb-6 shadow-sm">
-            <Star className="h-4 w-4 mr-2 fill-clinic-pink-400 text-clinic-pink-400" />
-            Excellence Médicale
+            <Star className="h-4 w-4 me-2 fill-clinic-pink-400 text-clinic-pink-400" />
+            {t('services.badge')}
           </div>
           <h2 className="text-2xl sm:text-3xl md:text-5xl font-bold text-gray-900 mb-4">
-            Nos Services <span className="text-clinic-green-700">Spécialisés</span>
+            {t('services.title_start')} <span className="text-clinic-green-700">{t('services.title_highlight')}</span>
           </h2>
           <div className="w-24 h-1 bg-gradient-to-r from-clinic-green-500 to-clinic-pink-500 mx-auto mb-6"></div>
           <p className="text-lg md:text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-            Une prise en charge complète et personnalisée pour chaque étape de votre vie de femme,
-            de l'adolescence à la ménopause, avec des technologies de pointe et une écoute attentive.
+            {t('services.subtitle')}
           </p>
         </div>
 
@@ -226,7 +143,7 @@ export default function Services() {
                 <div className="space-y-3 mb-5">
                   {service.details.map((detail, idx) => (
                     <div key={idx} className="flex items-start">
-                      <CheckCircle className={`h-4 w-4 mt-0.5 mr-3 flex-shrink-0 ${
+                      <CheckCircle className={`h-4 w-4 mt-0.5 me-3 flex-shrink-0 ${
                         index % 2 === 0 ? 'text-clinic-green-500' : 'text-clinic-pink-400'
                       }`} />
                       <span className="text-sm text-gray-700">{detail}</span>
@@ -245,13 +162,13 @@ export default function Services() {
           <div className="text-center max-w-3xl mx-auto mb-16">
             <div className="inline-flex items-center gap-2 px-4 py-2 bg-gradient-to-r from-clinic-green-500 to-clinic-green-600 text-white rounded-full text-sm font-bold mb-6 shadow-lg shadow-clinic-green-500/30">
               <Zap className="h-4 w-4" />
-              Plateau Technique d'Excellence
+              {t('services.equipment_badge')}
             </div>
             <h3 className="text-3xl md:text-5xl font-black text-gray-900 mb-6 tracking-tight">
-              L'imagerie Médicale <span className="text-transparent bg-clip-text bg-gradient-to-r from-clinic-green-600 to-clinic-pink-500">Haute Définition</span>
+              {t('services.equipment_title_start')} <span className="text-transparent bg-clip-text bg-gradient-to-r from-clinic-green-600 to-clinic-pink-500">{t('services.equipment_title_highlight')}</span>
             </h3>
             <p className="text-gray-600 text-lg md:text-xl leading-relaxed">
-              Vivez la rencontre avec votre bébé avant sa naissance grâce à notre technologie d'échographie 3D/4D et sécurisez votre grossesse avec notre Doppler couleur ultra-sensible.
+              {t('services.equipment_subtitle')}
             </p>
           </div>
 
@@ -262,25 +179,25 @@ export default function Services() {
             <div className="md:col-span-8 group relative rounded-3xl overflow-hidden shadow-2xl bg-[#0a0f1c] aspect-[4/3] md:aspect-auto md:h-[320px]">
               {/* Animated abstract background */}
               <div className="absolute inset-0 overflow-hidden">
-                 <div className="absolute top-[-20%] left-[-10%] w-[60%] h-[150%] bg-clinic-green-500/20 blur-[100px] rounded-full animate-float-slow"></div>
-                 <div className="absolute bottom-[-20%] right-[-10%] w-[60%] h-[150%] bg-clinic-pink-500/20 blur-[100px] rounded-full animate-float-slower"></div>
+                 <div className="absolute top-[-20%] start-[-10%] w-[60%] h-[150%] bg-clinic-green-500/20 blur-[100px] rounded-full animate-float-slow"></div>
+                 <div className="absolute bottom-[-20%] end-[-10%] w-[60%] h-[150%] bg-clinic-pink-500/20 blur-[100px] rounded-full animate-float-slower"></div>
               </div>
               <div className="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI4IiBoZWlnaHQ9IjgiPjxyZWN0IHdpZHRoPSI4IiBoZWlnaHQ9IjgiIGZpbGw9IiNmZmYiIGZpbGwtb3BhY2l0eT0iMC4wNSIvPjxwb2x5Z29uIGZpbGw9IiMwMDAiIGZpbGwtb3BhY2l0eT0iMC4xIiBwb2ludHM9IjQgMCA4IDQgNCA4IDAgNCIvPjwvc3ZnPg==')] opacity-20"></div>
               
               <div className="relative z-20 h-full flex flex-col justify-center p-6 md:p-8">
                 <div className="flex flex-wrap items-center gap-3 mb-4">
-                   <div className="bg-clinic-green-500/20 border border-clinic-green-500/50 text-clinic-green-400 text-[10px] font-bold px-3 py-1 rounded-full uppercase tracking-wider backdrop-blur-md">Génération 2024</div>
-                   <div className="bg-clinic-pink-500/20 border border-clinic-pink-500/50 text-clinic-pink-400 text-[10px] font-bold px-3 py-1 rounded-full uppercase tracking-wider backdrop-blur-md">Voluson 3D / 4D</div>
+                   <div className="bg-clinic-green-500/20 border border-clinic-green-500/50 text-clinic-green-400 text-[10px] font-bold px-3 py-1 rounded-full uppercase tracking-wider backdrop-blur-md">{t('services.equipment_features_badge1')}</div>
+                   <div className="bg-clinic-pink-500/20 border border-clinic-pink-500/50 text-clinic-pink-400 text-[10px] font-bold px-3 py-1 rounded-full uppercase tracking-wider backdrop-blur-md">{t('services.equipment_features_badge2')}</div>
                 </div>
                 <h4 className="text-2xl md:text-4xl font-bold text-white mb-2 leading-tight">
-                  La précision au service de votre <span className="text-transparent bg-clip-text bg-gradient-to-r from-clinic-green-400 to-clinic-pink-400">sérénité</span>
+                  {t('services.equipment_features_title_start')} <span className="text-transparent bg-clip-text bg-gradient-to-r from-clinic-green-400 to-clinic-pink-400">{t('services.equipment_features_title_highlight')}</span>
                 </h4>
                 <p className="text-gray-300 max-w-2xl text-sm md:text-base font-light leading-relaxed mb-4">
-                  Notre cabinet est équipé d'échographes de dernière génération offrant une qualité d'image exceptionnelle pour un diagnostic précoce, sûr et extrêmement détaillé.
+                  {t('services.equipment_features_desc')}
                 </p>
                 <div className="flex flex-wrap gap-4 md:gap-8 text-gray-300 font-medium text-xs">
-                   <div className="flex items-center gap-2"><CheckCircle className="w-4 h-4 text-clinic-green-500" /> Zéro radiation</div>
-                   <div className="flex items-center gap-2"><CheckCircle className="w-4 h-4 text-clinic-pink-500" /> Images HD Temps Réel</div>
+                   <div className="flex items-center gap-2"><CheckCircle className="w-4 h-4 text-clinic-green-500" /> {t('services.equipment_features_check1')}</div>
+                   <div className="flex items-center gap-2"><CheckCircle className="w-4 h-4 text-clinic-pink-500" /> {t('services.equipment_features_check2')}</div>
                 </div>
               </div>
             </div>
@@ -288,17 +205,17 @@ export default function Services() {
             {/* Stats Sidebar - Spans 4 cols */}
             <div className="md:col-span-4 flex flex-col gap-4">
                <div className="bg-gradient-to-br from-clinic-green-500 to-clinic-green-700 rounded-3xl p-5 text-white shadow-xl flex-1 flex flex-col justify-center relative overflow-hidden group hover:-translate-y-1 transition-transform duration-300">
-                  <div className="absolute top-0 right-0 w-24 h-24 bg-white opacity-10 rounded-full blur-2xl group-hover:scale-150 transition-transform duration-700"></div>
+                  <div className="absolute top-0 end-0 w-24 h-24 bg-white opacity-10 rounded-full blur-2xl group-hover:scale-150 transition-transform duration-700"></div>
                   <Target className="w-8 h-8 mb-2 opacity-90 text-green-100" />
                   <div className="text-4xl md:text-5xl font-black mb-1 tracking-tighter">+98%</div>
-                  <div className="text-green-50 font-semibold text-base">Précision Diagnostique</div>
+                  <div className="text-green-50 font-semibold text-base">{t('services.stats_accuracy_title')}</div>
                </div>
                
                <div className="bg-gradient-to-br from-clinic-pink-500 to-clinic-pink-700 rounded-3xl p-5 text-white shadow-xl flex-1 flex flex-col justify-center relative overflow-hidden group hover:-translate-y-1 transition-transform duration-300">
-                  <div className="absolute bottom-0 left-0 w-24 h-24 bg-white opacity-10 rounded-full blur-2xl group-hover:scale-150 transition-transform duration-700"></div>
+                  <div className="absolute bottom-0 start-0 w-24 h-24 bg-white opacity-10 rounded-full blur-2xl group-hover:scale-150 transition-transform duration-700"></div>
                   <Clock className="w-8 h-8 mb-2 opacity-90 text-pink-100" />
-                  <div className="text-4xl md:text-5xl font-black mb-1 tracking-tighter">&lt;15 <span className="text-2xl">min</span></div>
-                  <div className="text-pink-50 font-semibold text-base">Examen Rapide & Complet</div>
+                  <div className="text-4xl md:text-5xl font-black mb-1 tracking-tighter">&lt;15 <span className="text-2xl">{t('services.stats_speed_sub')}</span></div>
+                  <div className="text-pink-50 font-semibold text-base">{t('services.stats_speed_title')}</div>
                </div>
             </div>
             
@@ -316,7 +233,7 @@ export default function Services() {
                      )}
                      
                      {/* Icon Badge */}
-                     <div className="absolute top-2 right-2 bg-black/60 backdrop-blur-md p-2 rounded-xl border border-white/10 z-10">
+                     <div className="absolute top-2 end-2 bg-black/60 backdrop-blur-md p-2 rounded-xl border border-white/10 z-10">
                        <IconImg className="w-4 h-4 text-white" />
                      </div>
                    </div>
@@ -328,8 +245,6 @@ export default function Services() {
                        <h5 className="text-gray-900 font-bold text-base leading-tight group-hover:text-clinic-green-600 transition-colors tracking-tight">{img.title}</h5>
                      </div>
                      <p className="text-gray-600 text-sm font-medium leading-relaxed mb-4 line-clamp-2">{img.description}</p>
-                     
-               
                    </div>
                 </div>
               );
@@ -342,19 +257,18 @@ export default function Services() {
         <div className="mt-16 bg-white rounded-3xl p-6 md:p-10 shadow-xl border border-clinic-green-100">
           <div className="grid lg:grid-cols-2 gap-10 items-center">
             <div>
-              <h4 className="text-2xl md:text-3xl font-bold text-gray-900 mb-4">Prise de rendez-vous simplifiée</h4>
+              <h4 className="text-2xl md:text-3xl font-bold text-gray-900 mb-4">{t('services.appointment_title')}</h4>
               <p className="text-gray-600 mb-8 mt-4 leading-relaxed text-base md:text-lg">
-                Réservez votre consultation en ligne facilement, choisissez le créneau qui vous convient
-                et recevez un rappel par SMS. Urgences gynécologiques prises en charge rapidement.
+                {t('services.appointment_desc')}
               </p>
               <div className="flex flex-wrap gap-3 mb-8">
                 <div className="flex items-center justify-center w-full sm:w-auto px-4 py-2 bg-white border border-clinic-green-300 text-clinic-green-700 rounded-full text-sm font-semibold">
-                  <Calendar className="h-4 w-4 mr-2" />
-                  RDV sous 24h
+                  <Calendar className="h-4 w-4 me-2" />
+                  {t('services.appointment_badge1')}
                 </div>
                 <div className="flex items-center justify-center w-full sm:w-auto px-4 py-2 bg-white border border-clinic-pink-300 text-clinic-pink-700 rounded-full text-sm font-semibold">
-                  <Clock className="h-4 w-4 mr-2" />
-                  Urgences prioritaires
+                  <Clock className="h-4 w-4 me-2" />
+                  {t('services.appointment_badge2')}
                 </div>
               </div>
             </div>
@@ -368,16 +282,16 @@ export default function Services() {
               >
                 <div className="flex items-center gap-3">
                   <Phone className="h-6 w-6 animate-pulse" />
-                  <span className="text-lg"> RDV</span>
+                  <span className="text-lg"> {t('services.appointment_cta')}</span>
                 </div>
                 <span className="hidden sm:inline opacity-50">|</span>
-                <span className="text-xl md:text-2xl tracking-tight">0528 33 55 66</span>
+                <span className="text-xl md:text-2xl tracking-tight" dir="ltr">0528 33 55 66</span>
               </a>
-              <p className="mt-4 text-gray-500 text-sm italic">Appel direct pour une prise en charge immédiate</p>
+              <p className="mt-4 text-gray-500 text-sm italic">{t('services.appointment_footer')}</p>
             </div>
           </div>
         </div>
       </div>
     </section>
   );
-}
+}

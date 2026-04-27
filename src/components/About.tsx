@@ -1,7 +1,9 @@
 import { Award, Bed, Users, Stethoscope, GraduationCap, Building2, Sparkles, CheckCircle, Globe, Play } from 'lucide-react';
 import { useState, useRef } from 'react';
+import { useTranslation } from 'react-i18next';
 
 export default function About() {
+  const { t } = useTranslation();
   const [activeCard, setActiveCard] = useState<number | null>(null);
   const [isPlaying, setIsPlaying] = useState(false);
   const videoRef = useRef<HTMLVideoElement>(null);
@@ -17,57 +19,54 @@ export default function About() {
     }
   };
 
-
- 
   const galleryData = [
     {
       id: 1,
       image: "img1.jpg",
-      alt: "L'Entrée",
-      title: "L'Accueil",
+      alt: t('about.gallery_items.accueil.title'),
+      title: t('about.gallery_items.accueil.title'),
       icon: Building2,
-      desc: "Un espace lumineux et apaisant dès votre arrivée, conçu pour réduire votre stress et vous mettre en confiance.",
+      desc: t('about.gallery_items.accueil.desc'),
       gradient: "from-clinic-green-900/90",
       textColor: "text-clinic-green-50"
     },
     {
       id: 2,
       image: "img2.jpg",
-      alt: "Salle d'attente",
-      title: "Confort",
+      alt: t('about.gallery_items.confort.title'),
+      title: t('about.gallery_items.confort.title'),
       icon: Users,
-      desc: "Une salle d'attente pensée comme un salon, avec des assises confortables et une ambiance zen.",
+      desc: t('about.gallery_items.confort.desc'),
       gradient: "from-clinic-pink-900/90",
       textColor: "text-clinic-pink-50"
     },
     {
       id: 3,
       image: "IMG5.jpg",
-      alt: "Salle de soin",
-      title: "Salle de soin",
+      alt: t('about.gallery_items.soin.title'),
+      title: t('about.gallery_items.soin.title'),
       icon: Bed,
-      desc: "Un espace moderne et équipé pour assurer vos soins dans un cadre confortable et sécurisé.",
+      desc: t('about.gallery_items.soin.desc'),
       gradient: "from-gray-900/90",
       textColor: "text-gray-200"
     },
-
     {
       id: 4,
       image: "IMG3.jpg",
-      alt: "Échographie",
-      title: "Technologie",
+      alt: t('about.gallery_items.techno.title'),
+      title: t('about.gallery_items.techno.title'),
       icon: Sparkles,
-      desc: "Équipé d’échographie 3D et de monitoring fœtal et maternel pour un suivi prénatal précis et sécurisé.",
+      desc: t('about.gallery_items.techno.desc'),
       gradient: "from-clinic-green-900/90",
       textColor: "text-clinic-green-50"
     },
     {
       id: 5,
       image: "IMG4.jpg",
-      alt: "Bureau Médical",
-      title: "Expertise",
+      alt: t('about.gallery_items.expertise.title'),
+      title: t('about.gallery_items.expertise.title'),
       icon: Award,
-      desc: "Chaque détail de notre structure a été pensé pour vous offrir les meilleurs soins dans les meilleures conditions.",
+      desc: t('about.gallery_items.expertise.desc'),
       gradient: "from-gray-900/90",
       textColor: "text-gray-200"
     }
@@ -78,20 +77,20 @@ export default function About() {
   };
 
   return (
-    <section id="apropos" className="pt-20 pb-0 bg-gradient-to-b from-white via-clinic-green-50/30 to-white">
+    <section id="apropos" className="py-20 bg-transparent overflow-hidden">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* En-tête avec animation */}
         <div className="text-center mb-20 relative">
           <div className="inline-block">
-            <Sparkles className="h-8 w-8 text-clinic-pink-500 absolute -top-6 -left-8 animate-pulse" />
-            <Sparkles className="h-6 w-6 text-clinic-green-500 absolute -top-4 -right-6 animate-pulse" />
+            <Sparkles className="h-8 w-8 text-clinic-pink-500 absolute -top-6 -start-8 animate-pulse" />
+            <Sparkles className="h-6 w-6 text-clinic-green-500 absolute -top-4 -end-6 animate-pulse" />
             <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold bg-gradient-to-r from-clinic-green-700 via-clinic-pink-600 to-clinic-green-700 bg-clip-text text-transparent mb-6 px-2">
-              À propos du Dr Seffar Hicham
+              {t('about.title')}
             </h2>
           </div>
           <div className="w-32 h-1.5 bg-gradient-to-r from-clinic-green-500 via-clinic-pink-500 to-clinic-green-500 mx-auto rounded-full"></div>
           <p className="mt-6 text-lg sm:text-xl text-gray-600 max-w-3xl mx-auto px-4">
-            Votre gynécologue-obstétricien de confiance à Inezgane
+            {t('about.subtitle')}
           </p>
         </div>
 
@@ -104,31 +103,27 @@ export default function About() {
                 <div className="bg-gradient-to-br from-clinic-green-500 to-clinic-green-700 p-4 rounded-2xl shadow-lg">
                   <Award className="h-8 w-8 text-white" />
                 </div>
-                <h3 className="text-xl sm:text-2xl md:text-3xl font-bold text-gray-900">Parcours professionnel</h3>
+                <h3 className="text-xl sm:text-2xl md:text-3xl font-bold text-gray-900">{t('about.pro_title')}</h3>
               </div>
 
               <div className="space-y-6">
                 <p className="text-gray-700 leading-relaxed text-lg">
-                  Le Dr Hicham Seffar place au cœur de sa pratique la sécurité, la précision diagnostique, les
-                  techniques modernes moins invasives et l’accompagnement humain personnalisé. Il s’engage à
-                  offrir aux patientes d’Inezgane et de la région des soins de haute qualité, inspirés des standards
-                  internationaux.                </p>
+                  {t('about.pro_desc')}
+                </p>
               </div>
             </div>
 
-            <div className="bg-white rounded-2xl p-5 sm:p-8 shadow-xl border-l-8 border-clinic-pink-500 hover:shadow-2xl transition-all duration-300">
-              <div className="flex flex-col xs:flex-row items-center xs:items-start gap-4 sm:gap-5 text-center xs:text-left">
+            <div className="bg-white rounded-2xl p-5 sm:p-8 shadow-xl border-s-8 border-clinic-pink-500 hover:shadow-2xl transition-all duration-300">
+              <div className="flex flex-col xs:flex-row items-center xs:items-start gap-4 sm:gap-5 text-center xs:text-start">
                 <div className="bg-gradient-to-br from-clinic-pink-100 to-clinic-pink-200 p-3 sm:p-4 rounded-2xl shrink-0 shadow-inner">
                   <Globe className="h-8 w-8 sm:h-10 sm:w-10 text-clinic-pink-500" />
                 </div>
                 <div>
-                  <h4 className="text-xl sm:text-2xl font-bold text-gray-900 mb-2 sm:mb-3">Expérience Internationale  Hôpital Universitaire ERASME (Bruxelles) </h4>
-                  <ul className="text-gray-700 leading-relaxed text-sm sm:text-base list-disc list-inside space-y-1 text-left">
-                    <li>Gardes obstétricales</li>
-                    <li>Césariennes et accouchements instrumentaux</li>
-                    <li>Prise en charge de grossesses à risque</li>
-                    <li>Gestion des urgences gynécologiques</li>
-                    <li>Réalisation d’échographies obstétricales</li>
+                  <h4 className="text-xl sm:text-2xl font-bold text-gray-900 mb-2 sm:mb-3">{t('about.intl_title')}</h4>
+                  <ul className="text-gray-700 leading-relaxed text-sm sm:text-base list-disc list-inside space-y-1 text-start">
+                    {(t('about.intl_list', { returnObjects: true }) as string[]).map((item, idx) => (
+                      <li key={idx}>{item}</li>
+                    ))}
                   </ul>
                 </div>
               </div>
@@ -140,38 +135,19 @@ export default function About() {
             {/* Formation et Expertise */}
             <div className="grid gap-4 sm:gap-6">
               <div className="bg-gradient-to-br from-clinic-green-200 to-white rounded-3xl p-5 sm:p-6 border-2 border-clinic-green-200 hover:border-clinic-green-400 transition-all duration-300">
-                <div className="flex flex-col xs:flex-row items-center xs:items-start gap-3 sm:gap-4 text-center xs:text-left">
+                <div className="flex flex-col xs:flex-row items-center xs:items-start gap-3 sm:gap-4 text-center xs:text-start">
                   <div className="bg-white p-2 sm:p-3 rounded-xl shadow-md">
                     <GraduationCap className="h-6 w-6 sm:h-7 sm:w-7 text-clinic-green-700" />
                   </div>
                   <div>
-                    <h4 className="font-bold text-lg sm:text-xl text-gray-900 mb-3">Formation & Diplômes</h4>
+                    <h4 className="font-bold text-lg sm:text-xl text-gray-900 mb-3">{t('about.formation_title')}</h4>
                     <ul className="space-y-3">
-                  
-                      <li className="flex items-start gap-3 text-gray-700 text-sm sm:text-base text-left">
-                        <CheckCircle className="h-5 w-5 text-clinic-green-500 mt-0.5 flex-shrink-0" />
-                        <span>Diplôme de Spécialité en Gynécologie-Obstétrique – Université Mohammed V, Rabat</span>
-                      </li>
-                      <li className="flex items-start gap-3 text-gray-700 text-sm sm:text-base text-left">
-                        <CheckCircle className="h-5 w-5 text-clinic-green-500 mt-0.5 flex-shrink-0" />
-                        <span>Diplôme Universitaire en Diagnostic et Chirurgie du Cancer du Sein (Mention Bien) – Université Hassan II, Casablanca</span>
-                      </li>
-                      <li className="flex items-start gap-3 text-gray-700 text-sm sm:text-base text-left">
-                        <CheckCircle className="h-5 w-5 text-clinic-green-500 mt-0.5 flex-shrink-0" />
-                        <span>Mastère Spécialisé en Chirurgie Mini-invasive en Gynécologie – TECH Global University, Andorre</span>
-                      </li>
-                      <li className="flex items-start gap-3 text-gray-700 text-sm sm:text-base text-left">
-                        <CheckCircle className="h-5 w-5 text-clinic-green-500 mt-0.5 flex-shrink-0" />
-                        <span>Certificat Universitaire de Formation Médicale Spécialisée en Gynécologie-Obstétrique – Université Libre de Bruxelles, Belgique</span>
-                      </li>
-                      <li className="flex items-start gap-3 text-gray-700 text-sm sm:text-base text-left">
-                        <CheckCircle className="h-5 w-5 text-clinic-green-500 mt-0.5 flex-shrink-0" />
-                        <span>Accréditation en Échographie Obstétricale et Gynécologique – Université Catholique de Liège, Belgique</span>
-                      </li>
-                          <li className="flex items-start gap-3 text-gray-700 text-sm sm:text-base text-left">
-                        <CheckCircle className="h-5 w-5 text-clinic-green-500 mt-0.5 flex-shrink-0" />
-                        <span>Certificat de Formation Avancée en Chirurgie Gynécologique – IRCAD (Strasbourg, France)</span>
-                      </li>
+                      {(t('about.formation_list', { returnObjects: true }) as string[]).map((item, idx) => (
+                        <li key={idx} className="flex items-start gap-3 text-gray-700 text-sm sm:text-base text-start">
+                          <CheckCircle className="h-5 w-5 text-clinic-green-500 mt-0.5 flex-shrink-0" />
+                          <span>{item}</span>
+                        </li>
+                      ))}
                     </ul>
                   </div>
                 </div>
@@ -179,37 +155,19 @@ export default function About() {
             </div>
 
             <div className="bg-gradient-to-br from-clinic-pink-200 to-white rounded-3xl p-5 sm:p-6 border-2 border-clinic-pink-200 hover:border-clinic-pink-400 transition-all duration-300">
-              <div className="flex flex-col xs:flex-row items-center xs:items-start gap-3 sm:gap-4 text-center xs:text-left">
+              <div className="flex flex-col xs:flex-row items-center xs:items-start gap-3 sm:gap-4 text-center xs:text-start">
                 <div className="bg-white p-2 sm:p-3 rounded-xl shadow-md">
                   <Stethoscope className="h-6 w-6 sm:h-7 sm:w-7 text-clinic-pink-500" />
                 </div>
                 <div>
-                  <h4 className="font-bold text-lg sm:text-xl text-gray-900 mb-2">Expertises</h4>
-                  <ul className="text-gray-700 text-sm sm:text-base space-y-2 mt-3 inline-block text-left">
-                    <li className="flex items-start gap-3">
-                      <div className="w-1.5 h-1.5 bg-clinic-pink-500 rounded-full mt-2 shrink-0"></div>
-                      <span>Suivi de grossesse</span>
-                    </li>
-                    <li className="flex items-start gap-3">
-                      <div className="w-1.5 h-1.5 bg-clinic-pink-500 rounded-full mt-2 shrink-0"></div>
-                      <span>Échographie obstétricale et gynécologique</span>
-                    </li>
-                    <li className="flex items-start gap-3">
-                      <div className="w-1.5 h-1.5 bg-clinic-pink-500 rounded-full mt-2 shrink-0"></div>
-                      <span>Chirurgie gynécologique</span>
-                    </li>
-                    <li className="flex items-start gap-3">
-                      <div className="w-1.5 h-1.5 bg-clinic-pink-500 rounded-full mt-2 shrink-0"></div>
-                      <span>Hystéroscopie</span>
-                    </li>
-                    <li className="flex items-start gap-3">
-                      <div className="w-1.5 h-1.5 bg-clinic-pink-500 rounded-full mt-2 shrink-0"></div>
-                      <span>Chirurgie mammaire</span>
-                    </li>
-                    <li className="flex items-start gap-3">
-                      <div className="w-1.5 h-1.5 bg-clinic-pink-500 rounded-full mt-2 shrink-0"></div>
-                      <span>Chirurgie vaginale</span>
-                    </li>
+                  <h4 className="font-bold text-lg sm:text-xl text-gray-900 mb-2">{t('about.expertises_title')}</h4>
+                  <ul className="text-gray-700 text-sm sm:text-base space-y-2 mt-3 inline-block text-start">
+                    {(t('about.expertises_list', { returnObjects: true }) as string[]).map((item, idx) => (
+                      <li key={idx} className="flex items-start gap-3">
+                        <div className="w-1.5 h-1.5 bg-clinic-pink-500 rounded-full mt-2 shrink-0"></div>
+                        <span>{item}</span>
+                      </li>
+                    ))}
                   </ul>
                 </div>
               </div>
@@ -221,10 +179,10 @@ export default function About() {
         <div id="visite-video" className="mb-24">
           <div className="text-center mb-12">
             <span className="bg-clinic-green-100 text-clinic-green-700 text-xs font-bold px-3 py-1 rounded-full mb-4 inline-block tracking-widest uppercase">
-              Expérience Immersive
+              {t('about.video_badge')}
             </span>
             <h3 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-4">
-              Visite <span className="text-clinic-green-700">Virtuelle</span> du Cabinet
+              {t('about.video_title_start')} <span className="text-clinic-green-700">{t('about.video_title_highlight')}</span> {t('about.video_title_end')}
             </h3>
             <div className="w-24 h-1.5 bg-gradient-to-r from-clinic-green-500 to-clinic-pink-500 mx-auto rounded-full"></div>
           </div>
@@ -243,23 +201,23 @@ export default function About() {
                 controls={isPlaying}
               >
                 <source src="cabinet.mp4" type="video/mp4" />
-                Votre navigateur ne supporte pas la lecture de vidéos.
+                {t('about.video_error')}
               </video>
 
               {/* Overlay Play Button - Hidden when playing */}
               {!isPlaying && (
                 <div className="absolute inset-0 flex items-center justify-center group-hover:scale-110 transition-transform duration-500">
                   <div className="w-20 h-20 bg-clinic-green-500/90 rounded-full flex items-center justify-center shadow-2xl backdrop-blur-sm border-2 border-white/30">
-                    <Play className="h-8 w-8 text-white fill-white ml-1" />
+                    <Play className="h-8 w-8 text-white fill-white ms-1" />
                   </div>
                 </div>
               )}
 
               {/* Glass Info Card - Hidden when playing */}
               {!isPlaying && (
-                <div className="absolute bottom-6 left-6 right-6 bg-white/20 backdrop-blur-md border border-white/30 rounded-2xl p-4 text-white hidden md:block">
-                  <p className="font-medium text-lg">Découvrez nos installations modernes</p>
-                  <p className="text-sm opacity-80">Un environnement conçu pour votre confort et votre sécurité.</p>
+                <div className="absolute bottom-6 start-6 end-6 bg-white/20 backdrop-blur-md border border-white/30 rounded-2xl p-4 text-white hidden md:block">
+                  <p className="font-medium text-lg">{t('about.video_card_title')}</p>
+                  <p className="text-sm opacity-80">{t('about.video_card_desc')}</p>
                 </div>
               )}
             </div>
@@ -270,19 +228,19 @@ export default function About() {
         <div id="cabinet-modern" className="mb-0">
           <div className="text-center mb-16 relative px-4">
             <span className="bg-clinic-pink-100 text-clinic-pink-700 text-xs font-bold px-3 py-1 rounded-full mb-4 inline-block tracking-widest uppercase">
-              Visite Guidée
+              {t('about.gallery_badge')}
             </span>
             <h3 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-6 px-2">
-              L'Excellence au service de votre <span className="text-clinic-green-700 italic">Santé</span>
+              {t('about.gallery_title_start')} <span className="text-clinic-green-700 italic">{t('about.gallery_title_highlight')}</span>
             </h3>
             <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-              Nous avons conçu chaque espace pour qu'il soit à la fois fonctionnel, rassurant et chaleureux.
+              {t('about.gallery_desc')}
               {/* Texte différent selon mobile/desktop */}
               <span className="md:hidden block mt-2 text-sm font-semibold text-clinic-green-700">
-                (Cliquez sur les photos pour voir les détails)
+                {t('about.gallery_mobile_hint')}
               </span>
               <span className="hidden md:block">
-                Survolez les images pour découvrir notre univers.
+                {t('about.gallery_desktop_hint')}
               </span>
             </p>
           </div>
@@ -312,7 +270,7 @@ export default function About() {
                   <div className={`transition-all duration-500 transform
                     ${activeCard === index ? 'translate-y-0' : 'translate-y-0'}
                   `}>
-                    <div className={`inline-flex items-center gap-3 p-2 pr-4 bg-black/40 border border-white/30 rounded-2xl shadow-xl transition-all duration-500
+                    <div className={`inline-flex items-center gap-3 p-2 pe-4 bg-black/40 border border-white/30 rounded-2xl shadow-xl transition-all duration-500
                       ${activeCard === index ? 'bg-clinic-green-600/90 border-clinic-green-400' : ''}
                     `}>
                       <div className="w-8 h-8 rounded-xl bg-white/20 flex items-center justify-center shadow-inner">
@@ -337,7 +295,7 @@ export default function About() {
           <div className="mt-6 text-center">
             <p className="text-gray-500 italic flex items-center justify-center gap-2">
               {/* <CheckCircle className="h-4 w-4 text-green-500" /> */}
-              Cabinet conforme aux normes sanitaires internationales
+              {t('about.standards')}
             </p>
           </div>
         </div>

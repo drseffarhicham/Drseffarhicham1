@@ -1,30 +1,32 @@
 import { Phone, MapPin, Mail, Facebook, Instagram, Linkedin } from 'lucide-react';
+import { useTranslation } from 'react-i18next';
 
 export default function Footer() {
+  const { t } = useTranslation();
+
   return (
     <footer className="bg-[#0b1120] text-white pt-20 pb-10 relative overflow-hidden">
       {/* Decorative background flare */}
-      {/* Decorative background flare */}
-      <div className="absolute top-0 right-0 w-96 h-96 bg-clinic-green-500/10 rounded-full blur-[120px] -mr-48 -mt-24 pointer-events-none"></div>
+      <div className="absolute top-0 end-0 w-96 h-96 bg-clinic-green-500/10 rounded-full blur-[120px] -me-48 -mt-24 pointer-events-none"></div>
 
       <div className="max-w-7xl mx-auto px-6 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 lg:gap-8 mb-16">
           {/* Colonne 1 - Logo et description */}
           <div className="space-y-6">
-            <div className="flex items-center space-x-3">
+            <div className="flex items-center gap-3">
               <div className="relative">
                 <img src="/logo.png" alt="Dr Seffar Hicham Logo" className="h-14 w-auto object-contain bg-white rounded-xl p-1 shadow-sm" />
               </div>
               <div>
-                <span className="text-2xl font-bold block tracking-tight">Dr Seffar Hicham</span>
-                <span className="text-clinic-green-400 text-xs font-semibold tracking-wider uppercase">Gynécologue Obstétricien</span>
+                <span className="text-2xl font-bold block tracking-tight">{t('common.doctor_name')}</span>
+                <span className="text-clinic-green-400 text-xs font-semibold tracking-wider uppercase">{t('common.specialty')}</span>
               </div>
             </div>
             <p className="text-gray-400 leading-relaxed text-base">
-              Votre santé féminine mérite une expertise de haut niveau. Le Dr Seffar Hicham vous accompagne avec bienveillance à Inezgane.
+              {t('footer.description')}
             </p>
 
-            <div className="flex space-x-4 pt-2">
+            <div className="flex gap-4 pt-2">
               <a
                 href="https://web.facebook.com/Drseffarhicham/?_rdc=1&_rdr"
                 target="_blank"
@@ -55,21 +57,21 @@ export default function Footer() {
           {/* Colonne 2 - Navigation rapide */}
           <div>
             <h4 className="text-lg font-bold mb-8 text-white flex items-center">
-              <span className="w-8 h-[2px] bg-clinic-green-500 mr-3"></span>
-              Plan du site
+              <span className="w-8 h-[2px] bg-clinic-green-500 me-3"></span>
+              {t('footer.site_map')}
             </h4>
             <ul className="grid grid-cols-2 lg:grid-cols-1 gap-y-4 gap-x-4 text-gray-400">
               {[
-                { id: 'accueil', name: 'Accueil' },
-                { id: 'apropos', name: 'À propos' },
-                { id: 'services', name: 'Services' },
-                { id: 'temoignages', name: 'Témoignages' },
-                { id: 'articles', name: 'Articles' },
-                { id: 'contact', name: 'Contact' }
+                { id: 'accueil', name: t('nav.accueil') },
+                { id: 'apropos', name: t('nav.apropos') },
+                { id: 'services', name: t('nav.services') },
+                { id: 'temoignages', name: t('nav.temoignages') },
+                { id: 'articles', name: t('nav.articles') },
+                { id: 'contact', name: t('nav.contact') }
               ].map((link) => (
                 <li key={link.id}>
                   <a href={`#${link.id}`} className="hover:text-clinic-green-400 transition-colors flex items-center group text-sm md:text-base">
-                    <span className="h-[1px] w-0 group-hover:w-4 bg-clinic-green-400 mr-0 group-hover:mr-2 transition-all duration-300"></span>
+                    <span className="h-[1px] w-0 group-hover:w-4 bg-clinic-green-400 me-0 group-hover:me-2 transition-all duration-300"></span>
                     {link.name}
                   </a>
                 </li>
@@ -80,8 +82,8 @@ export default function Footer() {
           {/* Colonne 3 - Contact direct */}
           <div>
             <h4 className="text-lg font-bold mb-8 text-white flex items-center">
-              <span className="w-8 h-[2px] bg-clinic-pink-500 mr-3"></span>
-              Contact
+              <span className="w-8 h-[2px] bg-clinic-pink-500 me-3"></span>
+              {t('footer.contact_title')}
             </h4>
             <div className="space-y-6">
               <div className="flex gap-4 group">
@@ -89,8 +91,10 @@ export default function Footer() {
                   <Phone className="h-5 w-5 text-clinic-green-500 group-hover:text-white" />
                 </div>
                 <div>
-                  <a href="tel:0528335566" className="block text-gray-300 hover:text-clinic-green-400 font-bold transition-colors">0528 33 55 66</a>
-                  <a href="https://wa.me/212668628626" className="block text-gray-400 hover:text-clinic-pink-400 text-sm mt-1 transition-colors">0668 62 86 26 (WhatsApp)</a>
+                  <a href="tel:0528335566" className="block text-gray-300 hover:text-clinic-green-400 font-bold transition-colors" dir="ltr">0528 33 55 66</a>
+                  <a href="https://wa.me/212668628626" className="block text-gray-400 hover:text-clinic-pink-400 text-sm mt-1 transition-colors">
+                    <span dir="ltr">0668 62 86 26</span> (WhatsApp)
+                  </a>
                 </div>
               </div>
 
@@ -108,8 +112,8 @@ export default function Footer() {
                   <MapPin className="h-5 w-5 text-clinic-green-500 group-hover:text-white" />
                 </div>
                 <div className="text-sm text-gray-400 leading-relaxed group-hover:text-gray-300 transition-colors">
-                  <p>Espace Dubai, 2ème étage, n°212</p>
-                  <p>Inzegane 80100, Maroc</p>
+                  <p>{t('footer.address_line1')}</p>
+                  <p>{t('footer.address_line2')}</p>
                 </div>
               </div>
             </div>
@@ -118,22 +122,22 @@ export default function Footer() {
           {/* Colonne 4 - Horaires */}
           <div>
             <h4 className="text-lg font-bold mb-8 text-white flex items-center">
-              <span className="w-8 h-[2px] bg-amber-500 mr-3"></span>
-              Horaires
+              <span className="w-8 h-[2px] bg-amber-500 me-3"></span>
+              {t('footer.hours_title')}
             </h4>
             <div className="bg-white/5 rounded-2xl p-5 border border-white/10 space-y-4">
               <div className="flex justify-between items-center text-sm">
-                <span className="text-gray-400">Lun - Ven</span>
-                <span className="text-clinic-green-400 font-bold">08:30 - 16:00</span>
+                <span className="text-gray-400">{t('footer.days_week')}</span>
+                <span className="text-clinic-green-400 font-bold" dir="ltr">08:30 - 16:00</span>
               </div>
               <div className="flex justify-between items-center text-sm">
-                <span className="text-gray-400">Samedi</span>
-                <span className="text-clinic-green-400 font-bold">08:30 - 12:30</span>
+                <span className="text-gray-400">{t('footer.day_sat')}</span>
+                <span className="text-clinic-green-400 font-bold" dir="ltr">08:30 - 12:30</span>
               </div>
               <div className="h-[1px] bg-white/10 w-full"></div>
               <div className="flex justify-between items-center text-sm">
-                <span className="text-gray-400">Dimanche</span>
-                <span className="text-clinic-pink-500 font-bold uppercase tracking-widest text-[10px]">Fermé</span>
+                <span className="text-gray-400">{t('footer.day_sun')}</span>
+                <span className="text-clinic-pink-500 font-bold uppercase tracking-widest text-[10px]">{t('footer.closed')}</span>
               </div>
             </div>
           </div>
@@ -141,9 +145,8 @@ export default function Footer() {
 
         {/* Section inférieure - Copyright et Mentions */}
         <div className="border-t border-white/10 pt-10 flex flex-col md:flex-row justify-between items-center gap-6">
-          <p className="text-gray-500 text-sm text-center md:text-left order-2 md:order-1">
-            &copy; {new Date().getFullYear()} Cabinet Médical Dr Seffar Hicham. <br className="md:hidden" />
-            Tous droits réservés.
+          <p className="text-gray-500 text-sm text-center md:text-start order-2 md:order-1">
+            &copy; {new Date().getFullYear()} {t('footer.copyright')}
           </p>
 
           {/* <div className="flex flex-wrap justify-center gap-6 text-xs font-medium text-gray-500 order-1 md:order-2">
