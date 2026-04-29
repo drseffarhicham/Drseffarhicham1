@@ -30,7 +30,7 @@ export default function Hero({ scrollToSection }: HeroProps) {
         <div className="absolute bottom-0 end-0 w-full lg:w-[48%] h-[90%]">
           <div className="absolute inset-0 hidden lg:block"></div>
           <img
-            src="profile.jpeg"
+            src="profile.jpg"
             alt={t('hero.doctor_name')}
             className="w-full h-full object-contain object-[center_bottom] ..."
             // style={{
