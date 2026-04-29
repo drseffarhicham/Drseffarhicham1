@@ -1,4 +1,4 @@
-import { Stethoscope, Baby, Heart, Users, Shield, Award, Activity, Sparkles, Phone, Clock, CheckCircle,  Calendar, Star, Scissors, Eye, Scan, Droplet, Target, Zap, Activity as ActivityIcon } from 'lucide-react';
+import { Stethoscope, Baby, Heart, Users, Shield, Award, Activity, Sparkles, Phone, Clock, CheckCircle,  Calendar, Star, Scissors, Eye, Scan, Droplet, Zap, Activity as ActivityIcon } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 
 export default function Services() {
@@ -175,8 +175,8 @@ export default function Services() {
           {/* Interactive Bento Grid Showcase */}
           <div className="grid grid-cols-1 md:grid-cols-12 gap-6">
             
-            {/* Main Feature - Spans 8 cols */}
-            <div className="md:col-span-8 group relative rounded-3xl overflow-hidden shadow-2xl bg-[#0a0f1c] aspect-[4/3] md:aspect-auto md:h-[320px]">
+            {/* Main Feature - Spans 12 cols */}
+            <div className="md:col-span-12 group relative rounded-3xl overflow-hidden shadow-2xl bg-[#0a0f1c] aspect-[4/3] md:aspect-auto md:h-[320px]">
               {/* Animated abstract background */}
               <div className="absolute inset-0 overflow-hidden">
                  <div className="absolute top-[-20%] start-[-10%] w-[60%] h-[150%] bg-clinic-green-500/20 blur-[100px] rounded-full animate-float-slow"></div>
@@ -200,23 +200,6 @@ export default function Services() {
                    <div className="flex items-center gap-2"><CheckCircle className="w-4 h-4 text-clinic-pink-500" /> {t('services.equipment_features_check2')}</div>
                 </div>
               </div>
-            </div>
-
-            {/* Stats Sidebar - Spans 4 cols */}
-            <div className="md:col-span-4 flex flex-col gap-4">
-               <div className="bg-gradient-to-br from-clinic-green-500 to-clinic-green-700 rounded-3xl p-5 text-white shadow-xl flex-1 flex flex-col justify-center relative overflow-hidden group hover:-translate-y-1 transition-transform duration-300">
-                  <div className="absolute top-0 end-0 w-24 h-24 bg-white opacity-10 rounded-full blur-2xl group-hover:scale-150 transition-transform duration-700"></div>
-                  <Target className="w-8 h-8 mb-2 opacity-90 text-green-100" />
-                  <div className="text-4xl md:text-5xl font-black mb-1 tracking-tighter">+98%</div>
-                  <div className="text-green-50 font-semibold text-base">{t('services.stats_accuracy_title')}</div>
-               </div>
-               
-               <div className="bg-gradient-to-br from-clinic-pink-500 to-clinic-pink-700 rounded-3xl p-5 text-white shadow-xl flex-1 flex flex-col justify-center relative overflow-hidden group hover:-translate-y-1 transition-transform duration-300">
-                  <div className="absolute bottom-0 start-0 w-24 h-24 bg-white opacity-10 rounded-full blur-2xl group-hover:scale-150 transition-transform duration-700"></div>
-                  <Clock className="w-8 h-8 mb-2 opacity-90 text-pink-100" />
-                  <div className="text-4xl md:text-5xl font-black mb-1 tracking-tighter">&lt;15 <span className="text-2xl">{t('services.stats_speed_sub')}</span></div>
-                  <div className="text-pink-50 font-semibold text-base">{t('services.stats_speed_title')}</div>
-               </div>
             </div>
             
             {/* 4 Ultrasound Modalities - each spans 3 cols */}
@@ -294,4 +277,4 @@ export default function Services() {
       </div>
     </section>
   );
-}
+}
