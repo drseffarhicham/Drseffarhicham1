@@ -1,0 +1,521 @@
+{
+  "hero": {
+    "specialty": "Ginecólogo Obstetra",
+    "location_badge": "🌸 Especialista en Inezgane",
+    "rating": "4.9/5",
+    "title_start": "Su Salud",
+    "title_highlight": "Femenina",
+    "title_end": "en Buenas Manos",
+    "doctor_name": "Dr Seffar Hicham",
+    "doctor_subtitle": "Ginecólogo Obstetra en Inezgane",
+    "description": "El Dr. Seffar Hicham es especialista en ginecología y obstetricia. Su trayectoria combina la formación hospitalaria universitaria en Marruecos y un año completo de formación clínica en el Hospital Universitario ERASME - Universidad Libre de Bruselas (Bélgica), con un compromiso constante con la formación continua internacional.",
+    "expertise_title": "Áreas de Especialización",
+    "expertise_list": [
+      "Cirugía ginecológica mínimamente invasiva",
+      "Histeroscopia diagnóstica y operatoria",
+      "Cirugía de mama y oncoplastia",
+      "Seguimiento del embarazo y embarazos de alto riesgo",
+      "Ecografía obstétrica avanzada",
+      "Morfología fetal",
+      "Evaluación y apoyo a la fertilidad",
+      "Derivación a centros especializados en TRA",
+      "Cirugía vaginal (Prolapso, Estética)"
+    ],
+    "cta_button": "Pedir Cita",
+    "phone": "05 28 33 55 66",
+    "city": "Inezgane, Marruecos",
+    "floating": {
+      "avis": "Reseñas",
+      "insta": "Insta",
+      "fb": "FB"
+    },
+    "badges": {
+      "suivi": { "title": "Seguimiento", "sub": "Personalizado" },
+      "secret": { "title": "Secreto", "sub": "Médico" },
+      "expertise": { "title": "Experiencia", "sub": "Avanzada" },
+      "ecoute": { "title": "Escucha", "sub": "Paciente" },
+      "experience": { "title": "+15 años", "sub": "Experiencia" }
+    }
+  },
+  "nav": {
+    "accueil": "Inicio",
+    "apropos": "Sobre Mí",
+    "services": "Servicios",
+    "temoignages": "Testimonios",
+    "articles": "Artículos",
+    "contact": "Contacto"
+  },
+  "about": {
+    "title": "Sobre el Dr. Seffar Hicham",
+    "subtitle": "Su ginecólogo-obstetra de confianza en Inezgane",
+    "pro_title": "Trayectoria Profesional",
+    "pro_desc": "El Dr. Hicham Seffar sitúa la seguridad, la precisión diagnóstica, las técnicas modernas menos invasivas y el acompañamiento humano personalizado en el centro de su práctica. Se compromete a ofrecer cuidados de alta calidad a las pacientes de Inezgane y la región, inspirados en estándares internacionales.",
+    "intl_title": "Experiencia Internacional Hospital Universitario ERASME (Bruselas)",
+    "intl_list": [
+      "Guardias obstétricas",
+      "Cesáreas y partos instrumentales",
+      "Atención de embarazos de alto riesgo",
+      "Gestión de urgencias ginecológicas",
+      "Realización de ecografías obstétricas"
+    ],
+    "formation_title": "Formación y Diplomas",
+    "formation_list": [
+      "Diploma de Especialidad en Ginecología-Obstetricia – Universidad Mohammed V, Rabat",
+      "Diploma Universitario en Diagnóstico y Cirugía del Cáncer de Mama (Mención Bien) – Universidad Hassan II, Casablanca",
+      "Máster Especializado en Cirugía Mínimamente Invasiva en Ginecología – TECH Global University, Andorra",
+      "Certificado Universitario de Formación Médica Especializada en Ginecología-Obstetricia – Universidad Libre de Bruselas, Bélgica",
+      "Acreditación en Ecografía Obstétrica y Ginecológica – Universidad Católica de Lieja, Bélgica",
+      "Certificado de Formación Avanzada en Cirugía Ginecológica – IRCAD (Estrasburgo, Francia)"
+    ],
+    "expertises_title": "Especialidades",
+    "expertises_list": [
+      "Seguimiento del embarazo",
+      "Ecografía obstétrica y ginecológica",
+      "Cirugía ginecológica",
+      "Histeroscopia",
+      "Cirugía de mama",
+      "Cirugía vaginal"
+    ],
+    "video_badge": "Experiencia Inmersiva",
+    "video_title_start": "Visita",
+    "video_title_highlight": "Virtual",
+    "video_title_end": "de la Clínica",
+    "video_error": "Su navegador no soporta la reproducción de videos.",
+    "video_card_title": "Descubra nuestras modernas instalaciones",
+    "video_card_desc": "Un entorno diseñado para su confort y seguridad.",
+    "gallery_badge": "Visita Guiada",
+    "gallery_title_start": "La Excelencia al servicio de su",
+    "gallery_title_highlight": "Salud",
+    "gallery_desc": "Hemos diseñado cada espacio para que sea a la vez funcional, tranquilizador y acogedor.",
+    "gallery_mobile_hint": "(Haga clic en las fotos para ver los detalles)",
+    "gallery_desktop_hint": "Pase el ratón sobre las imágenes para descubrir nuestro universo.",
+    "gallery_items": {
+      "accueil": { "title": "Recepción", "desc": "Un espacio luminoso y relajante desde su llegada, diseñado para reducir su estrés y darle confianza." },
+      "confort": { "title": "Confort", "desc": "Una sala de espera pensada como un salón, con asientos cómodos y un ambiente zen." },
+      "soin": { "title": "Sala de Tratamiento", "desc": "Un espacio moderno y equipado para asegurar sus cuidados en un entorno cómodo y seguro." },
+      "techno": { "title": "Tecnología", "desc": "Equipada con ecografía 3D y monitorización fetal y materna para un seguimiento prenatal preciso y seguro." },
+      "expertise": { "title": "Pericia", "desc": "Cada detalle de nuestra estructura ha sido pensado para ofrecerle los mejores cuidados en las mejores condiciones." }
+    },
+    "standards": "Clínica conforme a las normas sanitarias internacionales"
+  },
+  "services": {
+    "badge": "Excelencia Médica",
+    "title_start": "Nuestros Servicios",
+    "title_highlight": "Especializados",
+    "subtitle": "Una atención integral y personalizada para cada etapa de su vida como mujer, desde la adolescencia hasta la menopausia, con tecnologías de vanguardia y una escucha atenta.",
+    "items": [
+      {
+        "title": "Consultas Ginecológicas",
+        "description": "Exámenes de rutina, detección de ITS, tratamiento de infecciones y prevención de patologías femeninas.",
+        "details": ["Examen clínico completo", "Citología y detección de ITS", "Prevención cáncer de mama/cuello", "Tratamiento de infecciones"]
+      },
+      {
+        "title": "Seguimiento del Embarazo",
+        "description": "Acompañamiento integral durante todo el embarazo con consultas regulares y preparación al parto.",
+        "details": ["7 consultas indispensables", "Seguimiento ecográfico", "Preparación al nacimiento", "Seguimiento postnatal incluido"]
+      },
+      {
+        "title": "Ecografías 3D y Doppler Color",
+        "description": "Ecografías obstétricas y ginecológicas con tecnología 3D/4D y Doppler color para una precisión inigualable.",
+        "details": ["Ecografía 3D/4D de alta definición", "Doppler color avanzado", "Ecografía de datación", "Morfológica detallada"]
+      },
+      {
+        "title": "Evaluación de Fertilidad",
+        "description": "Evaluación completa de la fertilidad y acompañamiento personalizado para parejas que desean tener un hijo.",
+        "details": ["Evaluación hormonal completa", "Seguimiento de la ovulación", "Espermiograma orientado", "Asesoramiento personalizado"]
+      },
+      {
+        "title": "Cirugía Laparoscópica",
+        "description": "Cirugía mínimamente invasiva por laparoscopia para el tratamiento de quistes, útero e infertilidad.",
+        "details": ["Cicatrices mínimas", "Recuperación rápida", "Tratamiento uterino", "Cirugía ovárica"]
+      },
+      {
+        "title": "Histeroscopia",
+        "description": "Exploración y tratamiento de patologías intrauterinas (pólipos, miomas) a través de las vías naturales.",
+        "details": ["Sin incisión cutánea", "Diagnóstico de fertilidad", "Extracción de pólipos/miomas", "Atención ambulatoria"]
+      },
+      {
+        "title": "Cirugía de Mama",
+        "description": "Manejo quirúrgico de patologías mamarias benignas y malignas con un enfoque conservador.",
+        "details": ["Exéresis de adenofibromas", "Biopsias mamarias", "Cirugía oncoplástica", "Seguimiento postoperatorio"]
+      },
+      {
+        "title": "Cirugía Vaginal",
+        "description": "Histerectomía vaginal, cirugía de prolapsos y cirugía estética perineal.",
+        "details": ["Histerectomía vaginal", "Cirugía de prolapsos", "Cirugía estética", "Enfoque mínimamente invasivo"]
+      },
+      {
+        "title": "Seguimiento de Menopausia",
+        "description": "Acompañamiento y tratamientos para gestionar los síntomas de la menopausia y mantener su calidad de vida.",
+        "details": ["Evaluación de menopausia", "Tratamiento de síntomas", "Prevención de osteoporosis", "Consejos de bienestar"]
+      },
+      {
+        "title": "Salud Hormonal",
+        "description": "Diagnóstico y tratamiento de trastornos hormonales con un enfoque global de su salud.",
+        "details": ["Síndrome de ovarios poliquísticos", "Trastornos tiroideos", "Irregularidades del ciclo", "Tratamientos hormonales"]
+      },
+      {
+        "title": "Contracepción",
+        "description": "Asesoramiento personalizado y seguimiento para elegir el método anticonceptivo más adecuado para su situación.",
+        "details": ["Píldora e Implante", "DIU hormonal/cobre", "Anticoncepción de emergencia", "Ajuste anual"]
+      }
+    ],
+    "equipment_badge": "Plataforma Técnica de Excelencia",
+    "equipment_title_start": "Imagen Médica de",
+    "equipment_title_highlight": "Alta Definición",
+    "equipment_subtitle": "Viva el encuentro con su bebé antes de nacer gracias a nuestra tecnología de ecografía 3D/4D y asegure su embarazo con nuestro Doppler color ultrasensible.",
+    "equipment_features_badge1": "Generación 2024",
+    "equipment_features_badge2": "Voluson 3D / 4D",
+    "equipment_features_title_start": "La precisión al servicio de su",
+    "equipment_features_title_highlight": "serenidad",
+    "equipment_features_desc": "Nuestra clínica está equipada con ecógrafos de última generación que ofrecen una calidad de imagen excepcional para un diagnóstico temprano, seguro y extremadamente detallado.",
+    "equipment_features_check1": "Cero radiación",
+    "equipment_features_check2": "Imágenes HD en Tiempo Real",
+    "stats_accuracy_title": "Precisión Diagnóstica",
+    "stats_speed_title": "Examen Rápido y Completo",
+    "stats_speed_sub": "min",
+    "ultrasound_images": [
+      { "title": "Ecografía 3D - Rostro del Bebé", "description": "Visualización detallada de los rasgos faciales" },
+      { "title": "Doppler Color - Flujo sanguíneo", "description": "Análisis preciso de la circulación uterina" },
+      { "title": "Modelado 4D - Movimientos", "description": "Observación de movimientos en tiempo real" },
+      { "title": "Ecografía Morfológica", "description": "Detección temprana de anomalías" }
+    ],
+    "appointment_title": "Reserva de Citas Simplificada",
+    "appointment_desc": "Reserve su consulta en línea fácilmente, elija el horario que más le convenga y reciba un recordatorio por SMS. Urgencias ginecológicas atendidas rápidamente.",
+    "appointment_badge1": "Cita en 24h",
+    "appointment_badge2": "Urgencias prioritarias",
+    "appointment_cta": "Cita",
+    "appointment_footer": "Llamada directa para atención inmediata"
+  },
+  "testimonials": {
+    "badge_sync": "Reseñas de Google Maps sincronizadas",
+    "title_start": "Confíe con",
+    "title_highlight": "Seguridad",
+    "subtitle": "Aquí están los últimos testimonios reales dejados por nuestras pacientes en nuestra ficha de Google en Inezgane.",
+    "loading": "Cargando reseñas reales...",
+    "verified": "Verificado",
+    "view_all": "Ver más de 80 reseñas en Google",
+    "items": [
+      {
+        "name": "Anass belhajla",
+        "text": "Recomiendo encarecidamente esta clínica. El doctor realmente escucha a sus pacientes y no apresura la consulta; lo explica todo al detalle.",
+        "date": "Hace una semana"
+      },
+      {
+        "name": "Amina Bik",
+        "text": "دكتور هشام من أحسن الأطباء صراحة، وحتى البنات اللي خدامين معاه الله يعمرها دار. تعامل ديالهم طوب، الله يسهل عليهم كاملين يا ربي.",
+        "date": "Hace 3 semanas"
+      },
+      {
+        "name": "Kaoutar Arabi",
+        "text": "Deseo testificar la gran competencia del Dr. Hicham Seffar. Su profesionalismo, experiencia y la calidad de su atención me tranquilizaron enormemente.",
+        "date": "Hace 3 meses"
+      },
+      {
+        "name": "am fatima",
+        "text": "Todo salió bien. Fui con mi hermana esta mañana y fuimos muy bien recibidas. El médico es excelente: escucha a la paciente, intercambia, explica.",
+        "date": "Hace 5 meses"
+      },
+      {
+        "name": "Bouchra Ghazi",
+        "text": "Si busca un ginecólogo competente, profesional y, sobre todo, humano para guiarla, aconsejarla y tranquilizarla, está en la dirección correcta.",
+        "date": "Hace 2 años"
+      },
+      {
+        "name": "Yassine Benchabane",
+        "text": "Lo recomiendo encarecidamente, las citas son puntuales, la comunicación es muy fluida y sus conocimientos y saber hacer están a la altura.",
+        "date": "Hace 8 meses"
+      }
+    ]
+  },
+  "footer": {
+    "description": "Su salud femenina merece una experiencia de alto nivel. El Dr. Hicham Seffar le acompaña con cuidado en Inezgane.",
+    "site_map": "Mapa del sitio",
+    "contact_title": "Contacto",
+    "address_line1": "Espace Dubai, 2da planta, n°212",
+    "address_line2": "Inezgane 80100, Marruecos",
+    "hours_title": "Horario",
+    "days_week": "Lun - Vie",
+    "day_sat": "Sábado",
+    "day_sun": "Domingo",
+    "closed": "Cerrado",
+    "copyright": "Clínica Médica Dr. Hicham Seffar. Todos los derechos reservados."
+  },
+  "articles": {
+    "badge": "Blog de Salud y Consejos",
+    "title_start": "Su",
+    "title_highlight": "Recurso",
+    "title_end": "de Salud",
+    "subtitle": "Información médica verificada, consejos prácticos y noticias de salud para acompañarla en cada etapa de su vida como mujer. Artículos escritos por el Dr. Hicham Seffar.",
+    "search_placeholder": "Buscar un artículo...",
+    "read_more": "Leer más",
+    "read_time": "min de lectura",
+    "back_to_blog": "Volver al blog",
+    "summary_title": "💡 En resumen",
+    "summary_text": "Esta guía le brinda información médica confiable y consejos prácticos para cuidar su salud. Para cualquier pregunta específica o inquietud sobre su situación personal, no dude en consultar al Dr. Hicham Seffar para un apoyo personalizado.",
+    "key_points": "Puntos clave del artículo",
+    "categories": {
+      "Tous": "Todos",
+      "Grossesse": "Embarazo",
+      "Santé féminine": "Salud femenina",
+      "Chirurgie": "Cirugía",
+      "Ménopause": "Menopausia",
+      "Contraception": "Anticoncepción",
+      "Fertilité": "Fertilidad",
+      "Prévention": "Prevención"
+    },
+    "items": [
+      {
+        "title": "Cirugía Vaginal: Histerectomía, Prolapso y Estética",
+        "category": "Chirurgie",
+        "date": "21 de febrero de 2026",
+        "readTime": "5",
+        "excerpt": "La cirugía vaginal permite el tratamiento de diversas patologías uterinas y la corrección del prolapso sin cicatrices visibles, ofreciendo al mismo tiempo soluciones estéticas perineales.",
+        "detailedContent": [
+          "Histerectomía Vaginal: Una técnica quirúrgica que permite la extirpación del útero a través de las vías naturales, evitando así cualquier cicatriz abdominal y favoreciendo una recuperación más rápida.",
+          "Cura de Prolapso: Manejo quirúrgico del descenso de órganos (vejiga, útero, recto) para restaurar la anatomía y mejorar la calidad de vida de las pacientes.",
+          "Cirugía Estética Perineal: Intervenciones destinadas a corregir las secuelas del parto o a mejorar la estética de la zona íntima (perineoplastia).",
+          "Ventajas de la vía vaginal: Menos dolor postoperatorio, menor estancia hospitalaria y ausencia de cicatrices externas visibles."
+        ],
+        "image": "ChirurgieVaginale.jpeg",
+        "author": "Dr. Seffar Hicham",
+        "tags": ["cirugía vaginal", "histerectomía", "prolapso", "estética"],
+        "featured": true
+      },
+      {
+        "title": "Histeroscopia: Una exploración precisa del espacio uterino",
+        "category": "Chirurgie",
+        "date": "19 de febrero de 2026",
+        "readTime": "3",
+        "excerpt": "Descubra cómo la histeroscopia permite diagnosticar y tratar patologías uterinas como pólipos o miomas con la máxima precisión y mínimas consecuencias postoperatorias.",
+        "detailedContent": [
+          "Diagnóstico preciso de anomalías intrauterinas (pólipos, miomas, tabiques) para tratar hemorragias anormales o infertilidad. El examen permite una visión directa y clara de toda la cavidad uterina.",
+          "Tratamiento quirúrgico mínimamente invasivo que permite la eliminación de lesiones sin ninguna incisión en la piel. El instrumento pasa por las vías naturales, evitando cicatrices visibles.",
+          "Histeroscopia ambulatoria: la mayoría de las intervenciones se realizan en media jornada, permitiendo un rápido regreso a casa. Se prioriza la comodidad de la paciente con técnicas modernas de anestesia.",
+          "Recuperación postoperatoria extremadamente rápida, con vuelta a las actividades habituales al día siguiente. El dolor es generalmente mínimo y está bien controlado con analgésicos simples.",
+          "Seguimiento personalizado: cada intervención es objeto de un informe detallado y de un análisis histopatológico sistemático de las muestras si es necesario para una seguridad médica total."
+        ],
+        "image": "L'Hystéroscopie.jpeg",
+        "author": "Dr. Seffar Hicham",
+        "tags": ["histeroscopia", "cirugía", "útero", "miomas", "pólipos"],
+        "featured": true
+      },
+      {
+        "title": "Cirugía de mama: Entre la prevención y el tratamiento de patologías mamarias",
+        "category": "Chirurgie",
+        "date": "18 de febrero de 2026",
+        "readTime": "4",
+        "excerpt": "El manejo quirúrgico de las patologías mamarias ha evolucionado mucho. Descubra la importancia de un diagnóstico preciso y los avances en la cirugía de conservación de la mama.",
+        "detailedContent": [
+          "Manejo de patologías benignas como adenofibromas, quistes complejos o lesiones atípicas. El objetivo es tratar la lesión preservando al máximo la arquitectura natural de la mama.",
+          "Cirugía de diagnóstico y tratamiento del cáncer de mama: biopsias quirúrgicas y escisiones dirigidas. La cirugía sigue siendo un pilar central en el recorrido del cuidado oncológico moderno.",
+          "Técnicas de cirugía conservadora (oncoplástica) destinadas a extirpar el tumor garantizando un resultado estético óptimo. El respeto por la imagen corporal es una prioridad absoluta en nuestro enfoque terapéutico.",
+          "Extracción y análisis del ganglio centinela para limitar las secuelas funcionales en el brazo. Esta técnica precisa evita a menudo el vaciamiento axilar completo y sus posibles complicaciones.",
+          "Acompañamiento multidisciplinar y seguimiento postoperatorio riguroso para una curación serena. La colaboración con radiólogos, oncólogos y fisioterapeutas asegura una atención integral de la paciente."
+        ],
+        "image": "chirregie.png",
+        "author": "Dr. Seffar Hicham",
+        "tags": ["cirugía de mama", "mama", "prevención", "cáncer", "estética"],
+        "featured": false
+      },
+      {
+        "title": "Laparoscopia: La cirugía ginecológica moderna y mínimamente invasiva",
+        "category": "Chirurgie",
+        "date": "17 de febrero de 2026",
+        "readTime": "3",
+        "excerpt": "Menos cicatrices, menos dolor y una recuperación más rápida. La celoscopia (laparoscopia) revoluciona el tratamiento de los quistes ováricos y la endometriosis.",
+        "detailedContent": [
+          "Técnica de videocirugía que permite explorar y operar el abdomen a través de incisiones muy pequeñas (5 a 10 mm). La cámara ofrece una visión aumentada y precisa de los órganos pélvicos.",
+          "Tratamiento de primera línea para quistes ováricos, embarazos ectópicos y ciertas formas de infertilidad. La precisión del gesto quirúrgico permite preservar la fertilidad futura.",
+          "Referencia para el tratamiento quirúrgico de la endometriosis: eliminación precisa de las lesiones respetando los tejidos sanos circundantes. La laparoscopia mejora significativamente la calidad de vida de las pacientes.",
+          "Ventajas principales: disminución drástica del dolor postoperatorio y riesgo de infección reducido. El perjuicio estético es casi nulo gracias al pequeño tamaño de las cicatrices.",
+          "Retorno rápido a la vida social y profesional: la estancia hospitalaria se acorta y la convalecencia es mucho más sencilla que en la cirugía clásica 'abierta'."
+        ],
+        "image": "Laparoscopie.jpeg",
+        "author": "Dr. Seffar Hicham",
+        "tags": ["laparoscopia", "celoscopia", "cirugía mínimamente invasiva", "quistes", "endometriosis"],
+        "featured": true
+      },
+      {
+        "title": "Importancia del Seguimiento Prenatal: Guía completa para un embarazo sereno",
+        "category": "Grossesse",
+        "date": "15 de marzo de 2025",
+        "readTime": "3",
+        "excerpt": "El seguimiento prenatal regular es esencial para asegurar la salud de la madre y del bebé. Descubra por qué cada consulta cuenta y cómo optimizar su seguimiento médico.",
+        "detailedContent": [
+          "7 consultas prenatales indispensables para vigilar el desarrollo fetal y prevenir complicaciones. Estas consultas permiten detectar precozmente cualquier anomalía y asegurar un seguimiento personalizado adaptado a cada embarazo.",
+          "Ecografías de cribado en el 1er, 2do y 3er trimestre para detectar anomalías morfológicas o retraso del crecimiento. La ecografía del primer trimestre permite fechar con precisión el embarazo y detectar la trisomía 21.",
+          "Vigilancia sistemática de la presión arterial y del aumento de peso para prevenir la preeclampsia. Una hipertensión arterial gestacional puede tener consecuencias graves y requiere un manejo inmediato.",
+          "Detección de diabetes gestacional entre las 24 y 28 semanas mediante prueba de tolerancia a la glucosa. Esta detección es crucial porque la diabetes gestacional aumenta los riesgos de complicaciones para la madre y el niño.",
+          "Preparación para la lactancia y consejos nutricionales basados en las necesidades energéticas y micronutricionales. Una alimentación equilibrada rica en hierro, calcio, ácido fólico y omega-3 es esencial para el desarrollo óptimo del feto."
+        ],
+        "image": "L'importance.jpeg",
+        "author": "Dr. Seffar Hicham",
+        "tags": ["seguimiento embarazo", "consulta", "salud bebé", "preparación parto"],
+        "featured": true
+      },
+      {
+        "title": "Entendiendo el Ciclo Menstrual: Señales y síntomas a reconocer",
+        "category": "Santé féminine",
+        "date": "10 de marzo de 2025",
+        "readTime": "2",
+        "excerpt": "Una guía completa para entender mejor su ciclo menstrual e identificar los signos que requieren una consulta médica. Aprenda a escuchar a su cuerpo.",
+        "detailedContent": [
+          "Fase folicular (días 1-14): desarrollo de los folículos y producción de estrógenos, preparación para la ovulación. Durante esta fase, la hormona FSH estimula el crecimiento de varios folículos ováricos, uno de los cuales se volverá dominante.",
+          "Fase ovulatoria: liberación del ovocito, periodo de fertilidad máxima. El pico de LH desencadena la ovulación unas 24-36 horas más tarde. El moco cervical se vuelve más fluido para facilitar el paso de los espermatozoides.",
+          "Fase lútea: secreción de progesterona por el cuerpo lúteo, preparación del endometrio para la implantación. Esta fase dura unos 14 días y termina con la regla si no ha habido fecundación.",
+          "Signos de alerta: ciclos irregulares, dolores intensos que pueden señalar trastornos hormonales como el síndrome de ovarios poliquísticos (SOPK) o la endometriosis. Las hemorragias entre reglas pueden indicar un desequilibrio hormonal.",
+          "Cuándo consultar: amenorrea de más de 3 meses, hemorragias anormales abundantes o prolongadas, sospecha de trastorno endocrino. Una dismenorrea severa requiere una investigación para descartar la endometriosis."
+        ],
+        "image": "cycle.jpeg",
+        "author": "Dr. Seffar Hicham",
+        "tags": ["ciclo menstrual", "síntomas", "salud mujer", "prevención"],
+        "featured": false
+      },
+      {
+        "title": "La menopausia: guía práctica para una transición armoniosa",
+        "category": "Ménopause",
+        "date": "5 de marzo de 2025",
+        "readTime": "2",
+        "excerpt": "Consejos e información para vivir mejor la menopausia y gestionar sus síntomas a diario con la ayuda de su ginecólogo. Soluciones naturales y tratamientos.",
+        "detailedContent": [
+          "Sofocos y sudores nocturnos: consecuencia del descenso de estrógenos en el centro térmico hipotalámico. Estos síntomas afectan al 75% de las mujeres menopáusicas y pueden durar varios años. Técnicas de relajación y actividad física regular pueden ayudar.",
+          "Tratamiento Hormonal Sustitutivo (THS): equilibrio hormonal para reducir síntomas y proteger el hueso, a evaluar según antecedentes cardiovasculares. El THS debe iniciarse en los 10 años siguientes a la menopausia para un beneficio máximo y tiene contraindicaciones absolutas.",
+          "Prevención de la osteoporosis: aporte suficiente de calcio (1200mg/día) y vitamina D (800 UI/día) para mantener la densidad ósea. Se recomienda una densitometría ósea a partir de los 65 años o antes en caso de factores de riesgo.",
+          "Ejercicios físicos adaptados: musculación y ejercicios de carga para prevenir la pérdida ósea. Caminar rápido, el jogging suave y el baile son excelentes. La actividad física regular también reduce el riesgo cardiovascular.",
+          "Seguimiento ginecológico anual indispensable: detección de patologías hormonales y oncológicas. El cáncer de endometrio y de ovario son más frecuentes tras la menopausia. Una citología cervical sigue siendo necesaria hasta los 65 años."
+        ],
+        "image": "ménopause.jpeg",
+        "author": "Dr. Seffar Hicham",
+        "tags": ["menopausia", "tratamiento hormonal", "bienestar", "síntomas"],
+        "featured": true
+      },
+      {
+        "title": "Anticoncepción: elegir la opción correcta según su perfil y necesidades",
+        "category": "Contraception",
+        "date": "1 de marzo de 2025",
+        "readTime": "3",
+        "excerpt": "Píldora, DIU, implante... Descubra los diferentes métodos anticonceptivos y encuentre el que mejor se adapte a usted según su estilo de vida y salud.",
+        "detailedContent": [
+          "Anticoncepción oral: estroprogestágena y progestágena, ajustada según antecedentes tromboembólicos. La píldora combinada está contraindicada en caso de migraña con aura, tabaquismo después de los 35 años o antecedentes de trombosis venosa. La eficacia depende de la adherencia diaria.",
+          "DIU de cobre: acción mecánica sobre la implantación y toxicidad del cobre sobre los espermatozoides, eficaz hasta por 10 años. Sin hormonas, conviene a las mujeres que no desean anticoncepción hormonal. Puede aumentar ligeramente el flujo menstrual.",
+          "DIU hormonal: liberación continua de levonorgestrel, duración de 3 a 5 años, disminución significativa del flujo menstrual o incluso amenorrea. Particularmente indicado en caso de menorragias o endometriosis. Tasa de satisfacción muy alta.",
+          "Implante anticonceptivo: liberación continua de progestágeno subcutáneo, discreto y eficaz por 3 años. Inserción rápida bajo anestesia local en el brazo. Puede provocar hemorragias irregulares los primeros meses, requiriendo a veces un tratamiento complementario.",
+          "Consulta anual para control y ajuste según tolerancia y efectos secundarios. El examen clínico, la medición de la presión arterial y la citología cervical forman parte del seguimiento. Posibilidad de cambiar de método en cualquier momento según la evolución de sus necesidades."
+        ],
+        "image": "Contraception.jpeg",
+        "author": "Dr. Seffar Hicham",
+        "tags": ["anticoncepción", "píldora", "DIU", "métodos"],
+        "featured": false
+      },
+      {
+        "title": "Preparación para el parto: Técnicas y ejercicios esenciales",
+        "category": "Grossesse",
+        "date": "25 de febrero de 2025",
+        "readTime": "3",
+        "excerpt": "Cómo prepararse bien física y mentalmente para el parto. Nuestros consejos para vivir este momento con serenidad con técnicas probadas.",
+        "detailedContent": [
+          "Sesiones de preparación al nacimiento desde el 6to mes: ejercicios respiratorios y posturas para facilitar el trabajo de parto. Estas sesiones en grupo o individuales permiten aprender técnicas de respiración, relajación y posiciones que favorecen el descenso del bebé.",
+          "Ejercicios de respiración y relajación profunda para reducir el estrés y el dolor. La respiración abdominal profunda aumenta la oxigenación y disminuye la percepción del dolor. La sofrología y la hipnosis pueden ser complementos eficaces.",
+          "Epidural: técnica de anestesia locorregional por inyección en el espacio epidural, tiempo de administración según la dilatación cervical generalmente a partir de 3-4 cm. Permite permanecer consciente mientras se suprime el dolor de las contracciones.",
+          "Reconocer el inicio del trabajo de parto: contracciones regulares cada 5 minutos durante 2 horas, rotura de membranas con pérdida de líquido amniótico claro. A veces precedido por la pérdida del tapón mucoso unos días antes.",
+          "Maleta de maternidad: lista de verificación que incluye ropa cómoda para la madre, bodies y pijamas para el recién nacido, productos de higiene, documentos médicos (tarjeta de grupo sanguíneo, expediente médico) y accesorios para la lactancia si se desea."
+        ],
+        "image": "Préparation.jpeg",
+        "author": "Dr. Seffar Hicham",
+        "tags": ["parto", "preparación", "ejercicios", "respiración"],
+        "featured": false
+      },
+      {
+        "title": "Fertilidad: consejos y prevención para optimizar sus posibilidades",
+        "category": "Fertilité",
+        "date": "20 de febrero de 2025",
+        "readTime": "3",
+        "excerpt": "Los factores que influyen en la fertilidad y las buenas prácticas para optimizar sus posibilidades de concepción. Del diagnóstico a las soluciones naturales.",
+        "detailedContent": [
+          "Evaluación de fertilidad tras 12 meses sin embarazo (6 meses después de los 35 años) para identificar causas femeninas y masculinas. La evaluación incluye un espermiograma para el hombre, análisis hormonales y una ecografía pélvica para la mujer.",
+          "Análisis hormonales (FSH, LH, AMH, estradiol, progesterona) y ecografía pélvica para evaluar la reserva ovárica y detectar posibles quistes o miomas. La hormona antimulleriana (AMH) es un excelente marcador de la reserva ovárica.",
+          "Seguimiento de la ovulación mediante curva de temperatura basal, pruebas hormonales urinarias de ovulación o monitorización ecográfica. El periodo fértil se extiende desde 5 días antes de la ovulación hasta 24 horas después.",
+          "Factores favorecedores: alimentación equilibrada rica en antioxidantes, ácido fólico y zinc, mantenimiento de un IMC entre 19 y 25, actividad física moderada regular. Un peso insuficiente o excesivo puede alterar la ovulación.",
+          "Evitar el tabaco (disminuye la reserva ovárica y la calidad de los ovocitos), el alcohol (tóxico para los gametos) y el estrés excesivo (altera el eje hipotálamo-hipofisario). Limitar la cafeína a 2 tazas al día. Algunos disruptores endocrinos también pueden afectar la fertilidad."
+        ],
+        "image": "Fertilité.jpeg",
+        "author": "Dr. Seffar Hicham",
+        "tags": ["fertilidad", "concepción", "evaluación", "tratamientos"],
+        "featured": true
+      },
+      {
+        "title": "Detección del cáncer de mama: Todo lo que necesita saber",
+        "category": "Prévention",
+        "date": "15 de febrero de 2025",
+        "readTime": "2",
+        "excerpt": "La importancia de la detección temprana del cáncer de mama. Métodos, frecuencia y señales de alerta que no deben descuidarse para su salud.",
+        "detailedContent": [
+          "Autopalpación mensual después de la regla para detectar nódulos, bultos o anomalías en la textura mamaria. De pie ante un espejo, inspeccione sus senos levantando los brazos, luego palpe con movimientos circulares acostada.",
+          "Examen clínico anual por un ginecólogo o médico para la detección temprana de cualquier anomalía. El examen incluye la inspección visual y la palpación de las mamas y de las áreas ganglionares axilares.",
+          "Mamografía de cribado cada 2 años entre los 50 y 74 años según las recomendaciones de salud pública. Este examen radiológico permite detectar lesiones subclínicas no palpables. Puede iniciarse antes en caso de factores de riesgo.",
+          "Ecografía mamaria complementaria si la densidad mamaria es alta en mujeres jóvenes o si se detectan anomalías en la mamografía. Se puede proponer una resonancia magnética mamaria en caso de muy alto riesgo genético.",
+          "Factores de riesgo: antecedentes familiares de primer grado, edad (el riesgo aumenta después de los 50 años), mutaciones genéticas BRCA1/BRCA2, primer embarazo tardío, ausencia de lactancia, tratamiento hormonal prolongado. Se propone asesoramiento genético si existen múltiples antecedentes familiares."
+        ],
+        "image": "depistage.png",
+        "author": "Dr. Seffar Hicham",
+        "tags": ["detección", "cáncer de mama", "mamografía", "prevención"],
+        "featured": false
+      },
+      {
+        "title": "Endometriosis: Diagnóstico y manejo moderno",
+        "category": "Santé féminine",
+        "date": "10 de febrero de 2025",
+        "readTime": "3",
+        "excerpt": "Entender la endometriosis, sus síntomas y los nuevos enfoques de tratamiento para mejorar la calidad de vida de las pacientes.",
+        "detailedContent": [
+          "Síntomas característicos: dismenorrea severa (reglas muy dolorosas), dolor pélvico crónico fuera del periodo menstrual, dispareunia profunda (dolor durante las relaciones), trastornos digestivos cíclicos, posible infertilidad en el 30-40% de las pacientes.",
+          "Diagnóstico: ecografía endovaginal realizada por un experto en endometriosis y resonancia magnética pélvica para visualizar y localizar precisamente las lesiones de endometriosis (ovarios, ligamentos uterosacros, tabique rectovaginal). El retraso diagnóstico es, lamentablemente, todavía largo (7 años de media).",
+          "Tratamientos médicos de primera línea: antiinflamatorios no esteroideos para el dolor, anticoncepción hormonal continua (píldora estroprogestágena en continuo, DIU de levonorgestrel), progestágenos, agonistas o antagonistas de la GnRH que inducen una menopausia artificial temporal.",
+          "Tratamiento quirúrgico por celoscopia si las lesiones son extensas, endometriomas ováricos voluminosos o síntomas severos resistentes al tratamiento médico. La extirpación completa de las lesiones mejora significativamente la fertilidad y la calidad de vida.",
+          "Atención multidisciplinaria recomendada: ginecólogo especializado, algólogo para la gestión del dolor crónico, nutricionista (alimentación antiinflamatoria), fisioterapeuta especializado en pelviperineología, psicólogo para el apoyo emocional. La endometriosis impacta significativamente en la calidad de vida."
+        ],
+        "image": "Endométriose.jpeg",
+        "author": "Dr. Seffar Hicham",
+        "tags": ["endometriosis", "diagnóstico", "tratamiento", "dolor"],
+        "featured": true
+      },
+      {
+        "title": "Nutrición y salud ginecológica: Alimentos esenciales",
+        "category": "Santé féminine",
+        "date": "5 de febrero de 2025",
+        "readTime": "3",
+        "excerpt": "Descubra cómo su alimentación influye en su salud ginecológica y qué alimentos priorizar para un equilibrio hormonal óptimo.",
+        "detailedContent": [
+          "Omega-3 (pescados azules como salmón, sardinas, caballa, nueces, semillas de lino): potentes propiedades antiinflamatorias, reducción de los dolores menstruales, apoyo a la salud ovárica y mejora de la calidad de los ovocitos. Consumo recomendado: 2-3 porciones de pescado azul por semana.",
+          "Calcio (productos lácteos, sardinas con espinas, almendras, coles) y vitamina D (exposición solar, pescados azules, huevos): esenciales para el mantenimiento de la densidad ósea, prevención de la osteoporosis posmenopáusica. Aportes recomendados: 1000-1200mg de calcio/día y 800-1000 UI de vitamina D/day.",
+          "Antioxidantes (frutos rojos, cítricos, verduras de colores, té verde): protección celular contra el estrés oxidativo, regulación hormonal, mejora de la fertilidad. Las vitaminas C y E protegen los ovocitos. Una alimentación rica en antioxidantes disminuye también el riesgo de ciertos cánceres ginecológicos.",
+          "Fibras alimentarias (verduras de hoja verde, legumbres, cereales integrales): favorecen la eliminación del exceso de estrógenos a través de las heces, apoyan el metabolismo de las hormonas sexuales, estabilizan la glucemia. Objetivo: 25-30g de fibra al día.",
+          "Hidratación adecuada: indispensable para todas las funciones metabólicas y hormonales óptimas, eliminación de toxinas, mantenimiento de la lubricación vaginal. Beber de 1,5 a 2 litros de agua al día. Limitar el alcohol y la cafeína, que pueden alterar el equilibrio hormonal."
+        ],
+        "image": "Alimentation.jpg",
+        "author": "Dr. Seffar Hicham",
+        "tags": ["alimentación", "hormonas", "bienestar"],
+        "featured": false
+      }
+    ]
+  },
+  "contact": {
+    "badge": "Contacto Directo",
+    "title_start": "Cómo",
+    "title_highlight": "Contactarnos",
+    "subtitle": "Elija el método que mejor le convenga para reservar una cita",
+    "hours_title": "Horario de apertura",
+    "follow_us": "Síganos",
+    "our_office": "Nuestra Clínica",
+    "address_full": "Espace Dubai, 2da planta, 212, edificio k, Av. des Forces Armées Royales, Inezgane 80100",
+    "call_now": "Llamar ahora",
+    "call_sub": "Para una cita rápida",
+    "send_message": "Enviar mensaje",
+    "send_sub": "WhatsApp o SMS"
+  },
+  "common": {
+    "doctor_name": "Dr Seffar Hicham",
+    "specialty": "Ginecólogo Obstetra"
+  }
+}
