@@ -96,7 +96,7 @@ const faqData: Record<Lang, FaqItem[]> = {
     {
       icon: CreditCard,
       question: "Tarifs & contact",
-      answer: "Pour toute information sur les tarifs et les rendez-vous, contactez le cabinet au 05 28 33 55 66. Cabinet situé Espace Dubai, 2ème étage, n°212, Inezgane 80100."
+      answer: "Pour toute information sur les tarifs et les rendez-vous, contactez le cabinet au 05 28 33 55 66. Cabinet situé Espace Dubai, 2ème étage, n°212, Inezgane 80100. Paiement accepté en espèces ainsi que par TPE (carte bancaire, téléphone mobile et moyens de paiement électroniques)."
     },
     {
       icon: Microscope,
@@ -164,11 +164,11 @@ const faqData: Record<Lang, FaqItem[]> = {
       question: "سن الأمل",
       answer: "تقييم سن الأمل، علاج الهبات الساخنة والأعراض، العلاج الهرموني التعويضي (حسب السوابق)، الوقاية من هشاشة العظام ومتابعة نسائية سنوية."
     },
-    {
-      icon: CreditCard,
-      question: "التعريفات والاتصال",
-      answer: "لأي معلومات حول التعريفات والمواعيد، اتصلي على 05 28 33 55 66. العيادة في فضاء دبي، الطابق الثاني، رقم 212، إنزكان 80100."
-    },
+{
+  icon: CreditCard,
+  question: "التعريفات والاتصال",
+  answer: "لأي معلومات حول التعريفات والمواعيد، اتصلي على 05 28 33 55 66. العيادة في فضاء دبي، الطابق الثاني، رقم 212، إنزكان 80100. يتم قبول الدفع نقداً أو عبر جهاز الأداء الإلكتروني (TPE) باستعمال البطاقة البنكية أو الهاتف ووسائل الدفع الإلكترونية."
+},
     {
       icon: Microscope,
       question: "الكشف المبكر عن السرطان",
