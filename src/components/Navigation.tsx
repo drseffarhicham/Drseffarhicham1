@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Menu, X, Home, User, Stethoscope, MessageCircle, BookOpen, Phone } from 'lucide-react';
+import { Menu, X, Home, User, Stethoscope, MessageCircle, BookOpen, Phone, MapPin } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 import LanguageSelector from './LanguageSelector';
 
@@ -26,80 +26,126 @@ export default function Navigation({ scrollToSection }: NavigationProps) {
   ];
 
   return (
-    <nav className="fixed w-full bg-white/95 backdrop-blur-sm shadow-sm z-50 border-b border-gray-100">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex justify-between items-center h-16">
-          {/* Logo */}
-          <div className="flex items-center gap-3">
-            <div className="relative">
-              <img src="/logo.png" alt="Dr Seffar Hicham Logo" className="h-16 w-auto object-contain" />
+    <div className="fixed w-full z-50">
+      {/* Barre de navigation principale */}
+      <nav className="w-full bg-white/95 backdrop-blur-sm shadow-sm border-b border-gray-100">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="flex justify-between items-center h-16">
+            {/* Logo */}
+            <div className="flex items-center gap-3">
+              <div className="relative">
+                <img src="/logo.png" alt="Dr Seffar Hicham Logo" className="h-16 w-auto object-contain" />
+              </div>
+              <div>
+                <span className="text-lg sm:text-xl font-bold text-gray-900 block leading-tight">{t('common.doctor_name')}</span>
+                <span className="text-xs text-clinic-green-700 font-medium">{t('common.specialty')}</span>
+              </div>
             </div>
-            <div>
-              <span className="text-lg sm:text-xl font-bold text-gray-900 block leading-tight">{t('common.doctor_name')}</span>
-              <span className="text-xs text-clinic-green-700 font-medium">{t('common.specialty')}</span>
-            </div>
-          </div>
 
-          {/* Navigation Desktop */}
-          <div className="hidden md:flex gap-1">
-            {menuItems.map((item) => {
-              const Icon = item.icon;
-              return (
-                <button
-                  key={item.id}
-                  onClick={() => handleScroll(item.id)}
-                  className="flex items-center gap-2 px-4 py-2 text-gray-700 hover:text-clinic-green-700 transition-all duration-200 font-medium rounded-lg hover:bg-clinic-green-50 group"
-                >
-                  <Icon className="h-4 w-4 group-hover:scale-110 transition-transform" />
-                  <span>{item.label}</span>
-                </button>
-              );
-            })}
-            <div className="flex items-center ms-2 border-s border-gray-100 ps-2">
+            {/* Navigation Desktop */}
+            <div className="hidden md:flex gap-1">
+              {menuItems.map((item) => {
+                const Icon = item.icon;
+                return (
+                  <button
+                    key={item.id}
+                    onClick={() => handleScroll(item.id)}
+                    className="flex items-center gap-2 px-4 py-2 text-gray-700 hover:text-clinic-green-700 transition-all duration-200 font-medium rounded-lg hover:bg-clinic-green-50 group"
+                  >
+                    <Icon className="h-4 w-4 group-hover:scale-110 transition-transform" />
+                    <span>{item.label}</span>
+                  </button>
+                );
+              })}
+              <div className="flex items-center ms-2 border-s border-gray-100 ps-2">
+                <LanguageSelector />
+              </div>
+            </div>
+
+            {/* Bouton Menu Mobile */}
+            <button
+              className="md:hidden text-gray-700 p-2 rounded-lg hover:bg-clinic-green-50 hover:text-clinic-green-700 transition"
+              onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
+            >
+              {mobileMenuOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
+            </button>
+          </div>
+        </div>
+
+        {/* Menu Mobile */}
+        {mobileMenuOpen && (
+          <div className="md:hidden bg-white border-t border-gray-100">
+            <div className="px-4 py-3 space-y-1">
+              {menuItems.map((item) => {
+                const Icon = item.icon;
+                return (
+                  <button
+                    key={item.id}
+                    onClick={() => handleScroll(item.id)}
+                    className="flex items-center gap-3 w-full text-start px-3 py-3 text-gray-700 hover:bg-clinic-green-50 hover:text-clinic-green-700 rounded-xl transition-all duration-200 group"
+                  >
+                    <div className="w-8 h-8 bg-gray-100 rounded-lg flex items-center justify-center group-hover:bg-clinic-green-100 group-hover:text-clinic-green-700 transition">
+                      <Icon className="h-4 w-4" />
+                    </div>
+                    <span className="font-medium">{item.label}</span>
+                  </button>
+                );
+              })}
+            </div>
+
+            <div className="px-4 py-3 border-t border-gray-100 bg-gray-50 flex items-center justify-between">
+              <div className="flex items-center gap-2 text-sm text-gray-600">
+                <Phone className="h-4 w-4 text-clinic-green-700" />
+                <span dir="ltr">0528 33 55 66</span>
+              </div>
               <LanguageSelector />
             </div>
           </div>
+        )}
+      </nav>
 
-          {/* Bouton Menu Mobile */}
-          <button
-            className="md:hidden text-gray-700 p-2 rounded-lg hover:bg-clinic-green-50 hover:text-clinic-green-700 transition"
-            onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-          >
-            {mobileMenuOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
-          </button>
+      {/* ── Barre d'action rapide ── */}
+      <div className="w-full bg-clinic-green-600 shadow-md">
+        <div className="max-w-7xl mx-auto">
+          <div className="flex divide-x divide-clinic-green-500">
+
+            {/* Appeler */}
+            <a
+              href="tel:0528335566"
+              id="action-bar-call"
+              className="flex-1 flex items-center justify-center gap-2 py-2.5 text-white font-semibold text-sm hover:bg-clinic-green-500 active:bg-clinic-green-700 transition-colors duration-200 group"
+            >
+              <span className="text-base group-hover:scale-110 transition-transform duration-200">📞</span>
+              <span className="hidden xs:inline">Appeler</span>
+            </a>
+
+            {/* WhatsApp */}
+            <a
+              href="https://wa.me/212668628626"
+              id="action-bar-whatsapp"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex-1 flex items-center justify-center gap-2 py-2.5 text-white font-semibold text-sm hover:bg-clinic-green-500 active:bg-clinic-green-700 transition-colors duration-200 group"
+            >
+              <span className="text-base group-hover:scale-110 transition-transform duration-200">💬</span>
+              <span className="hidden xs:inline">WhatsApp</span>
+            </a>
+
+            {/* Itinéraire */}
+            <a
+              href="https://www.google.com/maps/search/?api=1&query=Dr+Seffar+Hicham+Gynécologue+Agadir"
+              id="action-bar-directions"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex-1 flex items-center justify-center gap-2 py-2.5 text-white font-semibold text-sm hover:bg-clinic-green-500 active:bg-clinic-green-700 transition-colors duration-200 group"
+            >
+              <MapPin className="h-4 w-4 group-hover:scale-110 transition-transform duration-200" />
+              <span className="hidden xs:inline">Itinéraire</span>
+            </a>
+
+          </div>
         </div>
       </div>
-
-      {/* Menu Mobile */}
-      {mobileMenuOpen && (
-        <div className="md:hidden bg-white border-t border-gray-100">
-          <div className="px-4 py-3 space-y-1">
-            {menuItems.map((item) => {
-              const Icon = item.icon;
-              return (
-                <button
-                  key={item.id}
-                  onClick={() => handleScroll(item.id)}
-                  className="flex items-center gap-3 w-full text-start px-3 py-3 text-gray-700 hover:bg-clinic-green-50 hover:text-clinic-green-700 rounded-xl transition-all duration-200 group"
-                >
-                  <div className="w-8 h-8 bg-gray-100 rounded-lg flex items-center justify-center group-hover:bg-clinic-green-100 group-hover:text-clinic-green-700 transition">
-                    <Icon className="h-4 w-4" />
-                  </div>
-                  <span className="font-medium">{item.label}</span>
-                </button>
-              );
-            })}
-          </div>
-          
-          <div className="px-4 py-3 border-t border-gray-100 bg-gray-50 flex items-center justify-between">
-            <div className="flex items-center gap-2 text-sm text-gray-600">
-              <Phone className="h-4 w-4 text-clinic-green-700" />
-              <span dir="ltr">0528 33 55 66</span>
-            </div>
-            <LanguageSelector />
-          </div>
-        </div>
-      )}
-    </nav>
+    </div>
   );
 }

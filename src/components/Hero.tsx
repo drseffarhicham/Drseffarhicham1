@@ -10,7 +10,7 @@ export default function Hero({ scrollToSection }: HeroProps) {
 
   return (
     // <section id="accueil" className="relative min-h-screen flex items-center bg-transparent overflow-hidden pt-16 lg:pt-0">
-          <section id="accueil" className="relative min-h-screen flex items-center bg-slate-50 overflow-hidden pt-16 lg:pt-0">
+          <section id="accueil" className="relative min-h-screen flex items-center bg-slate-50 overflow-hidden pt-28 lg:pt-10">
 
       {/* Animated Medical Background */}
       <div className="absolute inset-0 overflow-hidden pointer-events-none z-0">
