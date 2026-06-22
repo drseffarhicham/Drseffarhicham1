@@ -22,7 +22,7 @@ export default function About() {
   const galleryData = [
     {
       id: 1,
-      image: "img1.jpg",
+      image: "img1.webp",
       alt: t('about.gallery_items.accueil.title'),
       title: t('about.gallery_items.accueil.title'),
       icon: Building2,
@@ -32,7 +32,7 @@ export default function About() {
     },
     {
       id: 2,
-      image: "img2.jpg",
+      image: "img2.webp",
       alt: t('about.gallery_items.confort.title'),
       title: t('about.gallery_items.confort.title'),
       icon: Users,
@@ -42,7 +42,7 @@ export default function About() {
     },
     {
       id: 3,
-      image: "IMG5.jpg",
+      image: "IMG5.webp",
       alt: t('about.gallery_items.soin.title'),
       title: t('about.gallery_items.soin.title'),
       icon: Bed,
@@ -52,7 +52,7 @@ export default function About() {
     },
     {
       id: 4,
-      image: "IMG3.jpg",
+      image: "IMG3.webp",
       alt: t('about.gallery_items.techno.title'),
       title: t('about.gallery_items.techno.title'),
       icon: Sparkles,
@@ -62,7 +62,7 @@ export default function About() {
     },
     {
       id: 5,
-      image: "IMG4.jpg",
+      image: "IMG4.webp",
       alt: t('about.gallery_items.expertise.title'),
       title: t('about.gallery_items.expertise.title'),
       icon: Award,
@@ -195,7 +195,7 @@ export default function About() {
               <video
                 ref={videoRef}
                 className={`w-full h-full object-cover transition-opacity duration-700 ${isPlaying ? 'opacity-100' : 'opacity-60 group-hover:opacity-80'}`}
-                poster="img2.jpg"
+                poster="img2.webp"
                 onPlay={() => setIsPlaying(true)}
                 onPause={() => setIsPlaying(false)}
                 controls={isPlaying}

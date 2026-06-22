@@ -10,7 +10,7 @@ export default function Hero({ scrollToSection }: HeroProps) {
 
   return (
     // <section id="accueil" className="relative min-h-screen flex items-center bg-transparent overflow-hidden pt-16 lg:pt-0">
-          <section id="accueil" className="relative min-h-screen flex items-center bg-slate-50 overflow-hidden pt-28 lg:pt-10">
+    <section id="accueil" className="relative min-h-screen flex items-center bg-slate-50 overflow-hidden pt-28 lg:pt-10">
 
       {/* Animated Medical Background */}
       <div className="absolute inset-0 overflow-hidden pointer-events-none z-0">
@@ -19,7 +19,7 @@ export default function Hero({ scrollToSection }: HeroProps) {
         <Baby className="absolute top-[25%] start-[45%] w-16 h-16 md:w-24 md:h-24 text-clinic-green-300/30 animate-float-slower" />
         <Stethoscope className="absolute bottom-[25%] start-[12%] w-16 h-16 md:w-20 md:h-20 text-blue-300/30 animate-float-slow" style={{ animationDelay: '2s' }} />
         <Activity className="absolute top-[10%] end-[35%] w-12 h-12 md:w-16 md:h-16 text-clinic-green-300/40 animate-float-slower" style={{ animationDelay: '1s' }} />
-        
+
         {/* Soft Abstract Blobs */}
         <div className="absolute -start-[10%] top-[20%] w-[50vw] md:w-[30vw] aspect-square bg-clinic-pink-200/30 rounded-full blur-[80px] animate-float-slower mix-blend-multiply"></div>
         <div className="absolute end-[20%] -top-[10%] w-[40vw] md:w-[25vw] aspect-square bg-clinic-green-200/30 rounded-full blur-[80px] animate-float-slow mix-blend-multiply" style={{ animationDelay: '3s' }}></div>
@@ -30,7 +30,7 @@ export default function Hero({ scrollToSection }: HeroProps) {
         <div className="absolute bottom-0 end-0 w-full lg:w-[48%] h-[90%]">
           <div className="absolute inset-0 hidden lg:block"></div>
           <img
-            src="profile.jpg"
+            src="profile.webp"
             alt={t('hero.doctor_name')}
             className="w-full h-full object-contain object-[center_bottom] ..."
             // style={{
@@ -79,15 +79,15 @@ export default function Hero({ scrollToSection }: HeroProps) {
 
             {/* Mobile Image - Order 3 (Sans cadre) */}
             <div className="lg:hidden w-full max-w-[320px] mx-auto order-3 -mt-4 mb-2">
-        <img 
-  src="profile.jpeg" 
-  alt={t('hero.doctor_name')}
-  className="w-full h-auto object-contain scale-110 ..." 
-  style={{
-    maskImage: 'radial-gradient(ellipse 95% 90% at center, black 35%, transparent 60%)',
-    WebkitMaskImage: 'radial-gradient(ellipse 90% 90% at center, black 35%, transparent 70%)'
-  }}
-/>
+              <img
+                src="profile.webp"
+                alt={t('hero.doctor_name')}
+                className="w-full h-auto object-contain scale-110 ..."
+                style={{
+                  maskImage: 'radial-gradient(ellipse 95% 90% at center, black 35%, transparent 60%)',
+                  WebkitMaskImage: 'radial-gradient(ellipse 90% 90% at center, black 35%, transparent 70%)'
+                }}
+              />
 
             </div>
 
@@ -141,7 +141,7 @@ export default function Hero({ scrollToSection }: HeroProps) {
                 ))}
               </div>
             </div>
-            
+
             {/* CTA & Contact Info - Order 8 */}
             <div className="flex flex-col sm:flex-row items-center gap-6 pt-6 order-8">
               <button
@@ -186,7 +186,7 @@ export default function Hero({ scrollToSection }: HeroProps) {
 
       {/* BOTTOM RIGHT UNIFIED BADGES - CENTERED UNDER IMAGE ZONE */}
       <div className="absolute bottom-6 end-0 w-[48%] hidden lg:flex flex-col items-center gap-2 z-50">
-        
+
         {/* First Line - 3 Badges */}
         <div className="flex gap-2 justify-center items-center">
           {[

@@ -38,7 +38,7 @@ Présentation détaillée de l'offre de soins.
   - Consultations gynécologiques (dépistage, prévention).
   - Suivi de grossesse (suivi mensuel, échos).
   - Échographies (2D/3D, morphologique).
-  - Bilan de fertilité.
+  - Bilan de projet parental.
   - Sénologie (maladies du sein).
   - Contraception et Ménopause.
 - **Équipements :** Mise en avant de l'échographe haute résolution et du confort des salles d'examen.

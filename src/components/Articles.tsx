@@ -33,8 +33,8 @@ export default function Articles() {
     setTimeout(() => setSelectedArticle(null), 300);
   };
 
-  const categories = ['Tous', 'Grossesse', 'Santé féminine', 'Chirurgie', 'Ménopause', 'Contraception', 'Fertilité', 'Prévention'];
-  const articles: Article[] = Array.isArray(t('articles.items', { returnObjects: true })) 
+  const categories = ['Tous', 'Grossesse', 'Santé féminine', 'Chirurgie', 'Ménopause', 'Planification', 'ProjetParental', 'Prévention'];
+  const articles: Article[] = Array.isArray(t('articles.items', { returnObjects: true }))
     ? (t('articles.items', { returnObjects: true }) as Article[])
     : [];
 

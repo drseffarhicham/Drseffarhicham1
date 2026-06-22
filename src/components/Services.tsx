@@ -1,4 +1,4 @@
-import { Stethoscope, Baby, Heart, Users, Shield, Award, Activity, Sparkles, Phone, Clock, CheckCircle,  Calendar, Star, Scissors, Eye, Scan, Droplet, Zap, Activity as ActivityIcon } from 'lucide-react';
+import { Stethoscope, Baby, Heart, Users, Shield, Award, Activity, Sparkles, Phone, Clock, CheckCircle, Calendar, Star, Scissors, Eye, Scan, Droplet, Zap, Activity as ActivityIcon } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 
 export default function Services() {
@@ -79,28 +79,28 @@ export default function Services() {
       description: t('services.ultrasound_images.0.description'),
       icon: Scan,
       color: "from-clinic-green-500 to-clinic-green-600",
-      img: "ECHO1.png"
+      img: "ECHO1.webp"
     },
     {
       title: t('services.ultrasound_images.1.title'),
       description: t('services.ultrasound_images.1.description'),
       icon: Droplet,
       color: "from-clinic-pink-500 to-clinic-pink-600",
-      img: "ECHO2.png"
+      img: "ECHO2.webp"
     },
     {
       title: t('services.ultrasound_images.2.title'),
       description: t('services.ultrasound_images.2.description'),
       icon: ActivityIcon,
       color: "from-clinic-green-500 to-clinic-pink-500",
-      img: "ECHO3.png"
+      img: "ECHO3.webp"
     },
     {
       title: t('services.ultrasound_images.3.title'),
       description: t('services.ultrasound_images.3.description'),
       icon: Heart,
       color: "from-clinic-green-600 to-clinic-green-700",
-      img: "ECHO4.png"
+      img: "ECHO4.webp"
     }
   ];
 
@@ -129,13 +129,11 @@ export default function Services() {
             return (
               <div
                 key={index}
-                className={`bg-white rounded-2xl p-6 shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 border-t-4 group w-full md:w-[calc(50%-1rem)] lg:w-[calc(25%-1.5rem)] min-h-[350px] flex flex-col ${
-                  index % 2 === 0 ? 'border-clinic-green-500' : 'border-clinic-pink-500'
-                }`}
+                className={`bg-white rounded-2xl p-6 shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 border-t-4 group w-full md:w-[calc(50%-1rem)] lg:w-[calc(25%-1.5rem)] min-h-[350px] flex flex-col ${index % 2 === 0 ? 'border-clinic-green-500' : 'border-clinic-pink-500'
+                  }`}
               >
-                <div className={`w-16 h-16 bg-white border rounded-2xl flex items-center justify-center mb-5 group-hover:scale-110 transition-transform ${
-                  index % 2 === 0 ? 'border-clinic-green-100' : 'border-clinic-pink-100'
-                }`}>
+                <div className={`w-16 h-16 bg-white border rounded-2xl flex items-center justify-center mb-5 group-hover:scale-110 transition-transform ${index % 2 === 0 ? 'border-clinic-green-100' : 'border-clinic-pink-100'
+                  }`}>
                   <Icon className={`h-8 w-8 ${index % 2 === 0 ? 'text-clinic-green-700' : 'text-clinic-pink-500'}`} />
                 </div>
                 <h3 className="text-xl font-bold text-gray-900 mb-4 leading-tight">{service.title}</h3>
@@ -143,9 +141,8 @@ export default function Services() {
                 <div className="space-y-3 mb-5">
                   {service.details.map((detail, idx) => (
                     <div key={idx} className="flex items-start">
-                      <CheckCircle className={`h-4 w-4 mt-0.5 me-3 flex-shrink-0 ${
-                        index % 2 === 0 ? 'text-clinic-green-500' : 'text-clinic-pink-400'
-                      }`} />
+                      <CheckCircle className={`h-4 w-4 mt-0.5 me-3 flex-shrink-0 ${index % 2 === 0 ? 'text-clinic-green-500' : 'text-clinic-pink-400'
+                        }`} />
                       <span className="text-sm text-gray-700">{detail}</span>
                     </div>
                   ))}
@@ -157,7 +154,7 @@ export default function Services() {
 
         {/* SECTION ÉCHographie 3D/4D & DOPPLER COULEUR - MODERN BENTO GRID REDESIGN */}
         <div className="mt-32 relative">
-          
+
           {/* Section Heading */}
           <div className="text-center max-w-3xl mx-auto mb-16">
             <div className="inline-flex items-center gap-2 px-4 py-2 bg-gradient-to-r from-clinic-green-500 to-clinic-green-600 text-white rounded-full text-sm font-bold mb-6 shadow-lg shadow-clinic-green-500/30">
@@ -174,20 +171,20 @@ export default function Services() {
 
           {/* Interactive Bento Grid Showcase */}
           <div className="grid grid-cols-1 md:grid-cols-12 gap-6">
-            
+
             {/* Main Feature - Spans 12 cols */}
             <div className="md:col-span-12 group relative rounded-3xl overflow-hidden shadow-2xl bg-[#0a0f1c] aspect-[4/3] md:aspect-auto md:h-[320px]">
               {/* Animated abstract background */}
               <div className="absolute inset-0 overflow-hidden">
-                 <div className="absolute top-[-20%] start-[-10%] w-[60%] h-[150%] bg-clinic-green-500/20 blur-[100px] rounded-full animate-float-slow"></div>
-                 <div className="absolute bottom-[-20%] end-[-10%] w-[60%] h-[150%] bg-clinic-pink-500/20 blur-[100px] rounded-full animate-float-slower"></div>
+                <div className="absolute top-[-20%] start-[-10%] w-[60%] h-[150%] bg-clinic-green-500/20 blur-[100px] rounded-full animate-float-slow"></div>
+                <div className="absolute bottom-[-20%] end-[-10%] w-[60%] h-[150%] bg-clinic-pink-500/20 blur-[100px] rounded-full animate-float-slower"></div>
               </div>
               <div className="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI4IiBoZWlnaHQ9IjgiPjxyZWN0IHdpZHRoPSI4IiBoZWlnaHQ9IjgiIGZpbGw9IiNmZmYiIGZpbGwtb3BhY2l0eT0iMC4wNSIvPjxwb2x5Z29uIGZpbGw9IiMwMDAiIGZpbGwtb3BhY2l0eT0iMC4xIiBwb2ludHM9IjQgMCA4IDQgNCA4IDAgNCIvPjwvc3ZnPg==')] opacity-20"></div>
-              
+
               <div className="relative z-20 h-full flex flex-col justify-center p-6 md:p-8">
                 <div className="flex flex-wrap items-center gap-3 mb-4">
-                   <div className="bg-clinic-green-500/20 border border-clinic-green-500/50 text-clinic-green-400 text-[10px] font-bold px-3 py-1 rounded-full uppercase tracking-wider backdrop-blur-md">{t('services.equipment_features_badge1')}</div>
-                   <div className="bg-clinic-pink-500/20 border border-clinic-pink-500/50 text-clinic-pink-400 text-[10px] font-bold px-3 py-1 rounded-full uppercase tracking-wider backdrop-blur-md">{t('services.equipment_features_badge2')}</div>
+                  <div className="bg-clinic-green-500/20 border border-clinic-green-500/50 text-clinic-green-400 text-[10px] font-bold px-3 py-1 rounded-full uppercase tracking-wider backdrop-blur-md">{t('services.equipment_features_badge1')}</div>
+                  <div className="bg-clinic-pink-500/20 border border-clinic-pink-500/50 text-clinic-pink-400 text-[10px] font-bold px-3 py-1 rounded-full uppercase tracking-wider backdrop-blur-md">{t('services.equipment_features_badge2')}</div>
                 </div>
                 <h4 className="text-2xl md:text-4xl font-bold text-white mb-2 leading-tight">
                   {t('services.equipment_features_title_start')} <span className="text-transparent bg-clip-text bg-gradient-to-r from-clinic-green-400 to-clinic-pink-400">{t('services.equipment_features_title_highlight')}</span>
@@ -196,39 +193,39 @@ export default function Services() {
                   {t('services.equipment_features_desc')}
                 </p>
                 <div className="flex flex-wrap gap-4 md:gap-8 text-gray-300 font-medium text-xs">
-                   <div className="flex items-center gap-2"><CheckCircle className="w-4 h-4 text-clinic-green-500" /> {t('services.equipment_features_check1')}</div>
-                   <div className="flex items-center gap-2"><CheckCircle className="w-4 h-4 text-clinic-pink-500" /> {t('services.equipment_features_check2')}</div>
+                  <div className="flex items-center gap-2"><CheckCircle className="w-4 h-4 text-clinic-green-500" /> {t('services.equipment_features_check1')}</div>
+                  <div className="flex items-center gap-2"><CheckCircle className="w-4 h-4 text-clinic-pink-500" /> {t('services.equipment_features_check2')}</div>
                 </div>
               </div>
             </div>
-            
+
             {/* 4 Ultrasound Modalities - each spans 3 cols */}
             {ultrasoundImages.map((img, idx) => {
               const IconImg = img.icon;
               return (
                 <div key={idx} className="col-span-1 sm:col-span-6 lg:col-span-3 group relative rounded-3xl overflow-hidden bg-white shadow-xl hover:shadow-clinic-green-500/20 transition-all duration-500 hover:-translate-y-2 border border-gray-100 hover:border-clinic-green-500/50 flex flex-col">
-                   <div className="aspect-square relative overflow-hidden bg-[#050505] flex items-center justify-center p-2">
-                     {/* The Ultrasound Image - Fully Visible, No Zoom */}
-                     {img.img ? (
-                       <img src={img.img} alt={img.title} className="w-full h-full object-contain" />
-                     ) : (
-                       <div className={`absolute inset-0 bg-gradient-to-br ${img.color} opacity-30`}></div>
-                     )}
-                     
-                     {/* Icon Badge */}
-                     <div className="absolute top-2 end-2 bg-black/60 backdrop-blur-md p-2 rounded-xl border border-white/10 z-10">
-                       <IconImg className="w-4 h-4 text-white" />
-                     </div>
-                   </div>
-                   
-                   {/* Text Content - Below Image - Attractive Design */}
-                   <div className="p-5 bg-white flex-grow border-t border-gray-50 flex flex-col">
-                     <div className="flex items-center gap-2 mb-2">
-                       <div className="w-2 h-2 rounded-full bg-clinic-green-500 animate-pulse"></div>
-                       <h5 className="text-gray-900 font-bold text-base leading-tight group-hover:text-clinic-green-600 transition-colors tracking-tight">{img.title}</h5>
-                     </div>
-                     <p className="text-gray-600 text-sm font-medium leading-relaxed mb-4 line-clamp-2">{img.description}</p>
-                   </div>
+                  <div className="aspect-square relative overflow-hidden bg-[#050505] flex items-center justify-center p-2">
+                    {/* The Ultrasound Image - Fully Visible, No Zoom */}
+                    {img.img ? (
+                      <img src={img.img} alt={img.title} className="w-full h-full object-contain" />
+                    ) : (
+                      <div className={`absolute inset-0 bg-gradient-to-br ${img.color} opacity-30`}></div>
+                    )}
+
+                    {/* Icon Badge */}
+                    <div className="absolute top-2 end-2 bg-black/60 backdrop-blur-md p-2 rounded-xl border border-white/10 z-10">
+                      <IconImg className="w-4 h-4 text-white" />
+                    </div>
+                  </div>
+
+                  {/* Text Content - Below Image - Attractive Design */}
+                  <div className="p-5 bg-white flex-grow border-t border-gray-50 flex flex-col">
+                    <div className="flex items-center gap-2 mb-2">
+                      <div className="w-2 h-2 rounded-full bg-clinic-green-500 animate-pulse"></div>
+                      <h5 className="text-gray-900 font-bold text-base leading-tight group-hover:text-clinic-green-600 transition-colors tracking-tight">{img.title}</h5>
+                    </div>
+                    <p className="text-gray-600 text-sm font-medium leading-relaxed mb-4 line-clamp-2">{img.description}</p>
+                  </div>
                 </div>
               );
             })}

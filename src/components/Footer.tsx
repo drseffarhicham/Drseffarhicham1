@@ -15,7 +15,7 @@ export default function Footer() {
           <div className="space-y-6">
             <div className="flex items-center gap-3">
               <div className="relative">
-                <img src="/logo.png" alt="Dr Seffar Hicham Logo" className="h-14 w-auto object-contain bg-white rounded-xl p-1 shadow-sm" />
+                <img src="/logo.webp" alt="Dr Seffar Hicham Logo" className="h-14 w-auto object-contain bg-white rounded-xl p-1 shadow-sm" />
               </div>
               <div>
                 <span className="text-2xl font-bold block tracking-tight">{t('common.doctor_name')}</span>

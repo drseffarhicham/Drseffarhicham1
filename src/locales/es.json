@@ -17,8 +17,8 @@
       "Seguimiento del embarazo y embarazos de alto riesgo",
       "Ecografía obstétrica avanzada",
       "Morfología fetal",
-      "Evaluación y apoyo a la fertilidad",
-      "Derivación a centros especializados en TRA",
+      "Consultas ginecológicas especializadas",
+      "Derivación a especialistas según las necesidades",
       "Cirugía vaginal (Prolapso, Estética)"
     ],
     "cta_button": "Pedir Cita",
@@ -30,11 +30,26 @@
       "fb": "FB"
     },
     "badges": {
-      "suivi": { "title": "Seguimiento", "sub": "Personalizado" },
-      "secret": { "title": "Secreto", "sub": "Médico" },
-      "expertise": { "title": "Experiencia", "sub": "Avanzada" },
-      "ecoute": { "title": "Escucha", "sub": "Paciente" },
-      "experience": { "title": "+15 años", "sub": "Experiencia" }
+      "suivi": {
+        "title": "Seguimiento",
+        "sub": "Personalizado"
+      },
+      "secret": {
+        "title": "Secreto",
+        "sub": "Médico"
+      },
+      "expertise": {
+        "title": "Experiencia",
+        "sub": "Avanzada"
+      },
+      "ecoute": {
+        "title": "Escucha",
+        "sub": "Paciente"
+      },
+      "experience": {
+        "title": "+15 años",
+        "sub": "Experiencia"
+      }
     }
   },
   "nav": {
@@ -90,11 +105,26 @@
     "gallery_mobile_hint": "(Haga clic en las fotos para ver los detalles)",
     "gallery_desktop_hint": "Pase el ratón sobre las imágenes para descubrir nuestro universo.",
     "gallery_items": {
-      "accueil": { "title": "Recepción", "desc": "Un espacio luminoso y relajante desde su llegada, diseñado para reducir su estrés y darle confianza." },
-      "confort": { "title": "Confort", "desc": "Una sala de espera pensada como un salón, con asientos cómodos y un ambiente zen." },
-      "soin": { "title": "Sala de Tratamiento", "desc": "Un espacio moderno y equipado para asegurar sus cuidados en un entorno cómodo y seguro." },
-      "techno": { "title": "Tecnología", "desc": "Equipada con ecografía 3D y monitorización fetal y materna para un seguimiento prenatal preciso y seguro." },
-      "expertise": { "title": "Pericia", "desc": "Cada detalle de nuestra estructura ha sido pensado para ofrecerle los mejores cuidados en las mejores condiciones." }
+      "accueil": {
+        "title": "Recepción",
+        "desc": "Un espacio luminoso y relajante desde su llegada, diseñado para reducir su estrés y darle confianza."
+      },
+      "confort": {
+        "title": "Confort",
+        "desc": "Una sala de espera pensada como un salón, con asientos cómodos y un ambiente zen."
+      },
+      "soin": {
+        "title": "Sala de Tratamiento",
+        "desc": "Un espacio moderno y equipado para asegurar sus cuidados en un entorno cómodo y seguro."
+      },
+      "techno": {
+        "title": "Tecnología",
+        "desc": "Equipada con ecografía 3D y monitorización fetal y materna para un seguimiento prenatal preciso y seguro."
+      },
+      "expertise": {
+        "title": "Pericia",
+        "desc": "Cada detalle de nuestra estructura ha sido pensado para ofrecerle los mejores cuidados en las mejores condiciones."
+      }
     },
     "standards": "Clínica conforme a las normas sanitarias internacionales"
   },
@@ -106,58 +136,113 @@
     "items": [
       {
         "title": "Consultas Ginecológicas",
-        "description": "Exámenes de rutina, detección de ITS, tratamiento de infecciones y prevención de patologías femeninas.",
-        "details": ["Examen clínico completo", "Citología y detección de ITS", "Prevención cáncer de mama/cuello", "Tratamiento de infecciones"]
+        "description": "Exámenes de rutina, prevención de ITS, tratamiento de infecciones y prevención de patologías femeninas.",
+        "details": [
+          "Examen clínico completo",
+          "Citología y prevención de ITS",
+          "Prevención cáncer de mama/cuello",
+          "Tratamiento de infecciones"
+        ]
       },
       {
         "title": "Seguimiento del Embarazo",
         "description": "Acompañamiento integral durante todo el embarazo con consultas regulares y preparación al parto.",
-        "details": ["7 consultas indispensables", "Seguimiento ecográfico", "Preparación al nacimiento", "Seguimiento postnatal incluido"]
+        "details": [
+          "7 consultas indispensables",
+          "Seguimiento ecográfico",
+          "Preparación al nacimiento",
+          "Seguimiento postnatal incluido"
+        ]
       },
       {
         "title": "Ecografías 3D y Doppler Color",
         "description": "Ecografías obstétricas y ginecológicas con tecnología 3D/4D y Doppler color para una precisión inigualable.",
-        "details": ["Ecografía 3D/4D de alta definición", "Doppler color avanzado", "Ecografía de datación", "Morfológica detallada"]
+        "details": [
+          "Ecografía 3D/4D de alta definición",
+          "Doppler color avanzado",
+          "Ecografía de datación",
+          "Morfológica detallada"
+        ]
       },
       {
-        "title": "Evaluación de Fertilidad",
-        "description": "Evaluación completa de la fertilidad y acompañamiento personalizado para parejas que desean tener un hijo.",
-        "details": ["Evaluación hormonal completa", "Seguimiento de la ovulación", "Espermiograma orientado", "Asesoramiento personalizado"]
+        "title": "Proyecto Parental",
+        "description": "Evaluación de la salud reproductiva y acompañamiento personalizado para parejas que desean tener un hijo.",
+        "details": [
+          "Evaluación hormonal completa",
+          "Seguimiento de la ovulación",
+          "Espermiograma orientado",
+          "Asesoramiento personalizado"
+        ]
       },
       {
         "title": "Cirugía Laparoscópica",
-        "description": "Cirugía mínimamente invasiva por laparoscopia para el tratamiento de quistes, útero e infertilidad.",
-        "details": ["Cicatrices mínimas", "Recuperación rápida", "Tratamiento uterino", "Cirugía ovárica"]
+        "description": "Cirugía mínimamente invasiva por laparoscopia para el tratamiento de quistes, útero y dificultades de concepción.",
+        "details": [
+          "Cicatrices mínimas",
+          "Recuperación rápida",
+          "Tratamiento uterino",
+          "Cirugía ovárica"
+        ]
       },
       {
         "title": "Histeroscopia",
         "description": "Exploración y tratamiento de patologías intrauterinas (pólipos, miomas) a través de las vías naturales.",
-        "details": ["Sin incisión cutánea", "Diagnóstico de fertilidad", "Extracción de pólipos/miomas", "Atención ambulatoria"]
+        "details": [
+          "Sin incisión cutánea",
+          "Evaluación preconcepcional",
+          "Extracción de pólipos/miomas",
+          "Atención ambulatoria"
+        ]
       },
       {
         "title": "Cirugía de Mama",
         "description": "Manejo quirúrgico de patologías mamarias benignas y malignas con un enfoque conservador.",
-        "details": ["Exéresis de adenofibromas", "Biopsias mamarias", "Cirugía oncoplástica", "Seguimiento postoperatorio"]
+        "details": [
+          "Exéresis de adenofibromas",
+          "Biopsias mamarias",
+          "Cirugía oncoplástica",
+          "Seguimiento postoperatorio"
+        ]
       },
       {
         "title": "Cirugía Vaginal",
         "description": "Histerectomía vaginal, cirugía de prolapsos y cirugía estética perineal.",
-        "details": ["Histerectomía vaginal", "Cirugía de prolapsos", "Cirugía estética", "Enfoque mínimamente invasivo"]
+        "details": [
+          "Histerectomía vaginal",
+          "Cirugía de prolapsos",
+          "Cirugía estética",
+          "Enfoque mínimamente invasivo"
+        ]
       },
       {
         "title": "Seguimiento de Menopausia",
         "description": "Acompañamiento y tratamientos para gestionar los síntomas de la menopausia y mantener su calidad de vida.",
-        "details": ["Evaluación de menopausia", "Tratamiento de síntomas", "Prevención de osteoporosis", "Consejos de bienestar"]
+        "details": [
+          "Evaluación de menopausia",
+          "Tratamiento de síntomas",
+          "Prevención de osteoporosis",
+          "Consejos de bienestar"
+        ]
       },
       {
         "title": "Salud Hormonal",
         "description": "Diagnóstico y tratamiento de trastornos hormonales con un enfoque global de su salud.",
-        "details": ["Síndrome de ovarios poliquísticos", "Trastornos tiroideos", "Irregularidades del ciclo", "Tratamientos hormonales"]
+        "details": [
+          "Síndrome de ovarios poliquísticos",
+          "Trastornos tiroideos",
+          "Irregularidades del ciclo",
+          "Tratamientos hormonales"
+        ]
       },
       {
-        "title": "Contracepción",
-        "description": "Asesoramiento personalizado y seguimiento para elegir el método anticonceptivo más adecuado para su situación.",
-        "details": ["Píldora e Implante", "DIU hormonal/cobre", "Anticoncepción de emergencia", "Ajuste anual"]
+        "title": "Planificación Familiar",
+        "description": "Asesoramiento personalizado y seguimiento para elegir el método más adecuado para su situación.",
+        "details": [
+          "Píldora e Implante",
+          "DIU hormonal/cobre",
+          "Seguimiento adaptado",
+          "Ajuste anual"
+        ]
       }
     ],
     "equipment_badge": "Plataforma Técnica de Excelencia",
@@ -175,10 +260,22 @@
     "stats_speed_title": "Examen Rápido y Completo",
     "stats_speed_sub": "min",
     "ultrasound_images": [
-      { "title": "Ecografía 3D - Rostro del Bebé", "description": "Visualización detallada de los rasgos faciales" },
-      { "title": "Doppler Color - Flujo sanguíneo", "description": "Análisis preciso de la circulación uterina" },
-      { "title": "Modelado 4D - Movimientos", "description": "Observación de movimientos en tiempo real" },
-      { "title": "Ecografía Morfológica", "description": "Detección temprana de anomalías" }
+      {
+        "title": "Ecografía 3D - Rostro del Bebé",
+        "description": "Visualización detallada de los rasgos faciales"
+      },
+      {
+        "title": "Doppler Color - Flujo sanguíneo",
+        "description": "Análisis preciso de la circulación uterina"
+      },
+      {
+        "title": "Modelado 4D - Movimientos",
+        "description": "Observación de movimientos en tiempo real"
+      },
+      {
+        "title": "Ecografía Morfológica",
+        "description": "Detección temprana de anomalías"
+      }
     ],
     "appointment_title": "Reserva de Citas Simplificada",
     "appointment_desc": "Reserve su consulta en línea fácilmente, elija el horario que más le convenga y reciba un recordatorio por SMS. Urgencias ginecológicas atendidas rápidamente.",
@@ -260,8 +357,8 @@
       "Santé féminine": "Salud femenina",
       "Chirurgie": "Cirugía",
       "Ménopause": "Menopausia",
-      "Contraception": "Anticoncepción",
-      "Fertilité": "Fertilidad",
+      "Planification": "Planificación familiar",
+      "ProjetParental": "Proyecto parental",
       "Prévention": "Prevención"
     },
     "items": [
@@ -277,9 +374,14 @@
           "Cirugía Estética Perineal: Intervenciones destinadas a corregir las secuelas del parto o a mejorar la estética de la zona íntima (perineoplastia).",
           "Ventajas de la vía vaginal: Menos dolor postoperatorio, menor estancia hospitalaria y ausencia de cicatrices externas visibles."
         ],
-        "image": "ChirurgieVaginale.jpeg",
+        "image": "ChirurgieVaginale.webp",
         "author": "Dr. Seffar Hicham",
-        "tags": ["cirugía vaginal", "histerectomía", "prolapso", "estética"],
+        "tags": [
+          "cirugía vaginal",
+          "histerectomía",
+          "prolapso",
+          "estética"
+        ],
         "featured": true
       },
       {
@@ -289,15 +391,21 @@
         "readTime": "3",
         "excerpt": "Descubra cómo la histeroscopia permite diagnosticar y tratar patologías uterinas como pólipos o miomas con la máxima precisión y mínimas consecuencias postoperatorias.",
         "detailedContent": [
-          "Diagnóstico preciso de anomalías intrauterinas (pólipos, miomas, tabiques) para tratar hemorragias anormales o infertilidad. El examen permite una visión directa y clara de toda la cavidad uterina.",
+          "Diagnóstico preciso de anomalías intrauterinas (pólipos, miomas, tabiques) para tratar hemorragias anormales o dificultades de concepción. El examen permite una visión directa y clara de toda la cavidad uterina.",
           "Tratamiento quirúrgico mínimamente invasivo que permite la eliminación de lesiones sin ninguna incisión en la piel. El instrumento pasa por las vías naturales, evitando cicatrices visibles.",
           "Histeroscopia ambulatoria: la mayoría de las intervenciones se realizan en media jornada, permitiendo un rápido regreso a casa. Se prioriza la comodidad de la paciente con técnicas modernas de anestesia.",
           "Recuperación postoperatoria extremadamente rápida, con vuelta a las actividades habituales al día siguiente. El dolor es generalmente mínimo y está bien controlado con analgésicos simples.",
           "Seguimiento personalizado: cada intervención es objeto de un informe detallado y de un análisis histopatológico sistemático de las muestras si es necesario para una seguridad médica total."
         ],
-        "image": "L'Hystéroscopie.jpeg",
+        "image": "L'Hystéroscopie.webp",
         "author": "Dr. Seffar Hicham",
-        "tags": ["histeroscopia", "cirugía", "útero", "miomas", "pólipos"],
+        "tags": [
+          "histeroscopia",
+          "cirugía",
+          "útero",
+          "miomas",
+          "pólipos"
+        ],
         "featured": true
       },
       {
@@ -313,9 +421,15 @@
           "Extracción y análisis del ganglio centinela para limitar las secuelas funcionales en el brazo. Esta técnica precisa evita a menudo el vaciamiento axilar completo y sus posibles complicaciones.",
           "Acompañamiento multidisciplinar y seguimiento postoperatorio riguroso para una curación serena. La colaboración con radiólogos, oncólogos y fisioterapeutas asegura una atención integral de la paciente."
         ],
-        "image": "chirregie.png",
+        "image": "chirregie.webp",
         "author": "Dr. Seffar Hicham",
-        "tags": ["cirugía de mama", "mama", "prevención", "cáncer", "estética"],
+        "tags": [
+          "cirugía de mama",
+          "mama",
+          "prevención",
+          "cáncer",
+          "estética"
+        ],
         "featured": false
       },
       {
@@ -326,14 +440,20 @@
         "excerpt": "Menos cicatrices, menos dolor y una recuperación más rápida. La celoscopia (laparoscopia) revoluciona el tratamiento de los quistes ováricos y la endometriosis.",
         "detailedContent": [
           "Técnica de videocirugía que permite explorar y operar el abdomen a través de incisiones muy pequeñas (5 a 10 mm). La cámara ofrece una visión aumentada y precisa de los órganos pélvicos.",
-          "Tratamiento de primera línea para quistes ováricos, embarazos ectópicos y ciertas formas de infertilidad. La precisión del gesto quirúrgico permite preservar la fertilidad futura.",
+          "Tratamiento de primera línea para quistes ováricos, embarazos ectópicos y ciertas formas de dificultades de concepción. La precisión del gesto quirúrgico permite preservar la salud reproductiva futura.",
           "Referencia para el tratamiento quirúrgico de la endometriosis: eliminación precisa de las lesiones respetando los tejidos sanos circundantes. La laparoscopia mejora significativamente la calidad de vida de las pacientes.",
           "Ventajas principales: disminución drástica del dolor postoperatorio y riesgo de infección reducido. El perjuicio estético es casi nulo gracias al pequeño tamaño de las cicatrices.",
           "Retorno rápido a la vida social y profesional: la estancia hospitalaria se acorta y la convalecencia es mucho más sencilla que en la cirugía clásica 'abierta'."
         ],
-        "image": "Laparoscopie.jpeg",
+        "image": "Laparoscopie.webp",
         "author": "Dr. Seffar Hicham",
-        "tags": ["laparoscopia", "celoscopia", "cirugía mínimamente invasiva", "quistes", "endometriosis"],
+        "tags": [
+          "laparoscopia",
+          "celoscopia",
+          "cirugía mínimamente invasiva",
+          "quistes",
+          "endometriosis"
+        ],
         "featured": true
       },
       {
@@ -344,14 +464,19 @@
         "excerpt": "El seguimiento prenatal regular es esencial para asegurar la salud de la madre y del bebé. Descubra por qué cada consulta cuenta y cómo optimizar su seguimiento médico.",
         "detailedContent": [
           "7 consultas prenatales indispensables para vigilar el desarrollo fetal y prevenir complicaciones. Estas consultas permiten detectar precozmente cualquier anomalía y asegurar un seguimiento personalizado adaptado a cada embarazo.",
-          "Ecografías de cribado en el 1er, 2do y 3er trimestre para detectar anomalías morfológicas o retraso del crecimiento. La ecografía del primer trimestre permite fechar con precisión el embarazo y detectar la trisomía 21.",
+          "Ecografías preventivas en el 1er, 2do y 3er trimestre para detectar anomalías morfológicas o retraso del crecimiento. La ecografía del primer trimestre permite fechar con precisión el embarazo y prevenir la trisomía 21.",
           "Vigilancia sistemática de la presión arterial y del aumento de peso para prevenir la preeclampsia. Una hipertensión arterial gestacional puede tener consecuencias graves y requiere un manejo inmediato.",
-          "Detección de diabetes gestacional entre las 24 y 28 semanas mediante prueba de tolerancia a la glucosa. Esta detección es crucial porque la diabetes gestacional aumenta los riesgos de complicaciones para la madre y el niño.",
+          "Evaluación preventiva de diabetes gestacional entre las 24 y 28 semanas mediante prueba de tolerancia a la glucosa. Esta evaluación es crucial porque la diabetes gestacional aumenta los riesgos de complicaciones para la madre y el niño.",
           "Preparación para la lactancia y consejos nutricionales basados en las necesidades energéticas y micronutricionales. Una alimentación equilibrada rica en hierro, calcio, ácido fólico y omega-3 es esencial para el desarrollo óptimo del feto."
         ],
-        "image": "L'importance.jpeg",
+        "image": "L'importance.webp",
         "author": "Dr. Seffar Hicham",
-        "tags": ["seguimiento embarazo", "consulta", "salud bebé", "preparación parto"],
+        "tags": [
+          "seguimiento embarazo",
+          "consulta",
+          "salud bebé",
+          "preparación parto"
+        ],
         "featured": true
       },
       {
@@ -362,14 +487,19 @@
         "excerpt": "Una guía completa para entender mejor su ciclo menstrual e identificar los signos que requieren una consulta médica. Aprenda a escuchar a su cuerpo.",
         "detailedContent": [
           "Fase folicular (días 1-14): desarrollo de los folículos y producción de estrógenos, preparación para la ovulación. Durante esta fase, la hormona FSH estimula el crecimiento de varios folículos ováricos, uno de los cuales se volverá dominante.",
-          "Fase ovulatoria: liberación del ovocito, periodo de fertilidad máxima. El pico de LH desencadena la ovulación unas 24-36 horas más tarde. El moco cervical se vuelve más fluido para facilitar el paso de los espermatozoides.",
+          "Fase ovulatoria: liberación del ovocito, periodo de concepción óptima. El pico de LH desencadena la ovulación unas 24-36 horas más tarde. El moco cervical se vuelve más fluido para facilitar el paso de los espermatozoides.",
           "Fase lútea: secreción de progesterona por el cuerpo lúteo, preparación del endometrio para la implantación. Esta fase dura unos 14 días y termina con la regla si no ha habido fecundación.",
           "Signos de alerta: ciclos irregulares, dolores intensos que pueden señalar trastornos hormonales como el síndrome de ovarios poliquísticos (SOPK) o la endometriosis. Las hemorragias entre reglas pueden indicar un desequilibrio hormonal.",
           "Cuándo consultar: amenorrea de más de 3 meses, hemorragias anormales abundantes o prolongadas, sospecha de trastorno endocrino. Una dismenorrea severa requiere una investigación para descartar la endometriosis."
         ],
-        "image": "cycle.jpeg",
+        "image": "cycle.webp",
         "author": "Dr. Seffar Hicham",
-        "tags": ["ciclo menstrual", "síntomas", "salud mujer", "prevención"],
+        "tags": [
+          "ciclo menstrual",
+          "síntomas",
+          "salud mujer",
+          "prevención"
+        ],
         "featured": false
       },
       {
@@ -385,27 +515,37 @@
           "Ejercicios físicos adaptados: musculación y ejercicios de carga para prevenir la pérdida ósea. Caminar rápido, el jogging suave y el baile son excelentes. La actividad física regular también reduce el riesgo cardiovascular.",
           "Seguimiento ginecológico anual indispensable: detección de patologías hormonales y oncológicas. El cáncer de endometrio y de ovario son más frecuentes tras la menopausia. Una citología cervical sigue siendo necesaria hasta los 65 años."
         ],
-        "image": "ménopause.jpeg",
+        "image": "ménopause.webp",
         "author": "Dr. Seffar Hicham",
-        "tags": ["menopausia", "tratamiento hormonal", "bienestar", "síntomas"],
+        "tags": [
+          "menopausia",
+          "tratamiento hormonal",
+          "bienestar",
+          "síntomas"
+        ],
         "featured": true
       },
       {
-        "title": "Anticoncepción: elegir la opción correcta según su perfil y necesidades",
-        "category": "Contraception",
+        "title": "Planificación familiar: elegir la opción correcta según su perfil y necesidades",
+        "category": "Planification",
         "date": "1 de marzo de 2025",
         "readTime": "3",
-        "excerpt": "Píldora, DIU, implante... Descubra los diferentes métodos anticonceptivos y encuentre el que mejor se adapte a usted según su estilo de vida y salud.",
+        "excerpt": "Píldora, DIU, implante... Descubra los diferentes métodos y encuentre el que mejor se adapte a usted según su estilo de vida y salud.",
         "detailedContent": [
-          "Anticoncepción oral: estroprogestágena y progestágena, ajustada según antecedentes tromboembólicos. La píldora combinada está contraindicada en caso de migraña con aura, tabaquismo después de los 35 años o antecedentes de trombosis venosa. La eficacia depende de la adherencia diaria.",
-          "DIU de cobre: acción mecánica sobre la implantación y toxicidad del cobre sobre los espermatozoides, eficaz hasta por 10 años. Sin hormonas, conviene a las mujeres que no desean anticoncepción hormonal. Puede aumentar ligeramente el flujo menstrual.",
+          "Métodos orales: estroprogestágena y progestágena, ajustada según antecedentes tromboembólicos. La píldora combinada está contraindicada en caso de migraña con aura, tabaquismo después de los 35 años o antecedentes de trombosis venosa. La eficacia depende de la adherencia diaria.",
+          "DIU de cobre: acción mecánica sobre la implantación y toxicidad del cobre sobre los espermatozoides, eficaz hasta por 10 años. Sin hormonas, conviene a las mujeres que no desean métodos hormonales. Puede aumentar ligeramente el flujo menstrual.",
           "DIU hormonal: liberación continua de levonorgestrel, duración de 3 a 5 años, disminución significativa del flujo menstrual o incluso amenorrea. Particularmente indicado en caso de menorragias o endometriosis. Tasa de satisfacción muy alta.",
-          "Implante anticonceptivo: liberación continua de progestágeno subcutáneo, discreto y eficaz por 3 años. Inserción rápida bajo anestesia local en el brazo. Puede provocar hemorragias irregulares los primeros meses, requiriendo a veces un tratamiento complementario.",
+          "Implante: liberación continua de progestágeno subcutáneo, discreto y eficaz por 3 años. Inserción rápida bajo anestesia local en el brazo. Puede provocar hemorragias irregulares los primeros meses, requiriendo a veces un tratamiento complementario.",
           "Consulta anual para control y ajuste según tolerancia y efectos secundarios. El examen clínico, la medición de la presión arterial y la citología cervical forman parte del seguimiento. Posibilidad de cambiar de método en cualquier momento según la evolución de sus necesidades."
         ],
-        "image": "Contraception.jpeg",
+        "image": "Contraception.webp",
         "author": "Dr. Seffar Hicham",
-        "tags": ["anticoncepción", "píldora", "DIU", "métodos"],
+        "tags": [
+          "planificación familiar",
+          "píldora",
+          "DIU",
+          "métodos"
+        ],
         "featured": false
       },
       {
@@ -421,45 +561,60 @@
           "Reconocer el inicio del trabajo de parto: contracciones regulares cada 5 minutos durante 2 horas, rotura de membranas con pérdida de líquido amniótico claro. A veces precedido por la pérdida del tapón mucoso unos días antes.",
           "Maleta de maternidad: lista de verificación que incluye ropa cómoda para la madre, bodies y pijamas para el recién nacido, productos de higiene, documentos médicos (tarjeta de grupo sanguíneo, expediente médico) y accesorios para la lactancia si se desea."
         ],
-        "image": "Préparation.jpeg",
+        "image": "Préparation.webp",
         "author": "Dr. Seffar Hicham",
-        "tags": ["parto", "preparación", "ejercicios", "respiración"],
+        "tags": [
+          "parto",
+          "preparación",
+          "ejercicios",
+          "respiración"
+        ],
         "featured": false
       },
       {
-        "title": "Fertilidad: consejos y prevención para optimizar sus posibilidades",
-        "category": "Fertilité",
+        "title": "Salud reproductiva: consejos y prevención para optimizar sus posibilidades",
+        "category": "ProjetParental",
         "date": "20 de febrero de 2025",
         "readTime": "3",
-        "excerpt": "Los factores que influyen en la fertilidad y las buenas prácticas para optimizar sus posibilidades de concepción. Del diagnóstico a las soluciones naturales.",
+        "excerpt": "Los factores que influyen en la concepción y las buenas prácticas para optimizar sus posibilidades. Del diagnóstico a las soluciones naturales.",
         "detailedContent": [
-          "Evaluación de fertilidad tras 12 meses sin embarazo (6 meses después de los 35 años) para identificar causas femeninas y masculinas. La evaluación incluye un espermiograma para el hombre, análisis hormonales y una ecografía pélvica para la mujer.",
+          "Evaluación médica tras 12 meses sin embarazo (6 meses después de los 35 años) para identificar causas femeninas y masculinas. La evaluación incluye un espermiograma para el hombre, análisis hormonales y una ecografía pélvica para la mujer.",
           "Análisis hormonales (FSH, LH, AMH, estradiol, progesterona) y ecografía pélvica para evaluar la reserva ovárica y detectar posibles quistes o miomas. La hormona antimulleriana (AMH) es un excelente marcador de la reserva ovárica.",
           "Seguimiento de la ovulación mediante curva de temperatura basal, pruebas hormonales urinarias de ovulación o monitorización ecográfica. El periodo fértil se extiende desde 5 días antes de la ovulación hasta 24 horas después.",
           "Factores favorecedores: alimentación equilibrada rica en antioxidantes, ácido fólico y zinc, mantenimiento de un IMC entre 19 y 25, actividad física moderada regular. Un peso insuficiente o excesivo puede alterar la ovulación.",
-          "Evitar el tabaco (disminuye la reserva ovárica y la calidad de los ovocitos), el alcohol (tóxico para los gametos) y el estrés excesivo (altera el eje hipotálamo-hipofisario). Limitar la cafeína a 2 tazas al día. Algunos disruptores endocrinos también pueden afectar la fertilidad."
+          "Evitar el tabaco (disminuye la reserva ovárica y la calidad de los ovocitos), el alcohol (tóxico para los gametos) y el estrés excesivo (altera el eje hipotálamo-hipofisario). Limitar la cafeína a 2 tazas al día. Algunos disruptores endocrinos también pueden afectar la concepción."
         ],
-        "image": "Fertilité.jpeg",
+        "image": "Fertilité.webp",
         "author": "Dr. Seffar Hicham",
-        "tags": ["fertilidad", "concepción", "evaluación", "tratamientos"],
+        "tags": [
+          "proyecto parental",
+          "concepción",
+          "evaluación",
+          "tratamientos"
+        ],
         "featured": true
       },
       {
-        "title": "Detección del cáncer de mama: Todo lo que necesita saber",
+        "title": "Prevención del cáncer de mama: Todo lo que necesita saber",
         "category": "Prévention",
         "date": "15 de febrero de 2025",
         "readTime": "2",
-        "excerpt": "La importancia de la detección temprana del cáncer de mama. Métodos, frecuencia y señales de alerta que no deben descuidarse para su salud.",
+        "excerpt": "La importancia de la prevención del cáncer de mama. Métodos, frecuencia y señales de alerta que no deben descuidarse para su salud.",
         "detailedContent": [
           "Autopalpación mensual después de la regla para detectar nódulos, bultos o anomalías en la textura mamaria. De pie ante un espejo, inspeccione sus senos levantando los brazos, luego palpe con movimientos circulares acostada.",
-          "Examen clínico anual por un ginecólogo o médico para la detección temprana de cualquier anomalía. El examen incluye la inspección visual y la palpación de las mamas y de las áreas ganglionares axilares.",
-          "Mamografía de cribado cada 2 años entre los 50 y 74 años según las recomendaciones de salud pública. Este examen radiológico permite detectar lesiones subclínicas no palpables. Puede iniciarse antes en caso de factores de riesgo.",
+          "Examen clínico anual por un ginecólogo o médico para la prevención de cualquier anomalía. El examen incluye la inspección visual y la palpación de las mamas y de las áreas ganglionares axilares.",
+          "Mamografía preventiva cada 2 años entre los 50 y 74 años según las recomendaciones de salud pública. Este examen radiológico permite detectar lesiones subclínicas no palpables. Puede iniciarse antes en caso de factores de riesgo.",
           "Ecografía mamaria complementaria si la densidad mamaria es alta en mujeres jóvenes o si se detectan anomalías en la mamografía. Se puede proponer una resonancia magnética mamaria en caso de muy alto riesgo genético.",
           "Factores de riesgo: antecedentes familiares de primer grado, edad (el riesgo aumenta después de los 50 años), mutaciones genéticas BRCA1/BRCA2, primer embarazo tardío, ausencia de lactancia, tratamiento hormonal prolongado. Se propone asesoramiento genético si existen múltiples antecedentes familiares."
         ],
-        "image": "depistage.png",
+        "image": "depistage.webp",
         "author": "Dr. Seffar Hicham",
-        "tags": ["detección", "cáncer de mama", "mamografía", "prevención"],
+        "tags": [
+          "exámenes",
+          "cáncer de mama",
+          "mamografía",
+          "prevención"
+        ],
         "featured": false
       },
       {
@@ -469,15 +624,20 @@
         "readTime": "3",
         "excerpt": "Entender la endometriosis, sus síntomas y los nuevos enfoques de tratamiento para mejorar la calidad de vida de las pacientes.",
         "detailedContent": [
-          "Síntomas característicos: dismenorrea severa (reglas muy dolorosas), dolor pélvico crónico fuera del periodo menstrual, dispareunia profunda (dolor durante las relaciones), trastornos digestivos cíclicos, posible infertilidad en el 30-40% de las pacientes.",
+          "Síntomas característicos: dismenorrea severa (reglas muy dolorosas), dolor pélvico crónico fuera del periodo menstrual, dispareunia profunda (dolor durante las relaciones), trastornos digestivos cíclicos, posibles dificultades de concepción en el 30-40% de las pacientes.",
           "Diagnóstico: ecografía endovaginal realizada por un experto en endometriosis y resonancia magnética pélvica para visualizar y localizar precisamente las lesiones de endometriosis (ovarios, ligamentos uterosacros, tabique rectovaginal). El retraso diagnóstico es, lamentablemente, todavía largo (7 años de media).",
-          "Tratamientos médicos de primera línea: antiinflamatorios no esteroideos para el dolor, anticoncepción hormonal continua (píldora estroprogestágena en continuo, DIU de levonorgestrel), progestágenos, agonistas o antagonistas de la GnRH que inducen una menopausia artificial temporal.",
-          "Tratamiento quirúrgico por celoscopia si las lesiones son extensas, endometriomas ováricos voluminosos o síntomas severos resistentes al tratamiento médico. La extirpación completa de las lesiones mejora significativamente la fertilidad y la calidad de vida.",
+          "Tratamientos médicos de primera línea: antiinflamatorios no esteroideos para el dolor, tratamiento hormonal continuo (píldora estroprogestágena en continuo, DIU de levonorgestrel), progestágenos, agonistas o antagonistas de la GnRH que inducen una menopausia artificial temporal.",
+          "Tratamiento quirúrgico por celoscopia si las lesiones son extensas, endometriomas ováricos voluminosos o síntomas severos resistentes al tratamiento médico. La extirpación completa de las lesiones mejora significativamente la salud reproductiva y la calidad de vida.",
           "Atención multidisciplinaria recomendada: ginecólogo especializado, algólogo para la gestión del dolor crónico, nutricionista (alimentación antiinflamatoria), fisioterapeuta especializado en pelviperineología, psicólogo para el apoyo emocional. La endometriosis impacta significativamente en la calidad de vida."
         ],
-        "image": "Endométriose.jpeg",
+        "image": "Endométriose.webp",
         "author": "Dr. Seffar Hicham",
-        "tags": ["endometriosis", "diagnóstico", "tratamiento", "dolor"],
+        "tags": [
+          "endometriosis",
+          "diagnóstico",
+          "tratamiento",
+          "dolor"
+        ],
         "featured": true
       },
       {
@@ -489,13 +649,17 @@
         "detailedContent": [
           "Omega-3 (pescados azules como salmón, sardinas, caballa, nueces, semillas de lino): potentes propiedades antiinflamatorias, reducción de los dolores menstruales, apoyo a la salud ovárica y mejora de la calidad de los ovocitos. Consumo recomendado: 2-3 porciones de pescado azul por semana.",
           "Calcio (productos lácteos, sardinas con espinas, almendras, coles) y vitamina D (exposición solar, pescados azules, huevos): esenciales para el mantenimiento de la densidad ósea, prevención de la osteoporosis posmenopáusica. Aportes recomendados: 1000-1200mg de calcio/día y 800-1000 UI de vitamina D/day.",
-          "Antioxidantes (frutos rojos, cítricos, verduras de colores, té verde): protección celular contra el estrés oxidativo, regulación hormonal, mejora de la fertilidad. Las vitaminas C y E protegen los ovocitos. Una alimentación rica en antioxidantes disminuye también el riesgo de ciertos cánceres ginecológicos.",
+          "Antioxidantes (frutos rojos, cítricos, verduras de colores, té verde): protección celular contra el estrés oxidativo, regulación hormonal, mejora de las posibilidades de concepción. Las vitaminas C y E protegen los ovocitos. Una alimentación rica en antioxidantes disminuye también el riesgo de ciertos cánceres ginecológicos.",
           "Fibras alimentarias (verduras de hoja verde, legumbres, cereales integrales): favorecen la eliminación del exceso de estrógenos a través de las heces, apoyan el metabolismo de las hormonas sexuales, estabilizan la glucemia. Objetivo: 25-30g de fibra al día.",
           "Hidratación adecuada: indispensable para todas las funciones metabólicas y hormonales óptimas, eliminación de toxinas, mantenimiento de la lubricación vaginal. Beber de 1,5 a 2 litros de agua al día. Limitar el alcohol y la cafeína, que pueden alterar el equilibrio hormonal."
         ],
-        "image": "Alimentation.jpg",
+        "image": "Alimentation.webp",
         "author": "Dr. Seffar Hicham",
-        "tags": ["alimentación", "hormonas", "bienestar"],
+        "tags": [
+          "alimentación",
+          "hormonas",
+          "bienestar"
+        ],
         "featured": false
       }
     ]

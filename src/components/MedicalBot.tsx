@@ -56,7 +56,7 @@ const faqData: Record<Lang, FaqItem[]> = {
     {
       icon: Stethoscope,
       question: "Spécialités",
-      answer: "Le Dr Seffar Hicham est spécialisé en Gynécologie-Obstétrique : chirurgie gynécologique et mammaire (laparoscopie, hystéroscopie, chirurgie du sein), traitement des cancers gynécologiques et mammaires, suivi de grossesse, échographie 3D/4D et bilan de fertilité."
+      answer: "Le Dr Seffar Hicham est spécialisé en Gynécologie-Obstétrique : chirurgie gynécologique et mammaire (laparoscopie, hystéroscopie, chirurgie du sein), traitement des cancers gynécologiques et mammaires, suivi de grossesse, échographie 3D/4D et accompagnement gynécologique personnalisé."
     },
     {
       icon: Baby,
@@ -81,12 +81,12 @@ const faqData: Record<Lang, FaqItem[]> = {
     {
       icon: Scissors,
       question: "Chirurgie mini-invasive",
-      answer: "Le Dr Seffar pratique la laparoscopie (cœlioscopie) et l'hystéroscopie : petites cicatrices, moins de douleur et récupération rapide. Traitement des kystes, fibromes, polypes et infertilité."
+      answer: "Le Dr Seffar pratique la laparoscopie (cœlioscopie) et l'hystéroscopie : petites cicatrices, moins de douleur et récupération rapide. Traitement des kystes, fibromes, polypes et difficultés de conception."
     },
     {
       icon: RefreshCw,
-      question: "Contraception",
-      answer: "Conseil personnalisé sur toutes les méthodes contraceptives : pilule, DIU hormonal/cuivre, implant. Consultation de suivi annuel incluse."
+      question: "Planification familiale",
+      answer: "Conseil personnalisé sur toutes les méthodes : pilule, DIU hormonal/cuivre, implant. Consultation de suivi annuel incluse."
     },
     {
       icon: HeartPulse,
@@ -127,7 +127,7 @@ const faqData: Record<Lang, FaqItem[]> = {
     {
       icon: Stethoscope,
       question: "التخصصات",
-      answer: "الدكتور الصفار هشام متخصص في أمراض النساء والتوليد: الجراحة النسائية والثدي (تنظير البطن، تنظير الرحم، جراحة الثدي)، علاج السرطانات النسائية وسرطان الثدي، متابعة الحمل، السونار ثلاثي الأبعاد وتقييم الخصوبة."
+      answer: "الدكتور الصفار هشام متخصص في أمراض النساء والتوليد: الجراحة النسائية والثدي (تنظير البطن، تنظير الرحم، جراحة الثدي)، علاج السرطانات النسائية وسرطان الثدي، متابعة الحمل، السونار ثلاثي الأبعاد واستشارات نسائية متخصصة."
     },
     {
       icon: Baby,
@@ -152,12 +152,12 @@ const faqData: Record<Lang, FaqItem[]> = {
     {
       icon: Scissors,
       question: "الجراحة طفيفة التوغل",
-      answer: "الدكتور الصفار يمارس تنظير البطن والرحم: ندبات صغيرة، ألم أقل وتعافي سريع. علاج الأكياس، الأورام الليفية، الزوائد اللحمية والعقم."
+      answer: "الدكتور الصفار يمارس تنظير البطن والرحم: ندبات صغيرة، ألم أقل وتعافي سريع. علاج الأكياس، الأورام الليفية، الزوائد اللحمية وصعوبات الإنجاب."
     },
     {
       icon: RefreshCw,
-      question: "منع الحمل",
-      answer: "نصيحة شخصية حول وسائل منع الحمل: الحبوب، اللولب الهرموني/النحاسي، الغرسة. متابعة سنوية مدرجة."
+      question: "تنظيم الأسرة",
+      answer: "نصيحة شخصية حول مختلف الوسائل: الحبوب، اللولب الهرموني/النحاسي، الغرسة. متابعة سنوية مدرجة."
     },
     {
       icon: HeartPulse,

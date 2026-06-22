@@ -17,8 +17,8 @@
       "Pregnancy follow-up and high-risk pregnancies",
       "Advanced obstetric ultrasound",
       "Fetal morphology",
-      "Fertility assessment and support",
-      "Referral to ART specialized centers",
+      "Specialized gynecological consultations",
+      "Referral to specialists according to patient needs",
       "Vaginal surgery (Prolapse, Aesthetic)"
     ],
     "cta_button": "Book an Appointment",
@@ -30,11 +30,26 @@
       "fb": "FB"
     },
     "badges": {
-      "suivi": { "title": "Follow-up", "sub": "Personalized" },
-      "secret": { "title": "Medical", "sub": "Confidentiality" },
-      "expertise": { "title": "Advanced", "sub": "Expertise" },
-      "ecoute": { "title": "Patient", "sub": "Listening" },
-      "experience": { "title": "+15 years", "sub": "Experience" }
+      "suivi": {
+        "title": "Follow-up",
+        "sub": "Personalized"
+      },
+      "secret": {
+        "title": "Medical",
+        "sub": "Confidentiality"
+      },
+      "expertise": {
+        "title": "Advanced",
+        "sub": "Expertise"
+      },
+      "ecoute": {
+        "title": "Patient",
+        "sub": "Listening"
+      },
+      "experience": {
+        "title": "+15 years",
+        "sub": "Experience"
+      }
     }
   },
   "nav": {
@@ -90,11 +105,26 @@
     "gallery_mobile_hint": "(Click on photos to see details)",
     "gallery_desktop_hint": "Hover over images to discover our world.",
     "gallery_items": {
-      "accueil": { "title": "Reception", "desc": "A bright and soothing space from your arrival, designed to reduce stress and build trust." },
-      "confort": { "title": "Comfort", "desc": "A waiting room designed like a living room, with comfortable seating and a zen atmosphere." },
-      "soin": { "title": "Treatment Room", "desc": "A modern and equipped space to ensure your care in a comfortable and secure setting." },
-      "techno": { "title": "Technology", "desc": "Equipped with 3D ultrasound and fetal and maternal monitoring for precise and safe prenatal follow-up." },
-      "expertise": { "title": "Expertise", "desc": "Every detail of our structure has been thought out to offer you the best care in the best conditions." }
+      "accueil": {
+        "title": "Reception",
+        "desc": "A bright and soothing space from your arrival, designed to reduce stress and build trust."
+      },
+      "confort": {
+        "title": "Comfort",
+        "desc": "A waiting room designed like a living room, with comfortable seating and a zen atmosphere."
+      },
+      "soin": {
+        "title": "Treatment Room",
+        "desc": "A modern and equipped space to ensure your care in a comfortable and secure setting."
+      },
+      "techno": {
+        "title": "Technology",
+        "desc": "Equipped with 3D ultrasound and fetal and maternal monitoring for precise and safe prenatal follow-up."
+      },
+      "expertise": {
+        "title": "Expertise",
+        "desc": "Every detail of our structure has been thought out to offer you the best care in the best conditions."
+      }
     },
     "standards": "Clinic complies with international health standards"
   },
@@ -106,58 +136,113 @@
     "items": [
       {
         "title": "Gynecological Consultations",
-        "description": "Routine examinations, STI screening, treatment of infections, and prevention of female pathologies.",
-        "details": ["Complete clinical examination", "Smear & STI screening", "Breast/Cervical cancer prevention", "Treatment of infections"]
+        "description": "Routine examinations, STI prevention, treatment of infections, and prevention of female pathologies.",
+        "details": [
+          "Complete clinical examination",
+          "Smear & STI prevention",
+          "Breast/Cervical cancer prevention",
+          "Treatment of infections"
+        ]
       },
       {
         "title": "Pregnancy Follow-up",
         "description": "Complete support throughout pregnancy with regular consultations and preparation for childbirth.",
-        "details": ["7 essential consultations", "Ultrasound monitoring", "Birth preparation", "Included postnatal follow-up"]
+        "details": [
+          "7 essential consultations",
+          "Ultrasound monitoring",
+          "Birth preparation",
+          "Included postnatal follow-up"
+        ]
       },
       {
         "title": "3D Ultrasound & Color Doppler",
         "description": "Obstetric and gynecological ultrasounds with 3D/4D technology and color Doppler for unparalleled precision.",
-        "details": ["High-definition 3D/4D ultrasound", "Advanced color Doppler", "Dating ultrasound", "Detailed morphological"]
+        "details": [
+          "High-definition 3D/4D ultrasound",
+          "Advanced color Doppler",
+          "Dating ultrasound",
+          "Detailed morphological"
+        ]
       },
       {
-        "title": "Fertility Assessment",
-        "description": "Complete fertility evaluation and personalized support for couples wishing to have a child.",
-        "details": ["Complete hormonal assessment", "Ovulation monitoring", "Oriented spermogram", "Personalized advice"]
+        "title": "Parental Project",
+        "description": "Complete reproductive health evaluation and personalized support for couples wishing to have a child.",
+        "details": [
+          "Complete hormonal assessment",
+          "Ovulation monitoring",
+          "Oriented spermogram",
+          "Personalized advice"
+        ]
       },
       {
         "title": "Laparoscopic Surgery",
-        "description": "Minimally invasive surgery by laparoscopy for the treatment of cysts, uterus, and infertility.",
-        "details": ["Minimal scarring", "Fast recovery", "Uterine treatment", "Ovarian surgery"]
+        "description": "Minimally invasive surgery by laparoscopy for the treatment of cysts, uterus, and conception difficulties.",
+        "details": [
+          "Minimal scarring",
+          "Fast recovery",
+          "Uterine treatment",
+          "Ovarian surgery"
+        ]
       },
       {
         "title": "Hysteroscopy",
         "description": "Exploration and treatment of intra-uterine pathologies (polyps, fibroids) through natural routes.",
-        "details": ["No skin incision", "Fertility diagnosis", "Removal of polyps/fibroids", "Ambulatory care"]
+        "details": [
+          "No skin incision",
+          "Preconception assessment",
+          "Removal of polyps/fibroids",
+          "Ambulatory care"
+        ]
       },
       {
         "title": "Breast Surgery",
         "description": "Surgical management of benign and malignant breast pathologies with a conservative approach.",
-        "details": ["Excision of adenofibromas", "Breast biopsies", "Oncoplastic surgery", "Post-operative follow-up"]
+        "details": [
+          "Excision of adenofibromas",
+          "Breast biopsies",
+          "Oncoplastic surgery",
+          "Post-operative follow-up"
+        ]
       },
       {
         "title": "Vaginal Surgery",
         "description": "Vaginal hysterectomy, prolapse surgery, and perineal aesthetic surgery.",
-        "details": ["Vaginal hysterectomy", "Prolapse surgery", "Aesthetic surgery", "Minimally invasive approach"]
+        "details": [
+          "Vaginal hysterectomy",
+          "Prolapse surgery",
+          "Aesthetic surgery",
+          "Minimally invasive approach"
+        ]
       },
       {
         "title": "Menopause Follow-up",
         "description": "Support and treatments to manage menopause symptoms and maintain your quality of life.",
-        "details": ["Menopause assessment", "Symptom treatment", "Osteoporosis prevention", "Well-being advice"]
+        "details": [
+          "Menopause assessment",
+          "Symptom treatment",
+          "Osteoporosis prevention",
+          "Well-being advice"
+        ]
       },
       {
         "title": "Hormonal Health",
         "description": "Diagnosis and treatment of hormonal disorders with a global approach to your health.",
-        "details": ["Polycystic ovary syndrome", "Thyroid disorders", "Cycle irregularities", "Hormonal treatments"]
+        "details": [
+          "Polycystic ovary syndrome",
+          "Thyroid disorders",
+          "Cycle irregularities",
+          "Hormonal treatments"
+        ]
       },
       {
-        "title": "Contraception",
-        "description": "Personalized advice and follow-up to choose the most suitable contraceptive method for your situation.",
-        "details": ["Pill & Implant", "Hormonal/Copper IUD", "Emergency contraception", "Annual adjustment"]
+        "title": "Family Planning",
+        "description": "Personalized advice and follow-up to choose the most suitable method for your situation.",
+        "details": [
+          "Pill & Implant",
+          "Hormonal/Copper IUD",
+          "Adapted follow-up",
+          "Annual adjustment"
+        ]
       }
     ],
     "equipment_badge": "Excellence Technical Platform",
@@ -175,10 +260,22 @@
     "stats_speed_title": "Fast & Complete Examination",
     "stats_speed_sub": "min",
     "ultrasound_images": [
-      { "title": "3D Ultrasound - Baby Face", "description": "Detailed visualization of facial features" },
-      { "title": "Color Doppler - Blood Flow", "description": "Precise analysis of uterine circulation" },
-      { "title": "4D Modeling - Movements", "description": "Observation of movements in real time" },
-      { "title": "Morphological Ultrasound", "description": "Early detection of anomalies" }
+      {
+        "title": "3D Ultrasound - Baby Face",
+        "description": "Detailed visualization of facial features"
+      },
+      {
+        "title": "Color Doppler - Blood Flow",
+        "description": "Precise analysis of uterine circulation"
+      },
+      {
+        "title": "4D Modeling - Movements",
+        "description": "Observation of movements in real time"
+      },
+      {
+        "title": "Morphological Ultrasound",
+        "description": "Early detection of anomalies"
+      }
     ],
     "appointment_title": "Simplified Appointment Booking",
     "appointment_desc": "Book your consultation online easily, choose the slot that suits you, and receive an SMS reminder. Gynecological emergencies handled quickly.",
@@ -194,7 +291,7 @@
     "subtitle": "Here are the latest real testimonials left by our patients on our Google listing in Inezgane.",
     "loading": "Loading real reviews...",
     "verified": "Verified",
-    "view_all": "View 80+ reviews on Google",
+    "view_all": "View 100+ reviews on Google",
     "items": [
       {
         "name": "Anass belhajla",
@@ -260,8 +357,8 @@
       "Santé féminine": "Women's Health",
       "Chirurgie": "Surgery",
       "Ménopause": "Menopause",
-      "Contraception": "Contraception",
-      "Fertilité": "Fertility",
+      "Planification": "Family planning",
+      "ProjetParental": "Parental project",
       "Prévention": "Prevention"
     },
     "items": [
@@ -277,9 +374,14 @@
           "Perineal Aesthetic Surgery: Interventions aimed at correcting the sequelae of childbirth or improving the aesthetics of the intimate area (perineoplasty).",
           "Advantages of the vaginal route: Less post-operative pain, reduced hospital stay, and absence of visible external scars."
         ],
-        "image": "ChirurgieVaginale.jpeg",
+        "image": "ChirurgieVaginale.webp",
         "author": "Dr. Seffar Hicham",
-        "tags": ["vaginal surgery", "hysterectomy", "prolapse", "aesthetics"],
+        "tags": [
+          "vaginal surgery",
+          "hysterectomy",
+          "prolapse",
+          "aesthetics"
+        ],
         "featured": true
       },
       {
@@ -289,15 +391,21 @@
         "readTime": "3",
         "excerpt": "Discover how hysteroscopy allows for the diagnosis and treatment of uterine pathologies like polyps or fibroids with maximum precision and minimal post-operative consequences.",
         "detailedContent": [
-          "Precise diagnosis of intra-uterine anomalies (polyps, fibroids, septa) to treat abnormal bleeding or infertility. The examination allows for a direct and clear view of the entire uterine cavity.",
+          "Precise diagnosis of intra-uterine anomalies (polyps, fibroids, septa) to treat abnormal bleeding or conception difficulties. The examination allows for a direct and clear view of the entire uterine cavity.",
           "Mini-invasive surgical treatment allowing the removal of lesions without any skin incision. The instrument passes through natural routes, avoiding visible scars.",
           "Outpatient hysteroscopy: most procedures take place over half a day, allowing for a quick return home. Patient comfort is prioritized with modern anesthesia techniques.",
           "Extremely fast post-operative recovery, with a return to usual activities the next day. Pain is generally minimal and well controlled by simple analgesics.",
           "Personalized follow-up: each procedure is the subject of a detailed report and systematic histopathological analysis of samples if necessary for total medical safety."
         ],
-        "image": "L'Hystéroscopie.jpeg",
+        "image": "L'Hystéroscopie.webp",
         "author": "Dr. Seffar Hicham",
-        "tags": ["hysteroscopy", "surgery", "uterus", "fibroids", "polyps"],
+        "tags": [
+          "hysteroscopy",
+          "surgery",
+          "uterus",
+          "fibroids",
+          "polyps"
+        ],
         "featured": true
       },
       {
@@ -313,9 +421,15 @@
           "Sentinel lymph node biopsy and analysis to limit functional sequelae in the arm. This precise technique often avoids complete axillary dissection and its potential complications.",
           "Multidisciplinary support and rigorous post-operative follow-up for serene healing. Collaboration with radiologists, oncologists, and physiotherapists ensures comprehensive patient care."
         ],
-        "image": "chirregie.png",
+        "image": "chirregie.webp",
         "author": "Dr. Seffar Hicham",
-        "tags": ["breast surgery", "breast", "prevention", "cancer", "aesthetics"],
+        "tags": [
+          "breast surgery",
+          "breast",
+          "prevention",
+          "cancer",
+          "aesthetics"
+        ],
         "featured": false
       },
       {
@@ -326,14 +440,20 @@
         "excerpt": "Less scarring, less pain, and faster recovery. Laparoscopy (coelioscopy) is revolutionizing the treatment of ovarian cysts and endometriosis.",
         "detailedContent": [
           "Video-surgery technique allowing for exploration and operation of the abdomen via very small incisions (5 to 10 mm). The camera offers an enlarged and precise view of the pelvic organs.",
-          "First-line treatment for ovarian cysts, ectopic pregnancies, and certain forms of infertility. The precision of the surgical gesture allows for the preservation of future fertility.",
+          "First-line treatment for ovarian cysts, ectopic pregnancies, and certain forms of conception difficulties. The precision of the surgical gesture allows for the preservation of future reproductive health.",
           "Reference for the surgical treatment of endometriosis: precise removal of lesions while respecting surrounding healthy tissues. Laparoscopy significantly improves the patients' quality of life.",
           "Major advantages: drastic reduction in post-operative pain and reduced risk of infection. Aesthetic damage is almost zero thanks to the small size of the scars.",
           "Fast return to social and professional life: hospital stay is shortened and convalescence is much simpler than in classic 'open' surgery."
         ],
-        "image": "Laparoscopie.jpeg",
+        "image": "Laparoscopie.webp",
         "author": "Dr. Seffar Hicham",
-        "tags": ["laparoscopy", "coelioscopy", "minimally invasive surgery", "cysts", "endometriosis"],
+        "tags": [
+          "laparoscopy",
+          "coelioscopy",
+          "minimally invasive surgery",
+          "cysts",
+          "endometriosis"
+        ],
         "featured": true
       },
       {
@@ -344,14 +464,19 @@
         "excerpt": "Regular prenatal follow-up is essential to ensure the health of mother and baby. Discover why every consultation counts and how to optimize your medical follow-up.",
         "detailedContent": [
           "7 essential prenatal consultations to monitor fetal development and prevent complications. These consultations allow for early detection of any anomaly and ensure personalized follow-up adapted to each pregnancy.",
-          "Screening ultrasounds in the 1st, 2nd, and 3rd trimesters to detect morphological anomalies or growth retardation. The first trimester ultrasound allows for precise dating of the pregnancy and screening for Down syndrome.",
+          "Preventive ultrasounds in the 1st, 2nd, and 3rd trimesters to detect morphological anomalies or growth retardation. The first trimester ultrasound allows for precise dating of the pregnancy and prevention of Down syndrome.",
           "Systematic monitoring of blood pressure and weight gain to prevent preeclampsia. Gestational hypertension can have serious consequences and requires immediate management.",
-          "Screening for gestational diabetes between 24 and 28 weeks via glucose tolerance test. This screening is crucial because gestational diabetes increases risks of complications for both mother and child.",
+          "Preventive assessment for gestational diabetes between 24 and 28 weeks via glucose tolerance test. This assessment is crucial because gestational diabetes increases risks of complications for both mother and child.",
           "Preparation for breastfeeding and nutritional advice based on energy and micronutritional needs. A balanced diet rich in iron, calcium, folic acid, and omega-3 is essential for optimal fetal development."
         ],
-        "image": "L'importance.jpeg",
+        "image": "L'importance.webp",
         "author": "Dr. Seffar Hicham",
-        "tags": ["pregnancy follow-up", "consultation", "baby health", "birth preparation"],
+        "tags": [
+          "pregnancy follow-up",
+          "consultation",
+          "baby health",
+          "birth preparation"
+        ],
         "featured": true
       },
       {
@@ -362,14 +487,19 @@
         "excerpt": "A complete guide to better understand your menstrual cycle and identify signs that require medical consultation. Learn to listen to your body.",
         "detailedContent": [
           "Follicular phase (days 1-14): follicle development and estrogen production, preparation for ovulation. During this phase, the FSH hormone stimulates the growth of several ovarian follicles, one of which will become dominant.",
-          "Ovulatory phase: release of the oocyte, maximum fertility period. The LH peak triggers ovulation about 24-36 hours later. Cervical mucus becomes more fluid to facilitate sperm passage.",
+          "Ovulatory phase: release of the oocyte, optimal period for conception. The LH peak triggers ovulation about 24-36 hours later. Cervical mucus becomes more fluid to facilitate sperm passage.",
           "Luteal phase: progesterone secretion by the corpus luteum, preparation of the endometrium for implantation. This phase lasts about 14 days and ends with menstruation if no fertilization has occurred.",
           "Warning signs: irregular cycles, intense pain that may signal hormonal disorders like polycystic ovary syndrome (PCOS) or endometriosis. Bleeding between periods can indicate a hormonal imbalance.",
           "When to consult: amenorrhea for more than 3 months, heavy or prolonged abnormal bleeding, suspicion of endocrine disorder. Severe dysmenorrhea requires investigation to rule out endometriosis."
         ],
-        "image": "cycle.jpeg",
+        "image": "cycle.webp",
         "author": "Dr. Seffar Hicham",
-        "tags": ["menstrual cycle", "symptoms", "women's health", "prevention"],
+        "tags": [
+          "menstrual cycle",
+          "symptoms",
+          "women's health",
+          "prevention"
+        ],
         "featured": false
       },
       {
@@ -383,29 +513,39 @@
           "Hormone Replacement Therapy (HRT): hormonal balance to reduce symptoms and protect bone, to be evaluated according to cardiovascular history. HRT should be initiated within 10 years of menopause for maximum benefit and has absolute contraindications.",
           "Osteoporosis prevention: sufficient intake of calcium (1200mg/day) and vitamin D (800 IU/day) to maintain bone density. A bone densitometry is recommended starting at age 65 or earlier in case of risk factors.",
           "Adapted physical exercises: strength training and weight-bearing exercises to prevent bone loss. Fast walking, light jogging, and dancing are excellent. Regular physical activity also reduces cardiovascular risk.",
-          "Indispensable annual gynecological follow-up: screening for hormonal and oncological pathologies. Endometrial and ovarian cancers are more frequent after menopause. A cervical smear remains necessary until age 65."
+          "Indispensable annual gynecological follow-up: prevention of hormonal and oncological pathologies. Endometrial and ovarian cancers are more frequent after menopause. A cervical smear remains necessary until age 65."
         ],
-        "image": "ménopause.jpeg",
+        "image": "ménopause.webp",
         "author": "Dr. Seffar Hicham",
-        "tags": ["menopause", "hormone therapy", "well-being", "symptoms"],
+        "tags": [
+          "menopause",
+          "hormone therapy",
+          "well-being",
+          "symptoms"
+        ],
         "featured": true
       },
       {
-        "title": "Contraception: making the right choice according to your profile and needs",
-        "category": "Contraception",
+        "title": "Family planning: making the right choice according to your profile and needs",
+        "category": "Planification",
         "date": "March 1, 2025",
         "readTime": "3",
-        "excerpt": "Pill, IUD, implant... Discover the different contraceptive methods and find the one that suits you best according to your lifestyle and health.",
+        "excerpt": "Pill, IUD, implant... Discover the different methods and find the one that suits you best according to your lifestyle and health.",
         "detailedContent": [
-          "Oral contraception: combined and progestogen-only, adjusted according to thromboembolic history. The combined pill is contraindicated in case of migraine with aura, smoking after 35, or history of venous thrombosis. Effectiveness depends on daily adherence.",
-          "Copper IUD: mechanical action on implantation and toxicity of copper on sperm, effective for up to 10 years. Without hormones, it suits women not wishing for hormonal contraception. May slightly increase menstrual flow.",
+          "Oral methods: combined and progestogen-only, adjusted according to thromboembolic history. The combined pill is contraindicated in case of migraine with aura, smoking after 35, or history of venous thrombosis. Effectiveness depends on daily adherence.",
+          "Copper IUD: mechanical action on implantation and toxicity of copper on sperm, effective for up to 10 years. Without hormones, it suits women not wishing for hormonal methods. May slightly increase menstrual flow.",
           "Hormonal IUD: continuous release of levonorgestrel, duration 3 to 5 years, significant reduction in menstrual flow or even amenorrhea. Particularly indicated in case of menorrhagia or endometriosis. Very high satisfaction rate.",
           "Contraceptive implant: continuous release of subcutaneous progestogen, discreet and effective for 3 years. Quick insertion under local anesthesia in the arm. May lead to irregular bleeding in the first months sometimes requiring additional treatment.",
           "Annual consultation for control and adjustment according to tolerance and side effects. Clinical examination, blood pressure measurement, and cervical smear are part of the follow-up. Possibility to change methods at any time according to your evolving needs."
         ],
-        "image": "Contraception.jpeg",
+        "image": "Contraception.webp",
         "author": "Dr. Seffar Hicham",
-        "tags": ["contraception", "pill", "IUD", "methods"],
+        "tags": [
+          "family planning",
+          "pill",
+          "IUD",
+          "methods"
+        ],
         "featured": false
       },
       {
@@ -421,45 +561,60 @@
           "Recognizing the beginning of labor: regular contractions every 5 minutes for 2 hours, rupture of membranes with loss of clear amniotic fluid. Sometimes preceded by the loss of the mucus plug a few days before.",
           "Maternity bag: checklist including comfortable clothes for the mother, bodysuits and pajamas for the newborn, hygiene products, medical documents (blood group card, medical file), and breastfeeding accessories if desired."
         ],
-        "image": "Préparation.jpeg",
+        "image": "Préparation.webp",
         "author": "Dr. Seffar Hicham",
-        "tags": ["childbirth", "preparation", "exercises", "breathing"],
+        "tags": [
+          "childbirth",
+          "preparation",
+          "exercises",
+          "breathing"
+        ],
         "featured": false
       },
       {
-        "title": "Fertility: advice and prevention to optimize your chances",
-        "category": "Fertilité",
+        "title": "Reproductive health: advice and prevention to optimize your chances",
+        "category": "ProjetParental",
         "date": "February 20, 2025",
         "readTime": "3",
-        "excerpt": "Factors that influence fertility and good practices to optimize your chances of conception. From diagnosis to natural solutions.",
+        "excerpt": "Factors that influence conception and good practices to optimize your chances. From diagnosis to natural solutions.",
         "detailedContent": [
-          "Fertility assessment after 12 months without pregnancy (6 months after age 35) to identify female and male causes. The assessment includes a spermogram for the man, hormonal dosages, and a pelvic ultrasound for the woman.",
+          "Medical assessment after 12 months without pregnancy (6 months after age 35) to identify female and male causes. The assessment includes a spermogram for the man, hormonal dosages, and a pelvic ultrasound for the woman.",
           "Hormonal analyses (FSH, LH, AMH, estradiol, progesterone) and pelvic ultrasound to evaluate ovarian reserve and detect possible cysts or fibroids. Anti-Müllerian Hormone (AMH) is an excellent marker of ovarian reserve.",
           "Ovulation monitoring by basal body temperature curve, urinary hormonal ovulation tests, or ultrasound monitoring. The fertile period extends from 5 days before ovulation to 24 hours after.",
           "Favorable factors: balanced diet rich in antioxidants, folic acid, and zinc, maintenance of a BMI between 19 and 25, regular moderate physical activity. Insufficient or excessive weight can disturb ovulation.",
-          "Avoid smoking (decreases ovarian reserve and oocyte quality), alcohol (toxic to gametes), and excessive stress (disturbs the hypothalamic-pituitary axis). Limit caffeine to 2 cups per day. Some endocrine disruptors can also affect fertility."
+          "Avoid smoking (decreases ovarian reserve and oocyte quality), alcohol (toxic to gametes), and excessive stress (disturbs the hypothalamic-pituitary axis). Limit caffeine to 2 cups per day. Some endocrine disruptors can also affect conception."
         ],
-        "image": "Fertilité.jpeg",
+        "image": "Fertilité.webp",
         "author": "Dr. Seffar Hicham",
-        "tags": ["fertility", "conception", "assessment", "treatments"],
+        "tags": [
+          "parental project",
+          "conception",
+          "assessment",
+          "treatments"
+        ],
         "featured": true
       },
       {
-        "title": "Breast Cancer Screening: Everything you need to know",
+        "title": "Breast Cancer Prevention: Everything you need to know",
         "category": "Prévention",
         "date": "February 15, 2025",
         "readTime": "2",
-        "excerpt": "The importance of early breast cancer screening. Methods, frequency, and warning signs not to be neglected for your health.",
+        "excerpt": "The importance of early breast cancer prevention. Methods, frequency, and warning signs not to be neglected for your health.",
         "detailedContent": [
           "Monthly self-palpation after periods to detect nodules, masses, or texture anomalies. Standing in front of a mirror, inspect your breasts by raising your arms, then palpate in circular movements lying down.",
           "Annual clinical examination by a gynecologist or doctor for early detection of any anomaly. The examination includes visual inspection and palpation of the breasts and axillary lymph node areas.",
-          "Screening mammography every 2 years between 50 and 74 according to public health recommendations. This radiological examination allows for detection of non-palpable subclinical lesions. Can be started earlier in case of risk factors.",
+          "Preventive mammography every 2 years between 50 and 74 according to public health recommendations. This radiological examination allows for detection of non-palpable subclinical lesions. Can be started earlier in case of risk factors.",
           "Complementary breast ultrasound if breast density is high in young women or anomalies detected on mammography. Breast MRI may be proposed in case of very high genetic risk.",
           "Risk factors: first-degree family history, age (risk increases after 50), BRCA1/BRCA2 genetic mutations, late first pregnancy, lack of breastfeeding, prolonged hormone treatment. Genetic counseling is offered if multiple family histories exist."
         ],
-        "image": "depistage.png",
+        "image": "depistage.webp",
         "author": "Dr. Seffar Hicham",
-        "tags": ["screening", "breast cancer", "mammography", "prevention"],
+        "tags": [
+          "examinations",
+          "breast cancer",
+          "mammography",
+          "prevention"
+        ],
         "featured": false
       },
       {
@@ -469,15 +624,20 @@
         "readTime": "3",
         "excerpt": "Understanding endometriosis, its symptoms, and new treatment approaches to improve patients' quality of life.",
         "detailedContent": [
-          "Characteristic symptoms: severe dysmenorrhea (very painful periods), chronic pelvic pain outside menstruation, deep dyspareunia (pain during intercourse), cyclic digestive disorders, possible infertility in 30-40% of patients.",
+          "Characteristic symptoms: severe dysmenorrhea (very painful periods), chronic pelvic pain outside menstruation, deep dyspareunia (pain during intercourse), cyclic digestive disorders, possible conception difficulties in 30-40% of patients.",
           "Diagnosis: transvaginal ultrasound performed by an endometriosis expert and pelvic MRI to precisely visualize and locate endometriosis lesions (ovaries, uterosacral ligaments, rectovaginal septum). The diagnostic delay is unfortunately still long (7 years on average).",
-          "First-line medical treatments: non-steroidal anti-inflammatory drugs for pain, continuous hormonal contraception (continuous combined pill, levonorgestrel IUD), progestogens, GnRH agonists or antagonists inducing temporary artificial menopause.",
-          "Surgical treatment by laparoscopy if extensive lesions, large ovarian endometriomas, or severe symptoms resistant to medical treatment. Complete excision of lesions significantly improves fertility and quality of life.",
+          "First-line medical treatments: non-steroidal anti-inflammatory drugs for pain, continuous hormonal treatment (continuous combined pill, levonorgestrel IUD), progestogens, GnRH agonists or antagonists inducing temporary artificial menopause.",
+          "Surgical treatment by laparoscopy if extensive lesions, large ovarian endometriomas, or severe symptoms resistant to medical treatment. Complete excision of lesions significantly improves reproductive health and quality of life.",
           "Recommended multidisciplinary care: specialized gynecologist, pain specialist for chronic pain management, nutritionist (anti-inflammatory diet), specialized pelvic-perineal physiotherapist, psychologist for emotional support. Endometriosis significantly impacts quality of life."
         ],
-        "image": "Endométriose.jpeg",
+        "image": "Endométriose.webp",
         "author": "Dr. Seffar Hicham",
-        "tags": ["endometriosis", "diagnosis", "treatment", "pain"],
+        "tags": [
+          "endometriosis",
+          "diagnosis",
+          "treatment",
+          "pain"
+        ],
         "featured": true
       },
       {
@@ -489,13 +649,17 @@
         "detailedContent": [
           "Omega-3 (fatty fish like salmon, sardines, mackerel, walnuts, flax seeds): powerful anti-inflammatory properties, reduction of menstrual pain, support of ovarian health, and improvement of oocyte quality. Recommended consumption: 2-3 portions of fatty fish per week.",
           "Calcium (dairy products, sardines with bones, almonds, cabbage) and vitamin D (sun exposure, fatty fish, eggs): essential for maintaining bone density, preventing post-menopausal osteoporosis. Recommended intake: 1000-1200mg calcium/day and 800-1000 IU vitamin D/day.",
-          "Antioxidants (red fruits, citrus fruits, colorful vegetables, green tea): cellular protection against oxidative stress, hormonal regulation, improvement of fertility. Vitamins C and E protect oocytes. A diet rich in antioxidants also decreases the risk of certain gynecological cancers.",
+          "Antioxidants (red fruits, citrus fruits, colorful vegetables, green tea): cellular protection against oxidative stress, hormonal regulation, improvement of conception chances. Vitamins C and E protect oocytes. A diet rich in antioxidants also decreases the risk of certain gynecological cancers.",
           "Dietary fibers (green vegetables, legumes, whole grains): promote the elimination of excess estrogen via stool, support sex hormone metabolism, stabilize blood sugar. Goal: 25-30g of fibers per day.",
           "Adequate hydration: indispensable for all optimal metabolic and hormonal functions, toxin elimination, maintenance of vaginal lubrication. Drink 1.5 to 2 liters of water per day. Limit alcohol and caffeine which can disturb hormonal balance."
         ],
-        "image": "Alimentation.jpg",
+        "image": "Alimentation.webp",
         "author": "Dr. Seffar Hicham",
-        "tags": ["nutrition", "hormones", "well-being"],
+        "tags": [
+          "nutrition",
+          "hormones",
+          "well-being"
+        ],
         "featured": false
       }
     ]
