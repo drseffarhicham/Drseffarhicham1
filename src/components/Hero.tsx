@@ -80,7 +80,7 @@ export default function Hero({ scrollToSection }: HeroProps) {
             {/* Mobile Image - Order 3 (Sans cadre) */}
             <div className="lg:hidden w-full max-w-[320px] mx-auto order-3 -mt-4 mb-2">
               <img
-                src="profile.webp"
+                src="profile.jpeg"
                 alt={t('hero.doctor_name')}
                 className="w-full h-auto object-contain scale-110 ..."
                 style={{
