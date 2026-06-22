@@ -2,9 +2,8 @@ import { useState, useEffect, useRef } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import {
   X, Bot, Clock, MapPin, Stethoscope, FileText,
-  Activity, Droplets, RefreshCw, CreditCard, HeartPulse,
+  Droplets, RefreshCw, CreditCard, HeartPulse,
   Baby, Microscope, Scissors, Languages,
-  Building2
 } from 'lucide-react';
 
 // ─────────────────────────────────────────────
@@ -38,7 +37,7 @@ const faqData: Record<Lang, FaqItem[]> = {
     {
       icon: Clock,
       question: "Horaires d'ouverture",
-      answer: "Le cabinet est ouvert du Lundi au Vendredi de 09h00 à 18h00, et le Samedi de 09h00 à 13h00. Fermé le Dimanche."
+      answer: "Le cabinet est ouvert du Lundi au Vendredi de 08h30 à 16h00, et le Samedi de 08h30 à 12h30. Fermé le Dimanche."
     },
     {
       icon: Bot,
@@ -57,12 +56,12 @@ const faqData: Record<Lang, FaqItem[]> = {
     {
       icon: Stethoscope,
       question: "Spécialités",
-      answer: "Le Dr Seffar Hicham est spécialisé en Gynécologie-Obstétrique : chirurgie mini-invasive, hystéroscopie, chirurgie mammaire, suivi de grossesse, échographie 3D/4D et bilan de fertilité."
+      answer: "Le Dr Seffar Hicham est spécialisé en Gynécologie-Obstétrique : chirurgie gynécologique et mammaire (laparoscopie, hystéroscopie, chirurgie du sein), traitement des cancers gynécologiques et mammaires, suivi de grossesse, échographie 3D/4D et bilan de fertilité."
     },
     {
       icon: Baby,
       question: "Suivi de grossesse",
-      answer: "Suivi complet de la grossesse avec 7 consultations prénatales, échographies régulières (1er, 2ème et 3ème trimestres), surveillance de la tension, dépistage du diabète gestationnel et préparation à l'accouchement."
+      answer: "Suivi complet de la grossesse avec 7 consultations prénatales, échographies régulières (1er, 2ème et 3ème trimestres), surveillance de la tension et dépistage du diabète gestationnel."
     },
     {
       icon: FileText,
@@ -80,11 +79,6 @@ const faqData: Record<Lang, FaqItem[]> = {
       answer: "Prise en charge des règles douloureuses, irrégulières, du syndrome prémenstruel, de l'endométriose et des troubles hormonaux (SOPK, hypothyroïdie…)."
     },
     {
-      icon: Activity,
-      question: "Urgence gynécologique",
-      answer: "En cas d'urgence (douleurs pelviennes aiguës, saignements anormaux, suspicion de GEU), contactez-nous immédiatement au 05 28 33 55 66 ou rendez-vous directement au cabinet."
-    },
-    {
       icon: Scissors,
       question: "Chirurgie mini-invasive",
       answer: "Le Dr Seffar pratique la laparoscopie (cœlioscopie) et l'hystéroscopie : petites cicatrices, moins de douleur et récupération rapide. Traitement des kystes, fibromes, polypes et infertilité."
@@ -92,7 +86,7 @@ const faqData: Record<Lang, FaqItem[]> = {
     {
       icon: RefreshCw,
       question: "Contraception",
-      answer: "Conseil personnalisé sur toutes les méthodes contraceptives : pilule, DIU hormonal/cuivre, implant, contraception d'urgence. Consultation de suivi annuel incluse."
+      answer: "Conseil personnalisé sur toutes les méthodes contraceptives : pilule, DIU hormonal/cuivre, implant. Consultation de suivi annuel incluse."
     },
     {
       icon: HeartPulse,
@@ -102,24 +96,19 @@ const faqData: Record<Lang, FaqItem[]> = {
     {
       icon: CreditCard,
       question: "Tarifs & contact",
-      answer: "Pour toute information sur les tarifs et les rendez-vous, contactez le cabinet au 05 28 33 55 66. Cabinet situé Espace Dubai, 2ème étage, n°212, Inezgane 80100."
+      answer: "Pour toute information sur les tarifs et les rendez-vous, contactez le cabinet au 05 28 33 55 66. Cabinet situé Espace Dubai, 2ème étage, n°212, Inezgane 80100. Paiement accepté en espèces ainsi que par TPE (carte bancaire, téléphone mobile et moyens de paiement électroniques)."
     },
     {
-      icon: Building2,  // import depuis lucide-react
-      question: "Suivi hors horaires",
-      answer: "En dehors des heures d'ouverture, pour un suivi urgent ou non-urgent, contactez le cabinet par WhatsApp. Pour toute urgence obstétricale (contractions, perte des eaux, saignements), rendez-vous directement à la Clinique Taghzout Inezgane, où le Dr Seffar Hicham exerce et assure les accouchements."
-    },
-    {
-      icon: Baby,  // déjà importé
-      question: "Accouchement & maternité",
-      answer: "Le Dr Seffar Hicham effectue les accouchements à la Clinique Taghzout Inezgane. En cas de début de travail ou signe d'alerte (perte des eaux, contractions régulières), rendez-vous directement à cette clinique ou contactez-nous au préalable sur WhatsApp."
+      icon: Microscope,
+      question: "Dépistage des cancers",
+      answer: "Le Dr Seffar assure le dépistage et le traitement des cancers gynécologiques (col de l'utérus, endomètre, ovaires) et du cancer du sein. Frottis cervico-utérin, colposcopie, biopsies et prise en charge oncologique complète."
     },
   ],
   ar: [
     {
       icon: Clock,
       question: "أوقات العمل",
-      answer: "العيادة مفتوحة من الاثنين إلى الجمعة من 09:00 إلى 18:00، والسبت من 09:00 إلى 13:00. مغلقة يوم الأحد."
+      answer: "العيادة مفتوحة من الاثنين إلى الجمعة من 08:30 إلى 16:00، والسبت من 08:30 إلى 12:30. مغلقة يوم الأحد."
     },
     {
       icon: Bot,
@@ -138,12 +127,12 @@ const faqData: Record<Lang, FaqItem[]> = {
     {
       icon: Stethoscope,
       question: "التخصصات",
-      answer: "الدكتور الصفار هشام متخصص في أمراض النساء والتوليد: جراحة طفيفة التوغل، تنظير الرحم، جراحة الثدي، متابعة الحمل، السونار ثلاثي الأبعاد وتقييم الخصوبة."
+      answer: "الدكتور الصفار هشام متخصص في أمراض النساء والتوليد: الجراحة النسائية والثدي (تنظير البطن، تنظير الرحم، جراحة الثدي)، علاج السرطانات النسائية وسرطان الثدي، متابعة الحمل، السونار ثلاثي الأبعاد وتقييم الخصوبة."
     },
     {
       icon: Baby,
       question: "متابعة الحمل",
-      answer: "متابعة كاملة للحمل مع 7 فحوصات أساسية، سونار منتظم (الأشهر الثلاثة الأولى والثانية والثالثة)، مراقبة ضغط الدم، كشف سكري الحمل والتحضير للولادة."
+      answer: "متابعة كاملة للحمل مع 7 فحوصات أساسية، سونار منتظم (الأشهر الثلاثة الأولى والثانية والثالثة)، مراقبة ضغط الدم وكشف سكري الحمل."
     },
     {
       icon: FileText,
@@ -161,11 +150,6 @@ const faqData: Record<Lang, FaqItem[]> = {
       answer: "التكفل بآلام الدورة، الدورات غير المنتظمة، متلازمة ما قبل الحيض، بطانة الرحم المهاجرة والاضطرابات الهرمونية (تكيس المبايض، قصور الغدة الدرقية...)."
     },
     {
-      icon: Activity,
-      question: "حالات الطوارئ",
-      answer: "في حالة الطوارئ (آلام الحوض الحادة، نزيف غير طبيعي، الحمل خارج الرحم)، اتصلي فوراً على 05 28 33 55 66 أو توجهي مباشرة للعيادة."
-    },
-    {
       icon: Scissors,
       question: "الجراحة طفيفة التوغل",
       answer: "الدكتور الصفار يمارس تنظير البطن والرحم: ندبات صغيرة، ألم أقل وتعافي سريع. علاج الأكياس، الأورام الليفية، الزوائد اللحمية والعقم."
@@ -173,27 +157,22 @@ const faqData: Record<Lang, FaqItem[]> = {
     {
       icon: RefreshCw,
       question: "منع الحمل",
-      answer: "نصيحة شخصية حول جميع وسائل منع الحمل: الحبوب، اللولب الهرموني/النحاسي، الغرسة، وسائل الطوارئ. متابعة سنوية مدرجة."
+      answer: "نصيحة شخصية حول وسائل منع الحمل: الحبوب، اللولب الهرموني/النحاسي، الغرسة. متابعة سنوية مدرجة."
     },
     {
       icon: HeartPulse,
       question: "سن الأمل",
       answer: "تقييم سن الأمل، علاج الهبات الساخنة والأعراض، العلاج الهرموني التعويضي (حسب السوابق)، الوقاية من هشاشة العظام ومتابعة نسائية سنوية."
     },
+{
+  icon: CreditCard,
+  question: "التعريفات والاتصال",
+  answer: "لأي معلومات حول التعريفات والمواعيد، اتصلي على 05 28 33 55 66. العيادة في فضاء دبي، الطابق الثاني، رقم 212، إنزكان 80100. يتم قبول الدفع نقداً أو عبر جهاز الأداء الإلكتروني (TPE) باستعمال البطاقة البنكية أو الهاتف ووسائل الدفع الإلكترونية."
+},
     {
-      icon: CreditCard,
-      question: "التعريفات والاتصال",
-      answer: "لأي معلومات حول التعريفات والمواعيد، اتصلي على 05 28 33 55 66. العيادة في فضاء دبي، الطابق الثاني، رقم 212، إنزكان 80100."
-    },
-    {
-      icon: Building2,
-      question: "متابعة خارج أوقات العمل",
-      answer: "خارج ساعات العمل، للمتابعة العاجلة أو غير العاجلة تواصلي عبر واتساب. في حالة الطوارئ التوليدية (انقباضات، نزيف، كسر المياه)، توجهي مباشرة إلى كلينيك تاغزوت إنزكان، حيث يمارس الدكتور الصفار هشام ويتابع الولادات."
-    },
-    {
-      icon: Baby,
-      question: "الولادة والمستشفى",
-      answer: "الدكتور الصفار هشام يتابع الولادات في كلينيك تاغزوت إنزكان. عند بداية الطلق أو أي علامة تحذيرية (انقباضات منتظمة، كسر المياه)، توجهي مباشرة إلى هذه العيادة أو تواصلي معنا مسبقاً عبر واتساب."
+      icon: Microscope,
+      question: "الكشف المبكر عن السرطان",
+      answer: "الدكتور الصفار يتكفل بالكشف المبكر وعلاج السرطانات النسائية (عنق الرحم، بطانة الرحم، المبايض) وسرطان الثدي. مسحة عنق الرحم، تنظير عنق الرحم، الخزعات ومتابعة أورامية كاملة."
     },
   ]
 };
